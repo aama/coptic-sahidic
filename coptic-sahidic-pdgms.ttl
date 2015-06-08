@@ -1,0 +1,6120 @@
+
+#TTL FROM INPUT FILE:
+# data/coptic-sahidic//coptic-sahidic-pdgms.edn
+@prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix aama:	 <http://id.oi.uchicago.edu/aama/2013/> .
+@prefix aamas:	 <http://id.oi.uchicago.edu/aama/2013/schema/> .
+@prefix csa:   <http://id.oi.uchicago.edu/aama/2013/coptic-sahidic/> .
+
+#SCHEMATA:
+
+aama:Coptic-sahidic a aamas:Language .
+aama:Coptic-sahidic rdfs:label "Coptic-sahidic" .
+
+#SCHEMATA: infinitiveForm
+csa:infinitiveForm aamas:lang aama:Coptic-sahidic .
+csa:Infinitiveform aamas:lang aama:Coptic-sahidic .
+csa:infinitiveForm rdfs:domain aamas:Term .
+csa:Infinitiveform rdfs:label "infinitiveForm exponents" .
+csa:infinitiveForm rdfs:label "infinitiveForm" .
+csa:infinitiveForm rdfs:range csa:Infinitiveform .
+csa:Infinitiveform rdfs:subClassOf csa:MuExponent .
+csa:infinitiveForm rdfs:subPropertyOf csa:muProperty .
+csa:Absolute aamas:lang aama:Coptic-sahidic .
+csa:Absolute rdf:type csa:Infinitiveform .
+csa:Absolute rdfs:label "Absolute".
+csa:Construct aamas:lang aama:Coptic-sahidic .
+csa:Construct rdf:type csa:Infinitiveform .
+csa:Construct rdfs:label "Construct".
+csa:Pronominal aamas:lang aama:Coptic-sahidic .
+csa:Pronominal rdf:type csa:Infinitiveform .
+csa:Pronominal rdfs:label "Pronominal".
+
+#SCHEMATA: gender
+csa:gender aamas:lang aama:Coptic-sahidic .
+csa:Gender aamas:lang aama:Coptic-sahidic .
+csa:gender rdfs:domain aamas:Term .
+csa:Gender rdfs:label "gender exponents" .
+csa:gender rdfs:label "gender" .
+csa:gender rdfs:range csa:Gender .
+csa:Gender rdfs:subClassOf csa:MuExponent .
+csa:gender rdfs:subPropertyOf csa:muProperty .
+csa:Common aamas:lang aama:Coptic-sahidic .
+csa:Common rdf:type csa:Gender .
+csa:Common rdfs:label "Common".
+csa:Fem aamas:lang aama:Coptic-sahidic .
+csa:Fem rdf:type csa:Gender .
+csa:Fem rdfs:label "Fem".
+csa:Masc aamas:lang aama:Coptic-sahidic .
+csa:Masc rdf:type csa:Gender .
+csa:Masc rdfs:label "Masc".
+
+#SCHEMATA: genderHead
+csa:genderHead aamas:lang aama:Coptic-sahidic .
+csa:Genderhead aamas:lang aama:Coptic-sahidic .
+csa:genderHead rdfs:domain aamas:Term .
+csa:Genderhead rdfs:label "genderHead exponents" .
+csa:genderHead rdfs:label "genderHead" .
+csa:genderHead rdfs:range csa:Genderhead .
+csa:Genderhead rdfs:subClassOf csa:MuExponent .
+csa:genderHead rdfs:subPropertyOf csa:muProperty .
+csa:Common aamas:lang aama:Coptic-sahidic .
+csa:Common rdf:type csa:Genderhead .
+csa:Common rdfs:label "Common".
+csa:Fem aamas:lang aama:Coptic-sahidic .
+csa:Fem rdf:type csa:Genderhead .
+csa:Fem rdfs:label "Fem".
+csa:Masc aamas:lang aama:Coptic-sahidic .
+csa:Masc rdf:type csa:Genderhead .
+csa:Masc rdfs:label "Masc".
+
+#SCHEMATA: formClass
+csa:formClass aamas:lang aama:Coptic-sahidic .
+csa:Formclass aamas:lang aama:Coptic-sahidic .
+csa:formClass rdfs:domain aamas:Term .
+csa:Formclass rdfs:label "formClass exponents" .
+csa:formClass rdfs:label "formClass" .
+csa:formClass rdfs:range csa:Formclass .
+csa:Formclass rdfs:subClassOf csa:MuExponent .
+csa:formClass rdfs:subPropertyOf csa:muProperty .
+csa:AbsoluteInfinitive aamas:lang aama:Coptic-sahidic .
+csa:AbsoluteInfinitive rdf:type csa:Formclass .
+csa:AbsoluteInfinitive rdfs:label "AbsoluteInfinitive".
+
+#SCHEMATA: stemClass
+csa:stemClass aamas:lang aama:Coptic-sahidic .
+csa:Stemclass aamas:lang aama:Coptic-sahidic .
+csa:stemClass rdfs:domain aamas:Term .
+csa:Stemclass rdfs:label "stemClass exponents" .
+csa:stemClass rdfs:label "stemClass" .
+csa:stemClass rdfs:range csa:Stemclass .
+csa:Stemclass rdfs:subClassOf csa:MuExponent .
+csa:stemClass rdfs:subPropertyOf csa:muProperty .
+csa:CV1 aamas:lang aama:Coptic-sahidic .
+csa:CV1 rdf:type csa:Stemclass .
+csa:CV1 rdfs:label "CV1".
+csa:CV2 aamas:lang aama:Coptic-sahidic .
+csa:CV2 rdf:type csa:Stemclass .
+csa:CV2 rdfs:label "CV2".
+csa:CV3 aamas:lang aama:Coptic-sahidic .
+csa:CV3 rdf:type csa:Stemclass .
+csa:CV3 rdfs:label "CV3".
+csa:CV4 aamas:lang aama:Coptic-sahidic .
+csa:CV4 rdf:type csa:Stemclass .
+csa:CV4 rdfs:label "CV4".
+csa:CVC1 aamas:lang aama:Coptic-sahidic .
+csa:CVC1 rdf:type csa:Stemclass .
+csa:CVC1 rdfs:label "CVC1".
+csa:CVC2 aamas:lang aama:Coptic-sahidic .
+csa:CVC2 rdf:type csa:Stemclass .
+csa:CVC2 rdfs:label "CVC2".
+csa:CVC3Irreg aamas:lang aama:Coptic-sahidic .
+csa:CVC3Irreg rdf:type csa:Stemclass .
+csa:CVC3Irreg rdfs:label "CVC3Irreg".
+csa:CVCC aamas:lang aama:Coptic-sahidic .
+csa:CVCC rdf:type csa:Stemclass .
+csa:CVCC rdfs:label "CVCC".
+csa:CVCReg aamas:lang aama:Coptic-sahidic .
+csa:CVCReg rdf:type csa:Stemclass .
+csa:CVCReg rdfs:label "CVCReg".
+csa:CVReg aamas:lang aama:Coptic-sahidic .
+csa:CVReg rdf:type csa:Stemclass .
+csa:CVReg rdfs:label "CVReg".
+csa:U aamas:lang aama:Coptic-sahidic .
+csa:U rdf:type csa:Stemclass .
+csa:U rdfs:label "U".
+
+#SCHEMATA: clauseConjugation
+csa:clauseConjugation aamas:lang aama:Coptic-sahidic .
+csa:Clauseconjugation aamas:lang aama:Coptic-sahidic .
+csa:clauseConjugation rdfs:domain aamas:Term .
+csa:Clauseconjugation rdfs:label "clauseConjugation exponents" .
+csa:clauseConjugation rdfs:label "clauseConjugation" .
+csa:clauseConjugation rdfs:range csa:Clauseconjugation .
+csa:Clauseconjugation rdfs:subClassOf csa:MuExponent .
+csa:clauseConjugation rdfs:subPropertyOf csa:muProperty .
+csa:Conditional aamas:lang aama:Coptic-sahidic .
+csa:Conditional rdf:type csa:Clauseconjugation .
+csa:Conditional rdfs:label "Conditional".
+csa:Main aamas:lang aama:Coptic-sahidic .
+csa:Main rdf:type csa:Clauseconjugation .
+csa:Main rdfs:label "Main".
+csa:Relative aamas:lang aama:Coptic-sahidic .
+csa:Relative rdf:type csa:Clauseconjugation .
+csa:Relative rdfs:label "Relative".
+csa:Result aamas:lang aama:Coptic-sahidic .
+csa:Result rdf:type csa:Clauseconjugation .
+csa:Result rdfs:label "Result".
+csa:Subordinate aamas:lang aama:Coptic-sahidic .
+csa:Subordinate rdf:type csa:Clauseconjugation .
+csa:Subordinate rdfs:label "Subordinate".
+csa:Temporal aamas:lang aama:Coptic-sahidic .
+csa:Temporal rdf:type csa:Clauseconjugation .
+csa:Temporal rdfs:label "Temporal".
+csa:TemporalSubordinate aamas:lang aama:Coptic-sahidic .
+csa:TemporalSubordinate rdf:type csa:Clauseconjugation .
+csa:TemporalSubordinate rdfs:label "TemporalSubordinate".
+csa:Terminative aamas:lang aama:Coptic-sahidic .
+csa:Terminative rdf:type csa:Clauseconjugation .
+csa:Terminative rdfs:label "Terminative".
+csa:U aamas:lang aama:Coptic-sahidic .
+csa:U rdf:type csa:Clauseconjugation .
+csa:U rdfs:label "U".
+csa:Variable aamas:lang aama:Coptic-sahidic .
+csa:Variable rdf:type csa:Clauseconjugation .
+csa:Variable rdfs:label "Variable".
+
+#SCHEMATA: objectGender
+csa:objectGender aamas:lang aama:Coptic-sahidic .
+csa:Objectgender aamas:lang aama:Coptic-sahidic .
+csa:objectGender rdfs:domain aamas:Term .
+csa:Objectgender rdfs:label "objectGender exponents" .
+csa:objectGender rdfs:label "objectGender" .
+csa:objectGender rdfs:range csa:Objectgender .
+csa:Objectgender rdfs:subClassOf csa:MuExponent .
+csa:objectGender rdfs:subPropertyOf csa:muProperty .
+csa:Common aamas:lang aama:Coptic-sahidic .
+csa:Common rdf:type csa:Objectgender .
+csa:Common rdfs:label "Common".
+csa:Fem aamas:lang aama:Coptic-sahidic .
+csa:Fem rdf:type csa:Objectgender .
+csa:Fem rdfs:label "Fem".
+csa:Masc aamas:lang aama:Coptic-sahidic .
+csa:Masc rdf:type csa:Objectgender .
+csa:Masc rdfs:label "Masc".
+
+#SCHEMATA: polarity
+csa:polarity aamas:lang aama:Coptic-sahidic .
+csa:Polarity aamas:lang aama:Coptic-sahidic .
+csa:polarity rdfs:domain aamas:Term .
+csa:Polarity rdfs:label "polarity exponents" .
+csa:polarity rdfs:label "polarity" .
+csa:polarity rdfs:range csa:Polarity .
+csa:Polarity rdfs:subClassOf csa:MuExponent .
+csa:polarity rdfs:subPropertyOf csa:muProperty .
+csa:Affirmative aamas:lang aama:Coptic-sahidic .
+csa:Affirmative rdf:type csa:Polarity .
+csa:Affirmative rdfs:label "Affirmative".
+csa:Negative aamas:lang aama:Coptic-sahidic .
+csa:Negative rdf:type csa:Polarity .
+csa:Negative rdfs:label "Negative".
+csa:U aamas:lang aama:Coptic-sahidic .
+csa:U rdf:type csa:Polarity .
+csa:U rdfs:label "U".
+
+#SCHEMATA: transitivity
+csa:transitivity aamas:lang aama:Coptic-sahidic .
+csa:Transitivity aamas:lang aama:Coptic-sahidic .
+csa:transitivity rdfs:domain aamas:Term .
+csa:Transitivity rdfs:label "transitivity exponents" .
+csa:transitivity rdfs:label "transitivity" .
+csa:transitivity rdfs:range csa:Transitivity .
+csa:Transitivity rdfs:subClassOf csa:MuExponent .
+csa:transitivity rdfs:subPropertyOf csa:muProperty .
+csa:Intransitive aamas:lang aama:Coptic-sahidic .
+csa:Intransitive rdf:type csa:Transitivity .
+csa:Intransitive rdfs:label "Intransitive".
+csa:Trans aamas:lang aama:Coptic-sahidic .
+csa:Trans rdf:type csa:Transitivity .
+csa:Trans rdfs:label "Trans".
+
+#SCHEMATA: pos
+csa:pos aamas:lang aama:Coptic-sahidic .
+csa:Pos aamas:lang aama:Coptic-sahidic .
+csa:pos rdfs:domain aamas:Term .
+csa:Pos rdfs:label "pos exponents" .
+csa:pos rdfs:label "pos" .
+csa:pos rdfs:range csa:Pos .
+csa:Pos rdfs:subClassOf csa:MuExponent .
+csa:pos rdfs:subPropertyOf csa:muProperty .
+csa:Pronoun aamas:lang aama:Coptic-sahidic .
+csa:Pronoun rdf:type csa:Pos .
+csa:Pronoun rdfs:label "Pronoun".
+csa:Verb aamas:lang aama:Coptic-sahidic .
+csa:Verb rdf:type csa:Pos .
+csa:Verb rdfs:label "Verb".
+
+#SCHEMATA: person
+csa:person aamas:lang aama:Coptic-sahidic .
+csa:Person aamas:lang aama:Coptic-sahidic .
+csa:person rdfs:domain aamas:Term .
+csa:Person rdfs:label "person exponents" .
+csa:person rdfs:label "person" .
+csa:person rdfs:range csa:Person .
+csa:Person rdfs:subClassOf csa:MuExponent .
+csa:person rdfs:subPropertyOf csa:muProperty .
+csa:NomSubj aamas:lang aama:Coptic-sahidic .
+csa:NomSubj rdf:type csa:Person .
+csa:NomSubj rdfs:label "NomSubj".
+csa:Person1 aamas:lang aama:Coptic-sahidic .
+csa:Person1 rdf:type csa:Person .
+csa:Person1 rdfs:label "Person1".
+csa:Person2 aamas:lang aama:Coptic-sahidic .
+csa:Person2 rdf:type csa:Person .
+csa:Person2 rdfs:label "Person2".
+csa:Person3 aamas:lang aama:Coptic-sahidic .
+csa:Person3 rdf:type csa:Person .
+csa:Person3 rdfs:label "Person3".
+
+#SCHEMATA: objectNumber
+csa:objectNumber aamas:lang aama:Coptic-sahidic .
+csa:Objectnumber aamas:lang aama:Coptic-sahidic .
+csa:objectNumber rdfs:domain aamas:Term .
+csa:Objectnumber rdfs:label "objectNumber exponents" .
+csa:objectNumber rdfs:label "objectNumber" .
+csa:objectNumber rdfs:range csa:Objectnumber .
+csa:Objectnumber rdfs:subClassOf csa:MuExponent .
+csa:objectNumber rdfs:subPropertyOf csa:muProperty .
+csa:Common aamas:lang aama:Coptic-sahidic .
+csa:Common rdf:type csa:Objectnumber .
+csa:Common rdfs:label "Common".
+csa:Plural aamas:lang aama:Coptic-sahidic .
+csa:Plural rdf:type csa:Objectnumber .
+csa:Plural rdfs:label "Plural".
+csa:Singular aamas:lang aama:Coptic-sahidic .
+csa:Singular rdf:type csa:Objectnumber .
+csa:Singular rdfs:label "Singular".
+
+#SCHEMATA: imperativeForm
+csa:imperativeForm aamas:lang aama:Coptic-sahidic .
+csa:Imperativeform aamas:lang aama:Coptic-sahidic .
+csa:imperativeForm rdfs:domain aamas:Term .
+csa:Imperativeform rdfs:label "imperativeForm exponents" .
+csa:imperativeForm rdfs:label "imperativeForm" .
+csa:imperativeForm rdfs:range csa:Imperativeform .
+csa:Imperativeform rdfs:subClassOf csa:MuExponent .
+csa:imperativeForm rdfs:subPropertyOf csa:muProperty .
+csa:Construct aamas:lang aama:Coptic-sahidic .
+csa:Construct rdf:type csa:Imperativeform .
+csa:Construct rdfs:label "Construct".
+csa:Pronominal aamas:lang aama:Coptic-sahidic .
+csa:Pronominal rdf:type csa:Imperativeform .
+csa:Pronominal rdfs:label "Pronominal".
+
+#SCHEMATA: morphClass
+csa:morphClass aamas:lang aama:Coptic-sahidic .
+csa:Morphclass aamas:lang aama:Coptic-sahidic .
+csa:morphClass rdfs:domain aamas:Term .
+csa:Morphclass rdfs:label "morphClass exponents" .
+csa:morphClass rdfs:label "morphClass" .
+csa:morphClass rdfs:range csa:Morphclass .
+csa:Morphclass rdfs:subClassOf csa:MuExponent .
+csa:morphClass rdfs:subPropertyOf csa:muProperty .
+csa:DemonstrativeNear aamas:lang aama:Coptic-sahidic .
+csa:DemonstrativeNear rdf:type csa:Morphclass .
+csa:DemonstrativeNear rdfs:label "DemonstrativeNear".
+csa:DemonstrativeRemote aamas:lang aama:Coptic-sahidic .
+csa:DemonstrativeRemote rdf:type csa:Morphclass .
+csa:DemonstrativeRemote rdfs:label "DemonstrativeRemote".
+csa:Infinitive aamas:lang aama:Coptic-sahidic .
+csa:Infinitive rdf:type csa:Morphclass .
+csa:Infinitive rdfs:label "Infinitive".
+csa:InfinitiveCompCaus aamas:lang aama:Coptic-sahidic .
+csa:InfinitiveCompCaus rdf:type csa:Morphclass .
+csa:InfinitiveCompCaus rdfs:label "InfinitiveCompCaus".
+csa:Intensive1 aamas:lang aama:Coptic-sahidic .
+csa:Intensive1 rdf:type csa:Morphclass .
+csa:Intensive1 rdfs:label "Intensive1".
+csa:Intensive2 aamas:lang aama:Coptic-sahidic .
+csa:Intensive2 rdf:type csa:Morphclass .
+csa:Intensive2 rdfs:label "Intensive2".
+csa:Intensive3 aamas:lang aama:Coptic-sahidic .
+csa:Intensive3 rdf:type csa:Morphclass .
+csa:Intensive3 rdfs:label "Intensive3".
+csa:Possessive aamas:lang aama:Coptic-sahidic .
+csa:Possessive rdf:type csa:Morphclass .
+csa:Possessive rdfs:label "Possessive".
+
+#SCHEMATA: proClass
+csa:proClass aamas:lang aama:Coptic-sahidic .
+csa:Proclass aamas:lang aama:Coptic-sahidic .
+csa:proClass rdfs:domain aamas:Term .
+csa:Proclass rdfs:label "proClass exponents" .
+csa:proClass rdfs:label "proClass" .
+csa:proClass rdfs:range csa:Proclass .
+csa:Proclass rdfs:subClassOf csa:MuExponent .
+csa:proClass rdfs:subPropertyOf csa:muProperty .
+csa:Independent aamas:lang aama:Coptic-sahidic .
+csa:Independent rdf:type csa:Proclass .
+csa:Independent rdfs:label "Independent".
+
+#SCHEMATA: tam
+csa:tam aamas:lang aama:Coptic-sahidic .
+csa:Tam aamas:lang aama:Coptic-sahidic .
+csa:tam rdfs:domain aamas:Term .
+csa:Tam rdfs:label "tam exponents" .
+csa:tam rdfs:label "tam" .
+csa:tam rdfs:range csa:Tam .
+csa:Tam rdfs:subClassOf csa:MuExponent .
+csa:tam rdfs:subPropertyOf csa:muProperty .
+csa:Aorist aamas:lang aama:Coptic-sahidic .
+csa:Aorist rdf:type csa:Tam .
+csa:Aorist rdfs:label "Aorist".
+csa:Circumstantial aamas:lang aama:Coptic-sahidic .
+csa:Circumstantial rdf:type csa:Tam .
+csa:Circumstantial rdfs:label "Circumstantial".
+csa:Conditional aamas:lang aama:Coptic-sahidic .
+csa:Conditional rdf:type csa:Tam .
+csa:Conditional rdfs:label "Conditional".
+csa:Conjunctive aamas:lang aama:Coptic-sahidic .
+csa:Conjunctive rdf:type csa:Tam .
+csa:Conjunctive rdfs:label "Conjunctive".
+csa:Future aamas:lang aama:Coptic-sahidic .
+csa:Future rdf:type csa:Tam .
+csa:Future rdfs:label "Future".
+csa:Future3 aamas:lang aama:Coptic-sahidic .
+csa:Future3 rdf:type csa:Tam .
+csa:Future3 rdfs:label "Future3".
+csa:Imperative aamas:lang aama:Coptic-sahidic .
+csa:Imperative rdf:type csa:Tam .
+csa:Imperative rdfs:label "Imperative".
+csa:Imperfect aamas:lang aama:Coptic-sahidic .
+csa:Imperfect rdf:type csa:Tam .
+csa:Imperfect rdfs:label "Imperfect".
+csa:InflectedInfiitive aamas:lang aama:Coptic-sahidic .
+csa:InflectedInfiitive rdf:type csa:Tam .
+csa:InflectedInfiitive rdfs:label "InflectedInfiitive".
+csa:Injunct aamas:lang aama:Coptic-sahidic .
+csa:Injunct rdf:type csa:Tam .
+csa:Injunct rdfs:label "Injunct".
+csa:NotYet aamas:lang aama:Coptic-sahidic .
+csa:NotYet rdf:type csa:Tam .
+csa:NotYet rdfs:label "NotYet".
+csa:Perf1 aamas:lang aama:Coptic-sahidic .
+csa:Perf1 rdf:type csa:Tam .
+csa:Perf1 rdfs:label "Perf1".
+csa:Perf2 aamas:lang aama:Coptic-sahidic .
+csa:Perf2 rdf:type csa:Tam .
+csa:Perf2 rdfs:label "Perf2".
+csa:Pres1 aamas:lang aama:Coptic-sahidic .
+csa:Pres1 rdf:type csa:Tam .
+csa:Pres1 rdfs:label "Pres1".
+csa:Pres2 aamas:lang aama:Coptic-sahidic .
+csa:Pres2 rdf:type csa:Tam .
+csa:Pres2 rdfs:label "Pres2".
+csa:SimplePast aamas:lang aama:Coptic-sahidic .
+csa:SimplePast rdf:type csa:Tam .
+csa:SimplePast rdfs:label "SimplePast".
+csa:Terminative aamas:lang aama:Coptic-sahidic .
+csa:Terminative rdf:type csa:Tam .
+csa:Terminative rdfs:label "Terminative".
+csa:U aamas:lang aama:Coptic-sahidic .
+csa:U rdf:type csa:Tam .
+csa:U rdfs:label "U".
+
+#SCHEMATA: numberHead
+csa:numberHead aamas:lang aama:Coptic-sahidic .
+csa:Numberhead aamas:lang aama:Coptic-sahidic .
+csa:numberHead rdfs:domain aamas:Term .
+csa:Numberhead rdfs:label "numberHead exponents" .
+csa:numberHead rdfs:label "numberHead" .
+csa:numberHead rdfs:range csa:Numberhead .
+csa:Numberhead rdfs:subClassOf csa:MuExponent .
+csa:numberHead rdfs:subPropertyOf csa:muProperty .
+csa:Plural aamas:lang aama:Coptic-sahidic .
+csa:Plural rdf:type csa:Numberhead .
+csa:Plural rdfs:label "Plural".
+csa:Singular aamas:lang aama:Coptic-sahidic .
+csa:Singular rdf:type csa:Numberhead .
+csa:Singular rdfs:label "Singular".
+
+#SCHEMATA: clauseType
+csa:clauseType aamas:lang aama:Coptic-sahidic .
+csa:Clausetype aamas:lang aama:Coptic-sahidic .
+csa:clauseType rdfs:domain aamas:Term .
+csa:Clausetype rdfs:label "clauseType exponents" .
+csa:clauseType rdfs:label "clauseType" .
+csa:clauseType rdfs:range csa:Clausetype .
+csa:Clausetype rdfs:subClassOf csa:MuExponent .
+csa:clauseType rdfs:subPropertyOf csa:muProperty .
+csa:Relative aamas:lang aama:Coptic-sahidic .
+csa:Relative rdf:type csa:Clausetype .
+csa:Relative rdfs:label "Relative".
+
+#SCHEMATA: number
+csa:number aamas:lang aama:Coptic-sahidic .
+csa:Number aamas:lang aama:Coptic-sahidic .
+csa:number rdfs:domain aamas:Term .
+csa:Number rdfs:label "number exponents" .
+csa:number rdfs:label "number" .
+csa:number rdfs:range csa:Number .
+csa:Number rdfs:subClassOf csa:MuExponent .
+csa:number rdfs:subPropertyOf csa:muProperty .
+csa:Common aamas:lang aama:Coptic-sahidic .
+csa:Common rdf:type csa:Number .
+csa:Common rdfs:label "Common".
+csa:Plural aamas:lang aama:Coptic-sahidic .
+csa:Plural rdf:type csa:Number .
+csa:Plural rdfs:label "Plural".
+csa:Singular aamas:lang aama:Coptic-sahidic .
+csa:Singular rdf:type csa:Number .
+csa:Singular rdfs:label "Singular".
+
+#SCHEMATA: objectPerson
+csa:objectPerson aamas:lang aama:Coptic-sahidic .
+csa:Objectperson aamas:lang aama:Coptic-sahidic .
+csa:objectPerson rdfs:domain aamas:Term .
+csa:Objectperson rdfs:label "objectPerson exponents" .
+csa:objectPerson rdfs:label "objectPerson" .
+csa:objectPerson rdfs:range csa:Objectperson .
+csa:Objectperson rdfs:subClassOf csa:MuExponent .
+csa:objectPerson rdfs:subPropertyOf csa:muProperty .
+csa:Common aamas:lang aama:Coptic-sahidic .
+csa:Common rdf:type csa:Objectperson .
+csa:Common rdfs:label "Common".
+csa:Person1 aamas:lang aama:Coptic-sahidic .
+csa:Person1 rdf:type csa:Objectperson .
+csa:Person1 rdfs:label "Person1".
+csa:Person2 aamas:lang aama:Coptic-sahidic .
+csa:Person2 rdf:type csa:Objectperson .
+csa:Person2 rdfs:label "Person2".
+csa:Person3 aamas:lang aama:Coptic-sahidic .
+csa:Person3 rdf:type csa:Objectperson .
+csa:Person3 rdfs:label "Person3".
+
+#SCHEMATA: objectType
+csa:objectType aamas:lang aama:Coptic-sahidic .
+csa:Objecttype aamas:lang aama:Coptic-sahidic .
+csa:objectType rdfs:domain aamas:Term .
+csa:Objecttype rdfs:label "objectType exponents" .
+csa:objectType rdfs:label "objectType" .
+csa:objectType rdfs:range csa:Objecttype .
+csa:Objecttype rdfs:subClassOf csa:MuExponent .
+csa:objectType rdfs:subPropertyOf csa:muProperty .
+csa:Nominal aamas:lang aama:Coptic-sahidic .
+csa:Nominal rdf:type csa:Objecttype .
+csa:Nominal rdfs:label "Nominal".
+csa:SuffixPron aamas:lang aama:Coptic-sahidic .
+csa:SuffixPron rdf:type csa:Objecttype .
+csa:SuffixPron rdfs:label "SuffixPron".
+
+#MORPHEMES:
+
+aama:Coptic-sahidic-PRODEMNEAR a aamas:Morpheme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "PRODEMNEAR" ;
+	rdfs:comment "[x]" ;
+	rdfs:comment "[y]" ;
+	.
+aama:Coptic-sahidic-PRODEMREMOTE a aamas:Morpheme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "PRODEMREMOTE" ;
+	rdfs:comment "[x]" ;
+	rdfs:comment "[y]" ;
+	.
+aama:Coptic-sahidic-PROIND a aamas:Morpheme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "PROIND" ;
+	rdfs:comment "[x]" ;
+	rdfs:comment "[y]" ;
+	.
+aama:Coptic-sahidic-PROINTENSIVE1 a aamas:Morpheme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "PROINTENSIVE1" ;
+	rdfs:comment "[x]" ;
+	rdfs:comment "[y]" ;
+	.
+aama:Coptic-sahidic-PROINTENSIVE2 a aamas:Morpheme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "PROINTENSIVE2" ;
+	rdfs:comment "[x]" ;
+	rdfs:comment "[y]" ;
+	.
+aama:Coptic-sahidic-PROINTENSIVE3 a aamas:Morpheme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "PROINTENSIVE3" ;
+	rdfs:comment "[x]" ;
+	rdfs:comment "[y]" ;
+	.
+aama:Coptic-sahidic-PROPOSS a aamas:Morpheme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "PROPOSS" ;
+	rdfs:comment "[x]" ;
+	rdfs:comment "[y]" ;
+	.
+
+#LEXEMES:
+
+aama:Coptic-sahidic-me a aamas:Lexeme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "me" ;
+	aamas:lemma "ⲙⲉ" ;
+	aamas:gloss "love" ;
+	csa:pos csa:Verb ;
+	csa:transitivity csa:Trans ;
+	.
+aama:Coptic-sahidic-jo a aamas:Lexeme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "jo" ;
+	aamas:lemma "ϫⲱ" ;
+	aamas:gloss "say" ;
+	csa:pos csa:Verb ;
+	csa:transitivity csa:Trans ;
+	.
+aama:Coptic-sahidic-mouh a aamas:Lexeme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "mouh" ;
+	aamas:lemma "ⲙⲟⲩϩ" ;
+	aamas:gloss "fill" ;
+	csa:pos csa:Verb ;
+	csa:transitivity csa:Trans ;
+	.
+aama:Coptic-sahidic-rime a aamas:Lexeme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "rime" ;
+	aamas:lemma "ⲣⲓⲙⲉ" ;
+	aamas:gloss "weep" ;
+	csa:pos csa:Verb ;
+	csa:transitivity csa:Intransitive ;
+	.
+aama:Coptic-sahidic-ko a aamas:Lexeme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "ko" ;
+	aamas:lemma "ⲕⲱ" ;
+	aamas:gloss "put" ;
+	csa:pos csa:Verb ;
+	csa:transitivity csa:Trans ;
+	.
+aama:Coptic-sahidic-bok a aamas:Lexeme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "bok" ;
+	aamas:lemma "ⲃⲱⲕ" ;
+	aamas:gloss "go" ;
+	csa:pos csa:Verb ;
+	csa:transitivity csa:Intransitive ;
+	.
+aama:Coptic-sahidic-sotp a aamas:Lexeme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "sotp" ;
+	aamas:lemma "ⲥⲱⲧⲡ̄" ;
+	aamas:gloss "choose" ;
+	csa:pos csa:Verb ;
+	csa:transitivity csa:Trans ;
+	.
+aama:Coptic-sahidic-ji a aamas:Lexeme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "ji" ;
+	aamas:lemma "ϫⲓ" ;
+	aamas:gloss "take" ;
+	csa:pos csa:Verb ;
+	csa:transitivity csa:Trans ;
+	.
+aama:Coptic-sahidic-eire a aamas:Lexeme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "eire" ;
+	aamas:lemma "ⲉⲓⲣⲉ" ;
+	aamas:gloss "do" ;
+	csa:pos csa:Verb ;
+	csa:transitivity csa:Trans ;
+	.
+aama:Coptic-sahidic-mise a aamas:Lexeme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "mise" ;
+	aamas:lemma "ⲙⲓⲥⲉ" ;
+	aamas:gloss "bear (a child)" ;
+	csa:pos csa:Verb ;
+	csa:transitivity csa:Trans ;
+	.
+aama:Coptic-sahidic-hop a aamas:Lexeme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "hop" ;
+	aamas:lemma "ϩⲱⲡ" ;
+	aamas:gloss "hide" ;
+	csa:pos csa:Verb ;
+	csa:transitivity csa:Trans ;
+	.
+aama:Coptic-sahidic-tamo a aamas:Lexeme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "tamo" ;
+	aamas:lemma "ⲧⲁⲙⲟ" ;
+	aamas:gloss "inform" ;
+	csa:pos csa:Verb ;
+	csa:transitivity csa:Trans ;
+	.
+aama:Coptic-sahidic-ti a aamas:Lexeme ;
+	aamas:lang aama:Coptic-sahidic ;
+	rdfs:label "ti" ;
+	aamas:lemma "ϯ" ;
+	aamas:gloss "give" ;
+	csa:pos csa:Verb ;
+	csa:transitivity csa:Trans ;
+	.
+
+#TERMCLUSTER: coptic_S-VNegPerf1-bok
+
+aama:IDeeb28eef-4cc8-4d40-bc67-c0394029e524 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf1 ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲙ̄ⲡⲓⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:IDf9e12500-d5f0-4a34-9e5f-e39555b22850 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf1 ;
+	csa:token-varPref "ⲙ̄ⲡⲕ̄-" ;
+	csa:token "ⲙ̄ⲡⲉⲕⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDcb6cb02e-9414-4b9a-9ac9-8f364efe24c7 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf1 ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲙ̄ⲡⲉⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDa31b1e0f-dc2a-4c8b-b724-30b4ba5bd4e5 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf1 ;
+	csa:token-varPref "ⲙ̄ⲡϥ̄-" ;
+	csa:token "ⲙ̄ⲡⲉϥⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID3246517c-28f8-4739-8203-81a375ea48da a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf1 ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲙ̄ⲡⲉⲥⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID2da56b0d-0fe0-487f-82b3-b656b4bf1fb5 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf1 ;
+	csa:token-varPref "ⲙ̄ⲡⲛ̄-" ;
+	csa:token "ⲙ̄ⲡⲉⲛⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDa278e657-39d3-4235-8a2e-95345db5e522 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf1 ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲙ̄ⲡⲉⲧⲛ̄ⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDba553588-2db5-4eed-8e2a-2c2dcdc49f36 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf1 ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲙ̄ⲡⲟⲩⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID2dcf564c-183a-4770-ad4f-5364b3584368 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf1 ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲙ̄ⲡⲉ-ⲡⲣⲱⲙⲉ ⲃⲱⲕ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VInfinCompoundCausative-tamo
+
+aama:ID5105e19a-0616-454a-8ef9-8990fc8a1fb4 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-tamo ;
+	csa:morphClass csa:InfinitiveCompCaus ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:tam csa:U ;
+	csa:token-note "May also occur with suffix pronoun object and object marker" ;
+	csa:token "ⲧⲁⲙⲟ ⲙ̄ ⲡⲣⲱⲙⲉ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Absolute ;
+	.
+aama:ID2ddd3bcd-62c1-46a9-957f-8f478ec2a96b a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-tamo ;
+	csa:morphClass csa:InfinitiveCompCaus ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲧⲁⲙⲉ-ⲡⲉⲛⲕⲁ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Construct ;
+	.
+aama:IDdf76f055-44e9-4aec-92ec-a7c4fdf6a6d2 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-tamo ;
+	csa:morphClass csa:InfinitiveCompCaus ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲧⲁⲙⲟⲧ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID0481b1db-46a0-4219-a79d-7e6952378414 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-tamo ;
+	csa:morphClass csa:InfinitiveCompCaus ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲧⲁⲙⲟⲕ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID2e026ce0-5211-4545-bca7-ad7d0049e5a3 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-tamo ;
+	csa:morphClass csa:InfinitiveCompCaus ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲧⲁⲙⲟⲧⲉ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID7b7c9a3f-c9a8-415f-8981-da636abca381 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-tamo ;
+	csa:morphClass csa:InfinitiveCompCaus ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲧⲁⲙⲟϥ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID137faca6-d34a-4c50-ab4f-7d129e801d51 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-tamo ;
+	csa:morphClass csa:InfinitiveCompCaus ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲧⲁⲙⲟⲥ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID0ca923c1-347d-4710-ae9e-b7b6bb0659c7 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-tamo ;
+	csa:morphClass csa:InfinitiveCompCaus ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲧⲁⲙⲟⲛ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID86e9b8b6-37da-4b52-8807-a3d0577d7cd4 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-tamo ;
+	csa:morphClass csa:InfinitiveCompCaus ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲧⲁⲙⲟ-ⲧⲏⲩⲧⲛ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDc0632c8c-9491-4673-a03e-2af62392aa1a a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-tamo ;
+	csa:morphClass csa:InfinitiveCompCaus ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲧⲁⲙⲟⲩ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+
+#TERMCLUSTER: coptic_S-VInfinCV4-me
+
+aama:IDd9277063-103d-43d4-9ec0-19a4cb612b54 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-me ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV4 ;
+	csa:tam csa:U ;
+	csa:token-note "May also occur with suffix pronoun object and object marker" ;
+	csa:token "ⲙⲉ ⲙ̄ ⲡⲣⲱⲙⲉ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Absolute ;
+	.
+aama:IDfdf28b69-83d3-4d93-920b-282dba142328 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-me ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV4 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲉⲣⲉ- ⲡⲣⲱⲙⲉ " ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Construct ;
+	.
+aama:ID4d364c69-6ee9-47b7-a3ec-6d73dae5ab80 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-me ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV4 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲉⲣⲓⲧ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDedf9ed36-2830-4b6d-aeca-86db7436987c a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-me ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV4 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲉⲣⲓⲧⲕ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID930bee0e-74ce-472b-8d34-14c607ff2273 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-me ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV4 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲉⲣⲓⲧⲉ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID84876a50-0b2f-4e53-8b12-4d9f72478273 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-me ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV4 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲉⲣⲓⲧϥ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID1886cb3a-77a1-4611-81b0-be6590726b1b a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-me ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV4 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲉⲣⲓⲧⲥ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID9962c06d-223e-4644-8022-1bf9ea705969 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-me ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV4 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲉⲣⲓⲧⲛ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDdbaea904-6634-4b1e-ae77-3ddbb36a3256 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-me ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV4 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲉⲣⲉ-ⲧⲏⲩⲧⲛ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID46243231-7606-491d-b0fe-2b0d956cee6f a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-me ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV4 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲉⲣⲓⲧⲟⲩ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+
+#TERMCLUSTER: coptic_S-VInfinCVC3Irreg-eire
+
+aama:ID5830d91d-c925-4d92-82b2-98e8e1aaf17c a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-eire ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC3Irreg ;
+	csa:tam csa:U ;
+	csa:token-note "May also occur with suffix pronoun object and object marker" ;
+	csa:token "ⲉⲓⲣⲉ ⲙ̄ ⲡϩⲁⲡ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Absolute ;
+	.
+aama:IDe8ad0371-683d-4c6e-85dc-a1a45cbe97c1 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-eire ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC3Irreg ;
+	csa:tam csa:U ;
+	csa:token-note "Also ⲉⲣ-" ;
+	csa:token "ⲣ̄-ⲡϩⲁⲡ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Construct ;
+	.
+aama:ID42e45e9d-54a4-4e7d-904f-c05b0fd52d75 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-eire ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC3Irreg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲁⲁⲧ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDf79b963b-6093-4e11-b9ce-e100d4540d49 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-eire ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC3Irreg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲁⲁⲕ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID5af63947-2e8c-4b06-84ba-b695d31f0cb2 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-eire ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC3Irreg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲁⲁⲧⲉ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID1c35a020-c142-4dc6-8fca-d64cae4b4a8a a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-eire ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC3Irreg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲁⲁϥ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID6d5d558e-01f7-45d2-a018-65f81214fe2b a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-eire ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC3Irreg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲁⲁⲥ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID8de9f84a-f5ea-47bf-aa2e-5de506920636 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-eire ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC3Irreg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲁⲁⲛ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDe94a8ebc-e2e3-4cf6-af6f-760d4755dea6 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-eire ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC3Irreg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲣ̄-ⲧⲏⲩⲧⲛ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDf9185d88-9f3f-49c2-83da-52e9b5356f68 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-eire ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC3Irreg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲁⲁⲩ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+
+#TERMCLUSTER: coptic_S-VAffConditional-rime
+
+aama:ID153e9519-92c6-46ab-b799-9da8c6b77241 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Conditional ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Conditional ;
+	csa:token "ⲉⲓϣⲁⲛⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:ID87a76149-5b16-4a6a-b8f8-054a3295d074 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Conditional ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Conditional ;
+	csa:token "ⲉⲕϣⲁⲛⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID9f3214c3-ad44-40c6-aebc-b0cdb5cd78bb a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Conditional ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Conditional ;
+	csa:token "ⲉⲣⲉϣⲁⲛⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID70a39d99-3588-42c1-a82d-f1cb42de1fa9 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Conditional ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Conditional ;
+	csa:token "ⲉϥϣⲁⲛⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID248e78d5-6511-48a1-ab56-a84948036a7c a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Conditional ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Conditional ;
+	csa:token "ⲉⲥϣⲁⲛⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID8931334e-49aa-4087-9431-841683ae7ed8 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Conditional ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Conditional ;
+	csa:token "ⲉⲛϣⲁⲛⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID1ac51416-3b21-4836-aa64-c0d548380d95 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Conditional ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Conditional ;
+	csa:token "ⲉⲧⲉⲧⲛ̄ϣⲁⲛⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDa5890a71-f9d9-43a2-98d9-95ac8ba03000 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Conditional ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Conditional ;
+	csa:token "ⲉⲩϣⲁⲛⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID05cc5667-be90-485d-9c9b-b75814f4182f a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Conditional ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Conditional ;
+	csa:token "ⲉⲣϣⲁⲛ-ⲡⲣⲱⲙⲉ ⲣⲓⲙⲉ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VAffInjunct-rime
+
+aama:ID34ac5332-c77a-4018-b825-48720e694186 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Injunct ;
+	csa:token "ⲙⲁⲣⲓⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:IDa53df0b2-bc46-4a60-aa1f-fa3d0bef5049 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Injunct ;
+	csa:token "⊤" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDe41b9096-c877-4fcf-9a26-6166656e4406 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Injunct ;
+	csa:token "⊤" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID15d2879a-26fc-48ef-a5e5-ea1e3e6f32e3 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Injunct ;
+	csa:token "ⲙⲁⲣⲉϥⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID279a3efc-e092-4c73-bd0e-255b01e29091 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Injunct ;
+	csa:token "ⲙⲁⲣⲉⲥⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID38f7a252-fc3e-4f17-a142-aac02b453209 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Injunct ;
+	csa:token "ⲙⲁⲣⲛ̄ⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDabb34c7a-b916-408e-affb-5ffd95eb1e29 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Injunct ;
+	csa:token "⊤" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID4f52bbea-d873-4769-adfb-2357706fd74a a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Injunct ;
+	csa:token "ⲙⲁⲣⲟⲩⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDcf2ab644-e8a5-4fce-b7f1-2c6e6617720f a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Injunct ;
+	csa:token "ⲙⲁⲣⲉ-ⲡⲣⲱⲙⲉ ⲣⲓⲙⲉ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VAffResult-rime
+
+aama:IDbd177127-d9be-4a65-a922-d6a941a0c277 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Result ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future ;
+	csa:token "ⲧⲁⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:ID320e484e-57c1-4193-9ee9-2253fa06f95e a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Result ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future ;
+	csa:token "ⲧⲁⲣⲉⲕⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDc1f674f2-a1db-4be8-b8c4-f22dfd568317 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Result ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future ;
+	csa:token "ⲧⲁⲣⲉⲥⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDa456700b-d8bd-4ac9-a753-cc151e674edc a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Result ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future ;
+	csa:token "ⲧⲁⲣⲉϥⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDb68088e8-c9cd-4662-84a1-d5f5b00e3122 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Result ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future ;
+	csa:token "ⲧⲁⲣⲉⲥⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID32849a5a-025e-4245-9650-89b9327de25a a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Result ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future ;
+	csa:token "ⲧⲁⲣⲛ̄ⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID3b20b7e6-1c8c-4aea-abcf-a3fd22d0cbeb a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Result ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future ;
+	csa:token "ⲧⲁⲣⲉⲧⲛ̄ⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID181a77d7-6124-4edb-bb41-088caeb8fde6 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Result ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future ;
+	csa:token "ⲧⲁⲣⲟⲩⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID183acaff-64cd-4411-bfd1-cb696c03f321 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Result ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future ;
+	csa:token "ⲧⲁⲣⲉ-ⲡⲣⲱⲙⲉ ⲣⲓⲙⲉ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VInfinCVCC-sotp
+
+aama:ID921b66a6-d2b2-4875-8e8c-56c61b449cec a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-sotp ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCC ;
+	csa:tam csa:U ;
+	csa:token-note "May also occur with suffix pronoun object and object marker" ;
+	csa:token "ⲥⲱⲧⲡ̄ ⲙ̄ ⲡⲉⲛⲕⲁ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Absolute ;
+	.
+aama:ID9471a8ab-e5d9-4b2e-ac73-a354a5399bca a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-sotp ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCC ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲥⲉⲧⲡ̄-ⲡⲉⲛⲕⲁ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Construct ;
+	.
+aama:IDd6b401b7-f520-4d21-ac56-8b09aa080eca a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-sotp ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCC ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲥⲟⲧⲡ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDa0a131aa-7c4b-4ad0-ba49-f846d5b0c40c a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-sotp ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCC ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲥⲟⲧⲡⲕ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDd0912885-ed86-46af-a0b2-7c89e2c217a8 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-sotp ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCC ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲥⲟⲧⲡⲉ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDe0d2e01a-8d34-4a3e-8a07-c6bc9bc7d644 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-sotp ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCC ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲥⲟⲧⲡϥ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDed24ae56-d50b-4b17-8b6a-586af7af71ed a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-sotp ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCC ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲥⲟⲧⲡⲥ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDe471be4c-9831-4db8-bf50-857d2d1d8dad a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-sotp ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCC ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲥⲟⲧⲡⲛ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDd35f2255-cd48-4d5a-8956-3cb4c4fba5c8 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-sotp ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCC ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲥⲉⲧⲡ̄-ⲧⲏⲩⲧⲛ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID6e6e9a3d-5a8f-4240-8898-39f3fb7bc0d1 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-sotp ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCC ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲥⲟⲧⲡⲟⲩ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+
+#TERMCLUSTER: coptic_S-VAffPres1-rime
+
+aama:ID147dfc23-cde0-4698-923b-e410efefb712 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-U ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:U ;
+	csa:tam csa:Pres1 ;
+	csa:token-varPref "Common" ;
+	csa:token-note "⊤" ;
+	csa:token "ϯⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:ID307b6477-8428-4ba8-abfc-d9d4e4e6ee3b a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-U ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:U ;
+	csa:tam csa:Pres1 ;
+	csa:token-varPref "Common" ;
+	csa:token-note "⊤" ;
+	csa:token "ⲕⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDd9f2739b-856c-4a25-9278-6ebdc6045e15 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-U ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:U ;
+	csa:tam csa:Pres1 ;
+	csa:token-varPref "ⲧⲉⲣ-" ;
+	csa:token-note "ⲧⲣ̄-" ;
+	csa:token "ⲧⲉⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID3afc965d-aa44-4998-ae28-8a428490e923 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-U ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:U ;
+	csa:tam csa:Pres1 ;
+	csa:token-varPref "Common" ;
+	csa:token-note "⊤" ;
+	csa:token "ϥⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID31fcbb7d-fe7b-4d9c-bd51-e7981623931f a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-U ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:U ;
+	csa:tam csa:Pres1 ;
+	csa:token-varPref "Common" ;
+	csa:token-note "⊤" ;
+	csa:token "ⲥⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID524726f0-39aa-4976-91a7-f28ceefd46a1 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-U ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:U ;
+	csa:tam csa:Pres1 ;
+	csa:token-varPref "Common" ;
+	csa:token-note "⊤" ;
+	csa:token "ⲧ̄ⲛ̄ⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDe9a917a9-9016-4870-810e-2cb64d3c03c4 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-U ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:U ;
+	csa:tam csa:Pres1 ;
+	csa:token-varPref "Common" ;
+	csa:token-note "⊤" ;
+	csa:token "ⲧⲉⲧⲛ̄ⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDf752f507-2715-45c5-9959-5556709cd3db a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-U ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:U ;
+	csa:tam csa:Pres1 ;
+	csa:token-varPref "Common" ;
+	csa:token-note "⊤" ;
+	csa:token "ⲥⲉⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID4426f4f0-8cdc-4de3-9afa-50f6efa52c32 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-U ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:U ;
+	csa:tam csa:Pres1 ;
+	csa:token-varPref "Common" ;
+	csa:token-note "indefSubj:ⲟⲩⲛ̄-ⲟⲩⲣⲱⲙⲉ ⲣⲓⲙⲉ" ;
+	csa:token "ⲡⲣⲱⲙⲉ ⲣⲓⲙⲉ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VNegFut3-rime
+
+aama:ID5d08767e-33a9-42e4-be8b-8262d091276e a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future3 ;
+	csa:token-varPref "ⲛ̄ⲛⲉⲓ-" ;
+	csa:token "ⲛ̄ⲛⲁⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:ID2f307a7b-1813-42ee-af6e-7906af682665 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future3 ;
+	csa:token-varPref "ⲉⲛⲛⲉⲕ-" ;
+	csa:token "ⲛ̄ⲛⲉⲕⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDb2120750-ae93-49bc-a595-6948f1b1e35a a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future3 ;
+	csa:token-varPref "ⲉⲛⲛⲉ-" ;
+	csa:token "ⲛ̄ⲛⲉⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDc7494535-09a4-450f-ae8a-06e40319609f a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future3 ;
+	csa:token-varPref "ⲉⲛⲛⲉϥ-" ;
+	csa:token "ⲛ̄ⲛⲉϥⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID329e4eab-adf7-430c-a825-a9bdf3ed351a a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future3 ;
+	csa:token-varPref "ⲉⲛⲛⲉⲥ-" ;
+	csa:token "ⲛ̄ⲛⲉⲥⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDf7f85245-3fa5-4ae5-95fd-536ff41c6b7f a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future3 ;
+	csa:token-varPref "ⲉⲛⲛⲉⲛ-" ;
+	csa:token "ⲛ̄ⲛⲉⲛⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID2ebb2fb2-0fc2-4a6a-9915-9a7e211893e5 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future3 ;
+	csa:token-varPref "ⲉⲛⲛⲉⲧⲛ̄-" ;
+	csa:token "ⲛ̄ⲛⲉⲧⲛ̄ⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID99f0ac31-bc65-433e-a0a4-72b4afbef808 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future3 ;
+	csa:token-varPref "ⲉⲛⲛⲉⲩ-" ;
+	csa:token "ⲛ̄ⲛⲉⲩⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID2056538e-da2d-402f-b1d7-566bf2a41349 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future3 ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲛ̄ⲛⲉ-ⲡⲣⲱⲙⲉ ⲣⲓⲙⲉ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VAffPerf2-bok
+
+aama:IDb6ce0529-85fc-46ba-a9ad-a673f90a74a3 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf2 ;
+	csa:token "ⲛ̄ⲧⲁⲓⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:ID2f5eb81e-581f-47d9-8a58-8165a5ebaa3f a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf2 ;
+	csa:token "ⲛ̄ⲧⲁⲕⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID0007c5b5-c9e5-4e62-955b-1544562aea84 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf2 ;
+	csa:token "ⲛ̄ⲧⲁⲣⲉⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDe1547472-8e28-4a73-9119-5cd5b931b7c6 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf2 ;
+	csa:token "ⲛ̄ⲧⲁϥⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID17ac36f3-f505-462c-bfbd-b8a65a156a3c a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf2 ;
+	csa:token "ⲛ̄ⲧⲁⲥⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID9b6885a2-de12-4315-a967-bede77cc273b a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf2 ;
+	csa:token "ⲛ̄ⲧⲁⲛⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDeb408183-e69b-46a2-b4a5-acf36162e03a a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf2 ;
+	csa:token "ⲛ̄ⲧⲁⲧⲉⲧⲛ̄ⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID4d781b03-7b64-4ee5-9d08-316dbdb4a094 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf2 ;
+	csa:token "ⲛ̄ⲧⲁⲩⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDabe0a4df-74ed-438d-9094-8990624b09d2 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf2 ;
+	csa:token "ⲛ̄ⲧⲁ-ⲡⲣⲱⲙⲉ ⲃⲱⲕ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VInfinCVC2-mouh
+
+aama:ID8192baab-234e-4870-a802-0de791ca9691 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mouh ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC2 ;
+	csa:tam csa:U ;
+	csa:token-note "May also occur with suffix pronoun object and object marker" ;
+	csa:token "ⲙⲟⲩϩ ⲙ̄ ⲧϭⲓϫ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Absolute ;
+	.
+aama:ID34384785-8831-454c-807a-3ed04b6ee143 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mouh ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC2 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲉϩ-ⲧϭⲓϫ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Construct ;
+	.
+aama:ID14badbe8-3831-4f4d-9078-ce13b61399ac a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mouh ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC2 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲁϩ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDaff8a499-f182-4826-8eb8-a4d815987dff a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mouh ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC2 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲁϩⲕ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID3cc50cdd-dc3c-45d7-b9f4-406f920115e0 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mouh ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC2 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲁϩⲉ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID56ebe3d9-fd5d-41a4-85a6-a48dfa3bdf22 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mouh ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC2 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲁϩϥ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID08b297ee-78a7-44b8-9a98-71790950c3f5 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mouh ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC2 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲁϩⲥ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDe8b8c9e7-d64e-46e9-9b77-99ab732b2b72 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mouh ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC2 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲁϩⲛ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDa8a93929-271f-4140-9e80-7be283872c30 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mouh ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC2 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲉϩ-ⲧⲏⲩⲧⲛ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID23e1b274-f3c8-4b63-83a2-ac94a659babd a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mouh ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC2 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲁϩⲟⲩ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+
+#TERMCLUSTER: coptic_S-VAffTerminative-bok
+
+aama:IDd1fb4484-3703-46c0-8414-4975f02eb1ca a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Terminative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Terminative ;
+	csa:token "ϣⲁⲛϯⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:ID5b281fb0-a3d6-40c4-a41d-5fed513a851e a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Terminative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Terminative ;
+	csa:token "ϣⲁⲛⲧⲕ̄ⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID0fcfaaa0-a450-435e-8dc3-b540934a5e6f a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Terminative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Terminative ;
+	csa:token "ϣⲁⲛⲧⲉⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDb42521d3-da7c-42ea-850b-8900f8ff2bb2 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Terminative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Terminative ;
+	csa:token "ϣⲁⲛⲧϥ̄ⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDa8f10da8-381b-44cd-a8c1-85d633108053 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Terminative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Terminative ;
+	csa:token "ϣⲁⲛⲧⲥ̄ⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID4ec84b33-fe4a-48bb-a96b-bd138a67da3a a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Terminative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Terminative ;
+	csa:token "ϣⲁⲛⲧⲛ̄ⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDc4d1f213-e350-4a00-90b6-21ac30c2e080 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Terminative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Terminative ;
+	csa:token "ϣⲁⲛⲧⲉⲧⲛ̄ⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID3e39c037-a99c-42e7-b7c8-4d476fb4bf29 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Terminative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Terminative ;
+	csa:token "ϣⲁⲛⲧⲟⲩⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID23ca5419-7e59-42fa-b358-a9b2477c6b8f a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Terminative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Terminative ;
+	csa:token "ϣⲁⲛⲧⲉ-ⲡⲣⲱⲙⲉ ⲃⲱⲕ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VInfinCVC1-hop
+
+aama:IDdf8dca40-8716-4c4b-aef1-65285e642031 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-hop ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC1 ;
+	csa:tam csa:U ;
+	csa:token-note "May also occur with suffix pronoun object and object marker" ;
+	csa:token "ϩⲱⲡ ⲙ̄ ⲡⲣⲱⲙⲉ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Absolute ;
+	.
+aama:ID1dc4fb25-84e6-40fa-b30f-bf8f4b5f3f5a a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-hop ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC1 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϩⲉⲡ- ⲡⲣⲱⲙⲉ " ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Construct ;
+	.
+aama:IDc614bad6-9e45-45b8-804e-26af79ac3944 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-hop ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC1 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϩⲟⲡ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDb997e984-8184-4ff1-9297-27874e595398 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-hop ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC1 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϩⲟⲡⲕ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDadebce66-3ce8-41cd-bde0-d8980d4eda85 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-hop ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC1 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϩⲟⲡⲉ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID0b25ca5b-2bc9-4634-93f7-f14337d43e2d a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-hop ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC1 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϩⲟⲡϥ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID138421c6-8cc9-48c3-b321-b55de16e84e5 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-hop ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC1 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϩⲟⲡⲥ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID00121650-0ffd-4ecc-a818-3e206ae80bf6 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-hop ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC1 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϩⲟⲡⲛ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDc6b181d4-739d-401f-a2a3-c894495b75a2 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-hop ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC1 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϩⲉⲡ-ⲧⲏⲩⲧⲛ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDf015297a-46e6-4c16-a06c-5170ad35844b a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-hop ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVC1 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϩⲟⲡⲟⲩ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+
+#TERMCLUSTER: coptic_S-VAffPres2-rime
+
+aama:ID285944ae-a952-4fb1-8c0a-a817a1221787 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres2 ;
+	csa:token "ⲉⲓⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:IDd88d72cf-414c-47c6-b056-a90d47540326 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres2 ;
+	csa:token "ⲉⲕⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID355c3d48-71cd-47db-90a4-8f04c1712952 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres2 ;
+	csa:token "ⲉⲣⲉⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDa39fe078-1a38-48a5-9a75-2dd7f465470b a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres2 ;
+	csa:token "ⲉϥⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDfa185a2f-99d3-435d-9a74-4d0204aa1726 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres2 ;
+	csa:token "ⲉⲥⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID94d003f6-7281-4ada-88cd-cffb4979a55d a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres2 ;
+	csa:token "ⲉⲛⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID952ed204-ccc1-4048-99d9-888bfeee9586 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres2 ;
+	csa:token "ⲉⲧⲉⲧⲛ̄ⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDa4b1a792-9664-4d69-83b5-6f2e5dc6232b a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres2 ;
+	csa:token "ⲉⲩⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDc3c9f2dc-a6d7-480a-a96e-32615c99fe37 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres2 ;
+	csa:token "ⲉⲣⲉ-ⲣⲱⲙⲉ ⲣⲓⲙⲉ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VNegAorist-rime
+
+aama:ID62f3e3d8-30a0-434d-9cb1-74a110899d90 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Aorist ;
+	csa:token "ⲙⲉⲓⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:ID5955fcf7-81fc-4c62-b9fd-fb5209eefcef a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Aorist ;
+	csa:token "ⲙⲉⲕⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDf1c1d2fa-2760-4e6f-9424-64396c2c99fd a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Aorist ;
+	csa:token "ⲙⲉⲣⲉⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID9fea6382-622f-458d-8c9b-633765c5146d a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Aorist ;
+	csa:token "ⲙⲉϥⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDde77783e-f43f-4603-b517-b61c00ec3456 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Aorist ;
+	csa:token "ⲙⲉⲥⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID6a3864a7-82f5-4a41-9279-17b02f9fbd4e a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Aorist ;
+	csa:token "ⲙⲉⲛⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID82f21816-bd56-4db3-bc14-ec8c69970e51 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Aorist ;
+	csa:token "ⲙⲉⲧⲉⲧⲛ̄ⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID3fec1609-eba7-48d6-a3da-6a2e037f469a a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Aorist ;
+	csa:token "ⲙⲉⲩⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID8542f80f-d1b5-4596-aa86-b6c78dff7de4 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Aorist ;
+	csa:token "ⲙⲉⲣⲉ-ⲡⲣⲱⲙⲉ ⲣⲓⲙⲉ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VAffImperf-rime
+
+aama:IDc20dd3b0-80e5-4ea6-9a72-7041445c4252 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Imperfect ;
+	csa:token-note "⊤" ;
+	csa:token "ⲛⲉⲓⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:ID658c38e5-6e33-41d0-88de-b9c07f24a17a a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Imperfect ;
+	csa:token-note "⊤" ;
+	csa:token "ⲛⲉⲕⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID23eead3c-2ef3-46d6-982a-8b730bf489be a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Imperfect ;
+	csa:token-note "⊤" ;
+	csa:token "ⲛⲉⲣⲉⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID4f2b6454-2306-4bd9-8823-cd3135fe1b80 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Imperfect ;
+	csa:token-note "⊤" ;
+	csa:token "ⲛⲉϥⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID9de07d60-aeb2-4069-b36c-1fece6ebb1f7 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Imperfect ;
+	csa:token-note "⊤" ;
+	csa:token "ⲛⲉⲥⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID7c12ece3-614a-42b7-a146-e3fa09a943d4 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Imperfect ;
+	csa:token-note "⊤" ;
+	csa:token "ⲛⲉⲛⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID0f893c6e-c5a1-42b8-8894-4c1b4cb99965 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Imperfect ;
+	csa:token-note "⊤" ;
+	csa:token "ⲛⲉⲧⲉⲧⲛ̄ⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDa6d6b37b-0d3e-4da8-b5f6-07761e8a9e15 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Imperfect ;
+	csa:token-note "⊤" ;
+	csa:token "ⲛⲉⲩⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID02ed3beb-6e98-4ff2-9dfd-22fcf60b8bea a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Imperfect ;
+	csa:token-note "indefSubj:ⲛⲉⲣⲉ-ⲟⲩⲛ̄-ⲟⲩⲣⲱⲙⲉ ⲣⲓⲙⲉ" ;
+	csa:token "ⲛⲉⲣⲉ-ⲣⲱⲙⲉ ⲣⲓⲙⲉ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VAffRelPres1-bok
+
+aama:ID932b21be-63cd-44f0-969a-5c24d03ca5b6 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Relative ;
+	csa:clauseType csa:Relative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres1 ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲉϯⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:IDb998f353-5d6f-46c2-aaeb-f9c3b9a9b066 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Relative ;
+	csa:clauseType csa:Relative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres1 ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲉⲧⲕ̄ⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDa5a7d2e2-eab1-4cf3-9565-263d9f4143ad a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Relative ;
+	csa:clauseType csa:Relative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres1 ;
+	csa:token-varPref "ⲉⲧⲉⲣ-" ;
+	csa:token "ⲉⲧⲉⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID168b831d-0cb0-42f7-b728-f999dfc6846c a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Relative ;
+	csa:clauseType csa:Relative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres1 ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲉⲧϥ̄ⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID569315b1-b722-44ba-918c-bbcc2cbaa43c a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Relative ;
+	csa:clauseType csa:Relative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres1 ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲉⲧⲥ̄ⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID05e40bed-1a1d-40b3-a754-2d1bc4c29adb a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Relative ;
+	csa:clauseType csa:Relative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres1 ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲉⲧⲛ̄ⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDd5675a21-a85e-4feb-93de-18022d5dd711 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Relative ;
+	csa:clauseType csa:Relative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres1 ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲉⲧⲉⲧⲛ̄ⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDcfd4d912-7919-485e-8b42-dea378d027da a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Relative ;
+	csa:clauseType csa:Relative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres1 ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲉⲧⲟⲩⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDadf75a2b-9758-42ea-9764-6bb06f96d701 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Relative ;
+	csa:clauseType csa:Relative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres1 ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲉⲧⲉⲣⲉ-ⲡⲣⲱⲙⲉ ⲃⲱⲕ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VInfinCV3-ko
+
+aama:IDeedee0d1-84c6-44dd-b269-13e1d3193f0c a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ko ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV3 ;
+	csa:tam csa:U ;
+	csa:token-note "May also occur with suffix pronoun object and object marker" ;
+	csa:token "ⲕⲱ ⲙ̄ ⲡϫⲱⲱⲙⲉ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Absolute ;
+	.
+aama:ID4d3071d4-4d2c-45e2-b9ab-6630f86ddaee a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ko ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV3 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲕⲁ- ⲡϫⲱⲱⲙⲉ " ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Construct ;
+	.
+aama:IDfefbecdd-b398-4807-b3b0-86826ed85754 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ko ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV3 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲕⲁⲁⲧ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID1a1040b9-a682-48fb-a16b-59a7158af0bd a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ko ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV3 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲕⲁⲁⲕ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDe42f0b44-d10e-480a-b2e7-d555da8fd260 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ko ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV3 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲕⲁⲁⲧⲉ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDc4fbd3ff-186f-46b1-862f-f6bc338c0d2d a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ko ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV3 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲕⲁⲁϥ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDe1370ccd-624b-428f-980b-6adb53f5de8e a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ko ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV3 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲕⲁⲁⲥ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID2b376d2e-4cd0-455f-a247-754676824dff a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ko ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV3 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲕⲁⲁⲛ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDf3036b6d-5670-4bab-a64b-3ef7bf90e3ab a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ko ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV3 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲕⲉ-ⲧⲏⲩⲧⲛ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID186796aa-508f-4bee-9727-637ddc8c84b1 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ko ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV3 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲕⲁⲁⲩ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+
+#TERMCLUSTER: coptic_S-VAffInflectedInfin-bok
+
+aama:ID45b58d46-d140-46fd-b337-0611a4bbd947 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:U ;
+	csa:tam csa:InflectedInfiitive ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲧⲣⲁⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:ID6e9abcf7-9f27-42cb-acc7-09cd634d1de3 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:U ;
+	csa:tam csa:InflectedInfiitive ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲧⲣⲉⲕⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDe0fd1611-1a6b-4c39-8f35-1f372606d288 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:U ;
+	csa:tam csa:InflectedInfiitive ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲧⲣⲉⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID4fdf1c6f-8cf1-45b9-a2ea-42d3f6e3f3ab a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:U ;
+	csa:tam csa:InflectedInfiitive ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲧⲣⲉϥⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDb6f27ed6-0f48-480f-a954-5463995468f7 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:U ;
+	csa:tam csa:InflectedInfiitive ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲧⲣⲉⲥⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDabaf33da-9ec8-4a80-b504-066bac343c3a a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:U ;
+	csa:tam csa:InflectedInfiitive ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲧⲣⲉⲛⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID59ec1c5d-49be-4b74-b2dc-908642bd4d87 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:U ;
+	csa:tam csa:InflectedInfiitive ;
+	csa:token-varPref "ⲧⲣⲉⲧⲛ̄-" ;
+	csa:token "ⲧⲣⲉⲧⲉⲧⲛ̄ⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDa590c6ec-3942-47d7-b335-6af839d8c102 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:U ;
+	csa:tam csa:InflectedInfiitive ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲧⲣⲉⲩⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID7ea2d52b-1ac7-4b2e-bc88-0f50fcddab01 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:U ;
+	csa:tam csa:InflectedInfiitive ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲧⲣⲉ-ⲡⲣⲱⲙⲉ ⲃⲱⲕ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VInfinCV2-ti
+
+aama:IDfa2af85d-f62e-459a-84f1-fab9f0c150f0 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ti ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV2 ;
+	csa:tam csa:U ;
+	csa:token-note "May also occur with suffix pronoun object and object marker" ;
+	csa:token "ϯ ⲙ̄ ⲡϫⲱⲱⲙⲉ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Absolute ;
+	.
+aama:ID163874fe-75d1-4850-b904-f482b8b1cab2 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ti ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV2 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϯ-ⲡϫⲱⲱⲙⲉ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Construct ;
+	.
+aama:ID9ac39cb4-be97-4d89-98d2-a6af1e1b8958 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ti ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV2 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲧⲁⲁⲧ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID33b5d0dc-fc74-49a9-88ed-df97da5e46d0 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ti ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV2 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲧⲁⲁⲕ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID3e7d9a37-3494-41b6-adf1-6f3e6e9e1918 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ti ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV2 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲧⲁⲁⲧⲉ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDc33b863f-e3a1-453c-923b-b6ebf7f49c56 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ti ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV2 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲧⲁⲁϥ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID4a3aca42-76c2-4c6f-8684-460d5d117cf2 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ti ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV2 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲧⲁⲁⲥ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDfcc8f394-2b07-4916-8194-1df2def5b742 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ti ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV2 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲧⲁⲁⲛ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID3309b054-3e52-4028-87c4-0f961f03c262 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ti ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV2 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϯ-ⲧⲏⲩⲧⲛ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID08b02f58-1d36-497c-8939-78182076e7bf a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ti ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV2 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲧⲁⲁⲩ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+
+#TERMCLUSTER: coptic_S-VAffAorist-rime
+
+aama:ID87020dcb-ead6-402d-aeb2-3729496fb606 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Aorist ;
+	csa:token "ϣⲁⲓⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:ID1c57c621-73f7-428d-b125-cb3c3619851f a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Aorist ;
+	csa:token "ϣⲁⲕⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID7877a333-06eb-4419-aed7-0d5018eef107 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Aorist ;
+	csa:token "ϣⲁⲣ(ⲉ)ⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDebc6c2d1-2bed-4fbf-a9c6-a6f84ca2138b a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Aorist ;
+	csa:token "ϣⲁϥⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID6719af2b-7a28-494c-bb9e-9c2c2b803d99 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Aorist ;
+	csa:token "ϣⲁⲥⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDbbdcdf93-4d60-4bf2-8a5c-3e18d4eec20b a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Aorist ;
+	csa:token "ϣⲁⲛⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID45ee642e-2757-4eac-9edc-6f0256a0cb39 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Aorist ;
+	csa:token "ϣⲁⲧⲉⲧⲛ̄ⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID22ea0cde-4c72-4c8a-9576-be9390493422 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Aorist ;
+	csa:token "ϣⲁⲩⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID20969d64-8877-4069-9676-40d0d1ed8df0 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Aorist ;
+	csa:token "ϣⲁⲣⲉ-ⲡⲣⲱⲙⲉ ⲣⲓⲙⲉ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VNegPres1-rime
+
+aama:ID97768649-b2a4-4964-a18a-59baf4650cd5 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres1 ;
+	csa:token-note "⊤" ;
+	csa:token "ⲛ̄ϯⲣⲓⲙⲉ ⲁⲛ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:IDf7ba500a-1258-406c-9f41-c1c703048e93 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres1 ;
+	csa:token-note "⊤" ;
+	csa:token "ⲛⲅ̄ⲣⲓⲙⲉ ⲁⲛ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID6b176e9b-597d-4e77-a9b2-91d1bd853ef5 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres1 ;
+	csa:token-note "⊤" ;
+	csa:token "ⲛ̄ⲧⲉⲣⲓⲙⲉ ⲁⲛ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDdc4a95c8-2629-4a32-928c-3e51afee1331 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres1 ;
+	csa:token-note "⊤" ;
+	csa:token "ⲛϥ̄ⲣⲓⲙⲉ ⲁⲛ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID5a44e909-26f0-4881-a412-262fd9a7eef6 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres1 ;
+	csa:token-note "⊤" ;
+	csa:token "ⲛ̄ⲥⲣⲓⲙⲉ ⲁⲛ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID55b702a5-52bf-465f-b8ff-b0147550b641 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres1 ;
+	csa:token-note "⊤" ;
+	csa:token "ⲛ̄ⲧ̄ⲛ̄ⲣⲓⲙⲉ ⲁⲛ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID7dc1d22a-b962-43b3-8657-f26f7503cbea a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres1 ;
+	csa:token-note "⊤" ;
+	csa:token "ⲛ̄ⲧⲉⲧⲛ̄ⲣⲓⲙⲉ ⲁⲛ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID84175c26-71be-4d0d-a1f5-9192fc8e60e5 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres1 ;
+	csa:token-note "⊤" ;
+	csa:token "ⲛ̄ⲥⲉⲣⲓⲙⲉ ⲁⲛ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID9ac75f40-0872-4b79-b8f7-335710367c58 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Main ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Pres1 ;
+	csa:token-note "indefSubj:ⲙⲛ̄-(ⲟⲩ)ⲣⲱⲙⲉ ⲣⲓⲙⲉ" ;
+	csa:token "(ⲙ̄) ⲡⲣⲱⲙⲉ ⲣⲓⲙⲉ ⲁⲛ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VAffTemporalSubordinate-bok
+
+aama:IDbb806d28-edd2-472b-99d1-fafc2fe1d14d a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:TemporalSubordinate ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:SimplePast ;
+	csa:token-varPref "ⲛ̄ⲧⲉⲣⲉⲓ-" ;
+	csa:token "ⲛ̄ⲧⲉⲣⲓⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:ID5bbb4167-a288-4d66-8381-e6be0a460326 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:TemporalSubordinate ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:SimplePast ;
+	csa:token-varPref "ⲛ̄ⲧⲉⲣⲕ̄-" ;
+	csa:token "ⲛ̄ⲧⲉⲣⲉⲕⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID2739bddc-da42-4e78-85ea-6e3cd249eeb0 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:TemporalSubordinate ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:SimplePast ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲛ̄ⲧⲉⲣⲉⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID7b8bdabb-86f1-46a1-a20b-cef02c037c11 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:TemporalSubordinate ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:SimplePast ;
+	csa:token-varPref "ⲛ̄ⲧⲉⲣϥ̄-" ;
+	csa:token "ⲛ̄ⲧⲉⲣⲉϥⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID73f2dce4-47c3-444a-8035-6e01cd7e42ac a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:TemporalSubordinate ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:SimplePast ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲛ̄ⲧⲉⲣⲉⲥⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID881f2eb6-1785-4ddb-802e-bd1063ac24d5 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:TemporalSubordinate ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:SimplePast ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲛ̄ⲧⲉⲣⲛ̄ⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDec25706a-515e-418b-892c-dd0a9cf261df a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:TemporalSubordinate ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:SimplePast ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲛ̄ⲧⲉⲣⲉⲧⲛ̄ⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDef4b77eb-e7a6-40c5-8c3b-eb009c5a49ab a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:TemporalSubordinate ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:SimplePast ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲛ̄ⲧⲉⲣⲟⲩⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID70b15afd-49ee-44f1-95e4-6b23823b23b6 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:TemporalSubordinate ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:SimplePast ;
+	csa:token-varPref "Common" ;
+	csa:token "ⲛ̄ⲧⲉⲣⲉ-ⲡⲣⲱⲙⲉ ⲃⲱⲕ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VAffFut3-rime
+
+aama:ID894b94b4-90fa-40e0-b8ff-c0541ff6f42f a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future3 ;
+	csa:token "ⲉⲓⲉⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:ID4023e8aa-085c-4d5a-9b4e-c71fa39b7776 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future3 ;
+	csa:token "ⲉⲕⲉⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID13d81aa5-8345-4dfb-85ca-1545b889463d a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future3 ;
+	csa:token "ⲉⲣⲉⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID47091e57-e2b2-4041-a280-e503bec04281 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future3 ;
+	csa:token "ⲉϥⲉⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID0394c9f5-a8a1-4980-9ca9-5ef89c6314a1 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future3 ;
+	csa:token "ⲉⲥⲉⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDc3ff0a5f-16b8-410f-b9e1-abee78e7949b a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future3 ;
+	csa:token "ⲉⲛⲉⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID7e1ef653-abdf-4a9a-8181-a57a82bce0da a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future3 ;
+	csa:token "ⲉⲧⲉⲧⲛⲉⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDf28995a9-e894-41c4-8982-b92ba42b5c5b a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future3 ;
+	csa:token "ⲉⲩⲉⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID73b3714c-9667-4e47-b371-4d0ddcb493b4 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Future3 ;
+	csa:token "ⲉⲣⲉ-ⲡⲣⲱⲙⲉ ⲣⲓⲙⲉ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VAffRelPerf1-bok
+
+aama:ID4a038809-64b8-43e9-96cf-279921349389 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Relative ;
+	csa:clauseType csa:Relative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf1 ;
+	csa:token "ⲉⲛⲧⲁⲓⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:IDd9d668d7-bff5-4cce-803b-2ea06bea340f a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Relative ;
+	csa:clauseType csa:Relative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf1 ;
+	csa:token "ⲉⲛⲧⲁⲕⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDc995989b-908f-40c9-ba4e-a4d32544eb39 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Relative ;
+	csa:clauseType csa:Relative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf1 ;
+	csa:token "ⲉⲛⲧⲁⲣⲉⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID124f6070-2e2c-4c4a-a7c6-1067e09ed76a a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Relative ;
+	csa:clauseType csa:Relative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf1 ;
+	csa:token "ⲉⲛⲧⲁϥⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID2b4fe01c-ecd3-40e0-b33d-7303e35d844e a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Relative ;
+	csa:clauseType csa:Relative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf1 ;
+	csa:token "ⲉⲛⲧⲁⲥⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID87dcfc55-9b32-4e39-820e-3f8b8b8ab3b6 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Relative ;
+	csa:clauseType csa:Relative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf1 ;
+	csa:token "ⲉⲛⲧⲁⲛⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID2c808efb-3a4f-4ec1-a591-bc5493421826 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Relative ;
+	csa:clauseType csa:Relative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf1 ;
+	csa:token "ⲉⲛⲧⲁⲧⲉⲧⲛ̄ⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID724270ef-7b48-4370-ba51-bd60ebe93304 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Relative ;
+	csa:clauseType csa:Relative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf1 ;
+	csa:token "ⲉⲛⲧⲁⲩⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID6f0bfc5c-b8a0-4b02-b9a0-9d1177cd55b9 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Relative ;
+	csa:clauseType csa:Relative ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Perf1 ;
+	csa:token "ⲉⲛⲧⲁ-ⲡⲣⲱⲙⲉ ⲃⲱⲕ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VAffConj-bok
+
+aama:ID9f5133bf-ceb4-4fb3-a400-4cb57aa3f321 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Conjunctive ;
+	csa:token "(ⲛ̄)ⲧⲁⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:ID6abaac3d-e9d3-43fd-ba37-f761ae745f65 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Conjunctive ;
+	csa:token "ⲛ̄ⲅ̄ⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDdc245aeb-aa19-4ce7-860c-b5bb338457e8 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Conjunctive ;
+	csa:token "ⲛ̄ⲧⲉⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDdf7d3aa3-0136-44e4-ad10-e03ede1e2d46 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Conjunctive ;
+	csa:token "ⲛ̄ϥ̄ⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDd77c34c6-52fc-4a0d-9bf5-a1c2ed04dbe4 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Conjunctive ;
+	csa:token "ⲛ̄ⲥ̄ⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDe64419f7-dcba-4ec3-9a55-a5308de86f67 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Conjunctive ;
+	csa:token "ⲛ̄ⲧⲛ̄ⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID039ad14a-559a-485d-8a3b-13795f42e9aa a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Conjunctive ;
+	csa:token "ⲛ̄ⲧⲉⲧⲛ̄ⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID4a98412a-d793-476f-be29-d4b1312d5938 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Conjunctive ;
+	csa:token "ⲛ̄ⲥⲉⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID5590d2ef-425d-4aed-8baa-492509aff7ae a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Conjunctive ;
+	csa:token "ⲛ̄ⲧⲉ-ⲡⲣⲱⲙⲉ ⲃⲱⲕ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VAffCircumstantial-rime
+
+aama:IDd843400b-2413-4971-8d9f-48e90d3f0b15 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Subordinate ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Circumstantial ;
+	csa:token "ⲉⲓⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:ID20305dfb-d366-401a-9e64-04c94b91a0cf a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Subordinate ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Circumstantial ;
+	csa:token "ⲉⲕⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID81ff8024-4b0a-4d41-9733-6d8ba18db401 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Subordinate ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Circumstantial ;
+	csa:token "ⲉⲣⲉⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDd096b598-90f4-4808-b636-c7939b789512 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Subordinate ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Circumstantial ;
+	csa:token "ⲉϥⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID3938ba6d-db3b-41a4-a241-beab3707499e a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Subordinate ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Circumstantial ;
+	csa:token "ⲉⲥⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID35a16faf-12cd-4fd9-89fb-704119435de8 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Subordinate ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Circumstantial ;
+	csa:token "ⲉⲛⲣⲓⲙⲉ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDd1402d4b-29f4-41d9-a54e-a218f48aba6f a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Subordinate ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Circumstantial ;
+	csa:token "ⲉⲧⲉⲧⲛ̄ⲣⲓⲙⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDc2be7516-1d2f-4f50-9842-117be1a9b156 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Subordinate ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Circumstantial ;
+	csa:token "ⲉⲩⲣⲓⲙⲉ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID8e8cca96-11cd-4743-906c-dd0382ecd11d a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Subordinate ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-rime ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Circumstantial ;
+	csa:token "ⲉⲣⲉ-ⲣⲱⲙⲉ ⲣⲓⲙⲉ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VAffImperative-jo
+
+aama:ID3cc06876-9fc6-4930-8ea2-cdda8b1927c1 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:lexeme aama:Coptic-sahidic-jo ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Imperative ;
+	csa:token-note "⊤" ;
+	csa:token "ⲁϫⲓ-ⲡϣⲁϫⲉ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:imperativeForm csa:Construct ;
+	.
+aama:IDd1bcbaf3-1711-4527-a899-78145b663bfc a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:lexeme aama:Coptic-sahidic-jo ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Imperative ;
+	csa:token-note "⊤" ;
+	csa:token "ⲁϫⲓⲧ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Common ;
+	csa:imperativeForm csa:Pronominal ;
+	.
+aama:ID2db513c1-8273-4e0b-ac10-7e2485fc04d0 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:lexeme aama:Coptic-sahidic-jo ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Imperative ;
+	csa:token-note "⊤" ;
+	csa:token "ⲁϫⲓⲕ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:imperativeForm csa:Pronominal ;
+	.
+aama:IDfad91233-1f38-446c-ab38-3290af4573e5 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:lexeme aama:Coptic-sahidic-jo ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Imperative ;
+	csa:token-note "⊤" ;
+	csa:token "ⲁϫⲓⲧⲉ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:imperativeForm csa:Pronominal ;
+	.
+aama:ID9a15e6ba-08f8-4d58-bb28-7a3b6bfa166b a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:lexeme aama:Coptic-sahidic-jo ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Imperative ;
+	csa:token-note "⊤" ;
+	csa:token "ⲁϫⲓϥ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:imperativeForm csa:Pronominal ;
+	.
+aama:IDd0e2f21b-9f9e-4b16-9dd7-bf4f0a1fec56 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:lexeme aama:Coptic-sahidic-jo ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Imperative ;
+	csa:token-note "⊤" ;
+	csa:token "ⲁϫⲓⲥ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:imperativeForm csa:Pronominal ;
+	.
+aama:ID6648f972-e0a6-4cee-8afa-67c9bd6a694a a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:lexeme aama:Coptic-sahidic-jo ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Imperative ;
+	csa:token-note "⊤" ;
+	csa:token "ⲁϫⲓⲛ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:imperativeForm csa:Pronominal ;
+	.
+aama:ID14078bc7-3252-44e4-9cbe-4ef3d069e7ea a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:lexeme aama:Coptic-sahidic-jo ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Imperative ;
+	csa:token-note "⊤" ;
+	csa:token "ⲁϫⲓ-ⲧⲏⲩⲧⲛ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:imperativeForm csa:Pronominal ;
+	.
+aama:ID916074b2-d574-4564-81ec-1a7f550c6897 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:lexeme aama:Coptic-sahidic-jo ;
+	csa:polarity csa:Affirmative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:Imperative ;
+	csa:token-note "⊤" ;
+	csa:token "ⲁϫⲏⲩ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:imperativeForm csa:Pronominal ;
+	.
+
+#TERMCLUSTER: coptic_S-VInfinCV1-ji
+
+aama:ID09bde683-584c-48c8-8538-457ad88c99e9 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV1 ;
+	csa:tam csa:U ;
+	csa:token-note "May also occur with suffix pronoun object and object marker" ;
+	csa:token "ϫⲓ ⲙ̄ ⲡϫⲱⲱⲙⲉ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Absolute ;
+	.
+aama:ID92ee3adc-da3c-422e-801c-0e0665e5d846 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV1 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϫⲓ-ⲡϫⲱⲱⲙⲉ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Construct ;
+	.
+aama:IDff5bad2a-2e89-4b69-a65b-4ddd9fbda6b4 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV1 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϫⲓⲧ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDc9ce7a2d-d215-4ff1-a26a-7f20463a8a25 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV1 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϫⲓⲧⲕ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID8ccaf99b-8546-433f-8e02-716179b3c42c a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV1 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϫⲓⲧⲉ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID2f443e22-2e05-4dce-a4e4-b819778480cb a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV1 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϫⲓⲧϥ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID5bb9b8bb-d7b8-42c8-8269-185d347771ee a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV1 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϫⲓⲧⲥ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID58719b89-e549-4db6-a3e5-27cc92b63c2c a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV1 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϫⲓⲧⲛ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID2ce02878-342a-4ada-b5bc-f7e215697328 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV1 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϫⲓ-ⲧⲏⲩⲧⲛ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID37dcc4b0-ba34-453e-b768-976900a7d84c a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CV1 ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϫⲓⲧⲟⲩ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+
+#TERMCLUSTER: coptic_S-VInfinCVC3Reg-mise
+
+aama:ID08799a95-82ff-40b4-8f9c-c7df34215651 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mise ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCReg ;
+	csa:tam csa:U ;
+	csa:token-note "May also occur with suffix pronoun object and object marker" ;
+	csa:token "ⲙⲓⲥⲉ ⲙ̄ ⲡϣⲏⲣⲉ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Absolute ;
+	.
+aama:IDa78ea589-fa16-4680-a2ca-42a339d64f19 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mise ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCReg ;
+	csa:tam csa:U ;
+	csa:token-note "Also ⲙⲉⲥ-" ;
+	csa:token "ⲙⲉⲥⲧ̄-ⲡϣⲏⲣⲉ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Construct ;
+	.
+aama:ID1a9ee86b-a453-446b-9215-2092148b02d5 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mise ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCReg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲁⲥⲧ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDb0afbe10-800c-44a8-89f5-b74af2641b2d a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mise ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCReg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲁⲥⲧⲕ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID111b6a5d-1cf6-4e89-a859-bc06ff09afcb a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mise ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCReg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲁⲥⲧⲉ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDfb3eb18a-4129-4fa9-9caf-5b05839f1ae2 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mise ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCReg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲁⲥⲧϥ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID4ac3bfa5-38e3-4025-ad2d-262bfecd35b3 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mise ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCReg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲁⲥⲧⲥ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDb7c3d4bd-74e3-4345-b843-95c7a21f26d4 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mise ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCReg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲁⲥⲧⲛ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID49282337-23c8-423a-b5d6-44ae33db1013 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mise ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCReg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲉⲥⲧ̄-ⲧⲏⲩⲧⲛ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID4755fb64-cdd6-4fab-ab6e-1b8571699926 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-mise ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVCReg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ⲙⲁⲥⲧⲟⲩ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+
+#TERMCLUSTER: coptic_S-VInfinCVReg-ji
+
+aama:IDa0ec9d44-f212-4945-bf10-a916ac7d42e5 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVReg ;
+	csa:tam csa:U ;
+	csa:token-note "May also occur with suffix pronoun object and object marker" ;
+	csa:token "ϫⲓ ⲙ̄ ⲡϫⲱⲱⲙⲉ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Absolute ;
+	.
+aama:ID2f4794ae-5307-4b4f-a0dd-b4cc026a9016 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVReg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϫⲓ-ⲡϫⲱⲱⲙⲉ" ;
+	csa:objectType csa:Nominal ;
+	csa:objectPerson csa:Common ;
+	csa:objectNumber csa:Common ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Construct ;
+	.
+aama:ID30ac347a-c887-441a-b485-10ce1319cc32 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVReg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϫⲓⲧ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID5b77d9a7-80e9-4aed-b8e0-2cf994f7b946 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVReg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϫⲓⲧⲕ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDd22deeaf-7e2a-48a6-88f3-b5b3ed8847f2 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVReg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϫⲓⲧⲉ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID1875081d-e1e9-4fef-a236-68a1896b6948 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVReg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϫⲓⲧϥ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Masc ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDc57444ab-92d9-4957-91e1-268e84dc2bab a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVReg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϫⲓⲧⲥ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Singular ;
+	csa:objectGender csa:Fem ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID0e94b883-9892-4370-967e-062b089431b7 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVReg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϫⲓⲧⲛ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person1 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:ID783748be-f25e-4d90-890d-c9ac25c70443 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVReg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϫⲓ-ⲧⲏⲩⲧⲛ̄" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person2 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+aama:IDc9cfe9a4-c03a-416f-aae8-b841cad1ae90 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:U ;
+	aamas:lexeme aama:Coptic-sahidic-ji ;
+	csa:morphClass csa:Infinitive ;
+	csa:polarity csa:U ;
+	csa:pos csa:Verb ;
+	csa:stemClass csa:CVReg ;
+	csa:tam csa:U ;
+	csa:token-note "⊤" ;
+	csa:token "ϫⲓⲧⲟⲩ" ;
+	csa:objectType csa:SuffixPron ;
+	csa:objectPerson csa:Person3 ;
+	csa:objectNumber csa:Plural ;
+	csa:objectGender csa:Common ;
+	csa:infinitiveForm csa:Pronominal ;
+	.
+
+#TERMCLUSTER: coptic_S-VNotYet-bok
+
+aama:ID34d0dbfc-02cb-4618-9240-f362cb1d1951 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:NotYet ;
+	csa:token "ⲙ̄ⲡⲁϯⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:ID87f19b3e-d69a-41fc-83be-91627fed7a9d a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:NotYet ;
+	csa:token "ⲙ̄ⲡⲁⲧⲕ̄ⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID24cbd65f-bb83-4a07-ad23-a525f3b5e867 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:NotYet ;
+	csa:token "ⲙ̄ⲡⲁⲧⲉⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID17c5aa78-40eb-456d-8988-9bdd2b810fd8 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:NotYet ;
+	csa:token "ⲙ̄ⲡⲁⲧϥ̄ⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDe1e6158b-1349-4e83-9890-63c00b8ae513 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:NotYet ;
+	csa:token "ⲙ̄ⲡⲁⲧⲥ̄ⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDe87aab91-6a6c-4ecb-8563-e451be1c76bb a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:NotYet ;
+	csa:token "ⲙ̄ⲡⲁⲧⲛ̄ⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID4184fa72-284b-45e6-b563-3dd30aada3ec a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:NotYet ;
+	csa:token "ⲙ̄ⲡⲁⲧⲉⲧⲛ̄ⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDa188f460-448e-4455-b9b6-32e9c76bcedd a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:NotYet ;
+	csa:token "ⲙ̄ⲡⲁⲧⲟⲩⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID1470c57c-c850-498d-a925-bec04f50feff a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Variable ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:NotYet ;
+	csa:token "ⲙ̄ⲡⲁⲧⲉ-ⲡⲣⲱⲙⲉ ⲃⲱⲕ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#TERMCLUSTER: coptic_S-VNegTemporal-bok
+
+aama:ID251ec406-ed10-4aec-a3b0-4fd97d2950a5 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Temporal ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:SimplePast ;
+	csa:token "ⲛ̄ⲧⲉⲣⲓⲧⲙ̄ⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:ID887f81f5-54f6-4c6c-84eb-97448b110217 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Temporal ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:SimplePast ;
+	csa:token "ⲛ̄ⲧⲉⲣⲉⲕⲧⲙ̄ⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID399c7a01-fda0-4c2a-aa8e-f05a52d680a6 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Temporal ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:SimplePast ;
+	csa:token "ⲛ̄ⲧⲉⲣⲉⲧⲙ̄ⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDc9915ac8-e9a1-46f5-9b2b-30bd75bb88dc a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Temporal ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:SimplePast ;
+	csa:token "ⲛ̄ⲧⲉⲣⲉϥⲧⲙ̄ⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDf13b7982-4245-457b-b45e-d2ff62ba137d a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Temporal ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:SimplePast ;
+	csa:token "ⲛ̄ⲧⲉⲣⲉⲥⲧⲙ̄ⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDf0d02692-d30c-4ba0-9164-85f27a804780 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Temporal ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:SimplePast ;
+	csa:token "ⲛ̄ⲧⲉⲣⲛ̄ⲧⲙ̄ⲃⲱⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID334757c5-ab4f-4122-ac38-1ab25fff31c7 a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Temporal ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:SimplePast ;
+	csa:token "ⲛ̄ⲧⲉⲣⲉⲧⲛ̄ⲧⲙ̄ⲃⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID74550bfc-aec3-4332-829c-f229d17fb0be a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Temporal ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:SimplePast ;
+	csa:token "ⲛ̄ⲧⲉⲣⲟⲩⲧⲙ̄ⲃⲱⲕ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID9cf5f932-3be5-4927-9806-57820c2b04be a aamas:Term ;
+	aamas:lang aama:Coptic-sahidic ;
+	csa:clauseConjugation csa:Temporal ;
+	csa:formClass csa:AbsoluteInfinitive ;
+	aamas:lexeme aama:Coptic-sahidic-bok ;
+	csa:polarity csa:Negative ;
+	csa:pos csa:Verb ;
+	csa:tam csa:SimplePast ;
+	csa:token "ⲛ̄ⲧⲉⲣⲉⲧⲙ̄-ⲡⲣⲱⲙⲉ ⲃⲱⲕ" ;
+	csa:person csa:NomSubj ;
+	csa:number csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#MUTERMCLUSTER: coptic_S-PDemonstrativeRemote
+
+aama:ID170e1861-47c4-434c-870b-33bb01c2489e a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PRODEMREMOTE ;
+	csa:morphClass csa:DemonstrativeRemote ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲡⲏ" ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID8b2f73b4-3896-4642-a31e-65f0216ce778 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PRODEMREMOTE ;
+	csa:morphClass csa:DemonstrativeRemote ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲧⲏ" ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDb604fcd5-b677-4b3f-a27c-21f3dd8ce24f a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PRODEMREMOTE ;
+	csa:morphClass csa:DemonstrativeRemote ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲛⲏ" ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+
+#MUTERMCLUSTER: coptic_S-PDemonstrativeNear
+
+aama:IDd2a1ff59-d26c-4f4d-8cfa-59c79d72dcf8 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PRODEMNEAR ;
+	csa:morphClass csa:DemonstrativeNear ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲡⲁⲓ" ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID4693a43a-8553-455e-a0f5-81b65de6f3e7 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PRODEMNEAR ;
+	csa:morphClass csa:DemonstrativeNear ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲧⲁⲓ" ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID0fa161d1-7800-41e7-972b-5e1f910a113b a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PRODEMNEAR ;
+	csa:morphClass csa:DemonstrativeNear ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲛⲁⲓ" ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+
+#MUTERMCLUSTER: coptic_S-PInd
+
+aama:ID04152863-939e-46dd-aa4c-12f031e5e0a2 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROIND ;
+	csa:pos csa:Pronoun ;
+	csa:proClass csa:Independent ;
+	csa:token-note "construct form:ⲁⲛⲅ̄-" ;
+	csa:token "ⲁⲛⲟⲕ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:IDdab7f6da-92af-4ed4-bbb3-5a5d4d820a0a a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROIND ;
+	csa:pos csa:Pronoun ;
+	csa:proClass csa:Independent ;
+	csa:token-note "construct form:ⲛ̄ⲧⲕ̄-" ;
+	csa:token "ⲛ̄ⲧⲟⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID949c99c2-7798-4790-b6f3-555606b47c90 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROIND ;
+	csa:pos csa:Pronoun ;
+	csa:proClass csa:Independent ;
+	csa:token-note "construct form:ⲛ̄ⲧⲉ-" ;
+	csa:token "ⲛ̄ⲧⲟ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID48b481fc-1777-413c-be4d-a110ffe22e6e a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROIND ;
+	csa:pos csa:Pronoun ;
+	csa:proClass csa:Independent ;
+	csa:token-note "construct form:ⲛ̄ⲧϥ̄- (rare)" ;
+	csa:token "ⲛ̄ⲧⲟϥ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID268db66c-4cb4-42c1-9090-af8fb72ab090 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROIND ;
+	csa:pos csa:Pronoun ;
+	csa:proClass csa:Independent ;
+	csa:token-note "⊤" ;
+	csa:token "ⲛ̄ⲧⲟⲥ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID5b6441d0-ee74-41e9-9005-05cbdedd2a95 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROIND ;
+	csa:pos csa:Pronoun ;
+	csa:proClass csa:Independent ;
+	csa:token-note "construct form:ⲁⲛ-" ;
+	csa:token "ⲁⲛⲟⲛ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDc304049d-b40b-4362-b010-07746eae75e9 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROIND ;
+	csa:pos csa:Pronoun ;
+	csa:proClass csa:Independent ;
+	csa:token-note "construct form:ⲛ̄ⲧⲉⲧⲛ̄-" ;
+	csa:token "ⲛ̄ⲧⲱⲧⲛ̄" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDbcba4c4a-c352-4e87-8c68-9b4f98cac5c0 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROIND ;
+	csa:pos csa:Pronoun ;
+	csa:proClass csa:Independent ;
+	csa:token-note "⊤" ;
+	csa:token "ⲛ̄ⲧⲟⲟⲩ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+
+#MUTERMCLUSTER: coptic_S-PIntensive3
+
+aama:ID44e71077-ed33-415d-ac79-bcf4cac6fa12 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE3 ;
+	csa:morphClass csa:Intensive3 ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟⲓ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:ID4cc81593-0c9d-4b68-abd8-4cf4255286e5 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE3 ;
+	csa:morphClass csa:Intensive3 ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDa7bf6a76-2dee-4f09-9512-0c548d27bed8 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE3 ;
+	csa:morphClass csa:Intensive3 ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID0d874f6f-19be-43f0-a673-82b9916b37e4 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE3 ;
+	csa:morphClass csa:Intensive3 ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟϥ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID9b853c18-78a3-4521-9de7-e13e18f0dbbc a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE3 ;
+	csa:morphClass csa:Intensive3 ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟⲥ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDfe81335d-beef-4095-836e-03864d893c50 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE3 ;
+	csa:morphClass csa:Intensive3 ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟⲛ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDad583f7f-45d4-4271-9762-69f4ec7ac4cf a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE3 ;
+	csa:morphClass csa:Intensive3 ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲱⲧⲛ̄" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID401e01b3-72cc-4353-9464-f44043883506 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE3 ;
+	csa:morphClass csa:Intensive3 ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟⲟⲩ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+
+#MUTERMCLUSTER: coptic_S-PIntensive2
+
+aama:IDd1ec876a-9fe1-4462-9f1d-f27aa49e0fd1 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE2 ;
+	csa:morphClass csa:Intensive2 ;
+	csa:pos csa:Pronoun ;
+	csa:token-note "alternate spelling:ϩⲱ" ;
+	csa:token "ϩⲱⲱⲧ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:IDba38775d-37c3-4882-ace9-cb4c2ee55f16 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE2 ;
+	csa:morphClass csa:Intensive2 ;
+	csa:pos csa:Pronoun ;
+	csa:token-note "⊤" ;
+	csa:token "ϩⲱⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID00e68100-be7b-4a42-8426-e63d72a8bb0f a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE2 ;
+	csa:morphClass csa:Intensive2 ;
+	csa:pos csa:Pronoun ;
+	csa:token-note "⊤" ;
+	csa:token "ϩⲱⲱⲧⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID6ef3855d-aabc-48d2-9b62-926be13c0b92 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE2 ;
+	csa:morphClass csa:Intensive2 ;
+	csa:pos csa:Pronoun ;
+	csa:token-note "⊤" ;
+	csa:token "ϩⲱⲱϥ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDdcb26c59-d5d6-4cc1-9243-45db7078e4f0 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE2 ;
+	csa:morphClass csa:Intensive2 ;
+	csa:pos csa:Pronoun ;
+	csa:token-note "⊤" ;
+	csa:token "ϩⲱⲱⲥ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID4b740ffd-1cec-4170-8f12-20a1f7008513 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE2 ;
+	csa:morphClass csa:Intensive2 ;
+	csa:pos csa:Pronoun ;
+	csa:token-note "⊤" ;
+	csa:token "ϩⲱⲱⲛ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDd0f89167-aab2-4d3b-a46b-ff50872f3b98 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE2 ;
+	csa:morphClass csa:Intensive2 ;
+	csa:pos csa:Pronoun ;
+	csa:token-note "⊤" ;
+	csa:token "ϩⲱⲧ-ⲧⲉⲩⲧⲛ̄" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID2421fd36-19fa-45a7-b2e4-56cbe41c6eff a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE2 ;
+	csa:morphClass csa:Intensive2 ;
+	csa:pos csa:Pronoun ;
+	csa:token-note "⊤" ;
+	csa:token "ϩⲱⲱⲧⲟⲩ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+
+#MUTERMCLUSTER: coptic_S-PPossessive
+
+aama:ID170c05d7-3d8a-459d-bc2c-08d8faa077b2 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲡⲱⲓ" ;
+	csa:person csa:Person1 ;
+	csa:numberHead csa:Singular ;
+	csa:number csa:Singular ;
+	csa:genderHead csa:Masc ;
+	csa:gender csa:Common ;
+	.
+aama:ID0105abb6-225d-483f-8f48-c917689ef2a0 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲧⲱⲓ" ;
+	csa:person csa:Person1 ;
+	csa:numberHead csa:Singular ;
+	csa:number csa:Singular ;
+	csa:genderHead csa:Fem ;
+	csa:gender csa:Common ;
+	.
+aama:ID2fd7c063-9ba9-4208-96f3-2e81fe6aff65 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲛⲟⲩⲓ" ;
+	csa:person csa:Person1 ;
+	csa:numberHead csa:Plural ;
+	csa:number csa:Singular ;
+	csa:genderHead csa:Common ;
+	csa:gender csa:Common ;
+	.
+aama:IDc28b73af-dd2f-4677-a4fe-396d41c5e036 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲡⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:numberHead csa:Singular ;
+	csa:number csa:Singular ;
+	csa:genderHead csa:Masc ;
+	csa:gender csa:Masc ;
+	.
+aama:ID9b393d5a-b0c8-459a-a1b6-a8eb6f19092a a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲧⲱⲕ" ;
+	csa:person csa:Person2 ;
+	csa:numberHead csa:Singular ;
+	csa:number csa:Singular ;
+	csa:genderHead csa:Fem ;
+	csa:gender csa:Masc ;
+	.
+aama:IDdcbc0212-bddf-4548-99f8-88e15c71a7c1 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲛⲟⲩⲕ" ;
+	csa:person csa:Person2 ;
+	csa:numberHead csa:Plural ;
+	csa:number csa:Singular ;
+	csa:genderHead csa:Common ;
+	csa:gender csa:Masc ;
+	.
+aama:ID748b5e8c-a711-4438-b9f9-98cecfcd0f4c a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲡⲱ" ;
+	csa:person csa:Person2 ;
+	csa:numberHead csa:Singular ;
+	csa:number csa:Singular ;
+	csa:genderHead csa:Masc ;
+	csa:gender csa:Fem ;
+	.
+aama:ID5d6e5b53-6ec3-4b3b-a2a9-b936cd008ac3 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲧⲱ" ;
+	csa:person csa:Person2 ;
+	csa:numberHead csa:Singular ;
+	csa:number csa:Singular ;
+	csa:genderHead csa:Fem ;
+	csa:gender csa:Fem ;
+	.
+aama:IDdc625166-5a68-4605-a633-55cbfbcbc227 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲛⲟⲩ" ;
+	csa:person csa:Person2 ;
+	csa:numberHead csa:Plural ;
+	csa:number csa:Singular ;
+	csa:genderHead csa:Common ;
+	csa:gender csa:Fem ;
+	.
+aama:ID025a71c2-94e8-49ef-ac87-b2982e334848 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲡⲱϥ" ;
+	csa:person csa:Person3 ;
+	csa:numberHead csa:Singular ;
+	csa:number csa:Singular ;
+	csa:genderHead csa:Masc ;
+	csa:gender csa:Masc ;
+	.
+aama:ID97325212-df1d-4795-85e4-a756e3ec6454 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲧⲱϥ" ;
+	csa:person csa:Person3 ;
+	csa:numberHead csa:Singular ;
+	csa:number csa:Singular ;
+	csa:genderHead csa:Fem ;
+	csa:gender csa:Masc ;
+	.
+aama:ID6a00b646-f6da-46cf-813c-749601949688 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲛⲟⲩϥ" ;
+	csa:person csa:Person3 ;
+	csa:numberHead csa:Plural ;
+	csa:number csa:Singular ;
+	csa:genderHead csa:Common ;
+	csa:gender csa:Masc ;
+	.
+aama:ID6cff0edc-5ec0-41bc-8d66-0ed9e35cf1b9 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲡⲱⲥ" ;
+	csa:person csa:Person3 ;
+	csa:numberHead csa:Singular ;
+	csa:number csa:Singular ;
+	csa:genderHead csa:Masc ;
+	csa:gender csa:Fem ;
+	.
+aama:ID6fcc04dd-bf10-487e-bf03-c892f7df91c2 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲧⲱⲥ" ;
+	csa:person csa:Person3 ;
+	csa:numberHead csa:Singular ;
+	csa:number csa:Singular ;
+	csa:genderHead csa:Fem ;
+	csa:gender csa:Fem ;
+	.
+aama:IDa0ea7acb-4201-473f-a103-1b6cae07559a a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲛⲟⲩⲥ" ;
+	csa:person csa:Person3 ;
+	csa:numberHead csa:Plural ;
+	csa:number csa:Singular ;
+	csa:genderHead csa:Common ;
+	csa:gender csa:Fem ;
+	.
+aama:IDf487430c-50d0-4d6f-be3b-83772c5b34d5 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲡⲱⲛ" ;
+	csa:person csa:Person1 ;
+	csa:numberHead csa:Singular ;
+	csa:number csa:Plural ;
+	csa:genderHead csa:Masc ;
+	csa:gender csa:Common ;
+	.
+aama:ID0cdf8aab-396d-43f1-8c18-7c29bb52cb65 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲧⲱⲛ" ;
+	csa:person csa:Person1 ;
+	csa:numberHead csa:Singular ;
+	csa:number csa:Plural ;
+	csa:genderHead csa:Fem ;
+	csa:gender csa:Common ;
+	.
+aama:ID45c145a6-3fe8-4392-b0ff-6f2cba8d1a83 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲛⲟⲩⲛ" ;
+	csa:person csa:Person1 ;
+	csa:numberHead csa:Plural ;
+	csa:number csa:Plural ;
+	csa:genderHead csa:Common ;
+	csa:gender csa:Common ;
+	.
+aama:ID058352a0-d204-4bc3-9917-50bb07c4f45d a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲡⲱⲧⲛ̄" ;
+	csa:person csa:Person2 ;
+	csa:numberHead csa:Singular ;
+	csa:number csa:Plural ;
+	csa:genderHead csa:Masc ;
+	csa:gender csa:Common ;
+	.
+aama:ID05219da2-6614-48c2-94e7-2e04bef12849 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲧⲱⲧⲛ̄" ;
+	csa:person csa:Person2 ;
+	csa:numberHead csa:Singular ;
+	csa:number csa:Plural ;
+	csa:genderHead csa:Fem ;
+	csa:gender csa:Common ;
+	.
+aama:ID175bd602-9614-419b-b231-e6b241ab68d8 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲛⲟⲩⲧⲛ̄" ;
+	csa:person csa:Person2 ;
+	csa:numberHead csa:Plural ;
+	csa:number csa:Plural ;
+	csa:genderHead csa:Common ;
+	csa:gender csa:Common ;
+	.
+aama:ID5275387a-ed80-408b-b5a4-e4ab3cfb44bd a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲡⲱⲟⲩ" ;
+	csa:person csa:Person3 ;
+	csa:numberHead csa:Singular ;
+	csa:number csa:Plural ;
+	csa:genderHead csa:Masc ;
+	csa:gender csa:Common ;
+	.
+aama:ID63a53b1c-02d8-4840-99d6-c92e08413a24 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲧⲱⲟⲩ" ;
+	csa:person csa:Person3 ;
+	csa:numberHead csa:Singular ;
+	csa:number csa:Plural ;
+	csa:genderHead csa:Fem ;
+	csa:gender csa:Common ;
+	.
+aama:ID9db2a7b7-3dac-425a-9a5b-2e08c355e76f a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
+	csa:morphClass csa:Possessive ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲛⲟⲩⲟⲩ" ;
+	csa:person csa:Person3 ;
+	csa:numberHead csa:Plural ;
+	csa:number csa:Plural ;
+	csa:genderHead csa:Common ;
+	csa:gender csa:Common ;
+	.
+
+#MUTERMCLUSTER: coptic_S-PIntensive1
+
+aama:ID5f606f2e-b456-4ffa-811e-1e7067c24d25 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE1 ;
+	csa:morphClass csa:Intensive1 ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲙⲁⲩⲁⲁⲧ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Common ;
+	.
+aama:ID09fda186-6524-4455-ba5d-102d85b13301 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE1 ;
+	csa:morphClass csa:Intensive1 ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲙⲁⲩⲁⲁⲕ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:IDe703ee09-8f6b-4dd1-bb38-628eb76c397b a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE1 ;
+	csa:morphClass csa:Intensive1 ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲙⲁⲩⲁⲁⲧⲉ" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:IDa9dcbaf7-3f92-49a5-8fc2-0ce8dd8cadcd a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE1 ;
+	csa:morphClass csa:Intensive1 ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲙⲁⲩⲁⲁϥ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Masc ;
+	.
+aama:ID84c9be0b-aec5-4ff4-a3f7-45e5d5841f72 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE1 ;
+	csa:morphClass csa:Intensive1 ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲙⲁⲩⲁⲁⲥ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Singular ;
+	csa:gender csa:Fem ;
+	.
+aama:ID56ba386f-ffff-43b4-88bc-987355cedbaa a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE1 ;
+	csa:morphClass csa:Intensive1 ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲙⲁⲩⲁⲁⲛ" ;
+	csa:person csa:Person1 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:IDb7bf4572-84a6-466e-9a2f-df43d3381b6a a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE1 ;
+	csa:morphClass csa:Intensive1 ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲙⲁⲩⲁⲁⲧ-ⲧⲉⲩⲧⲛ̄" ;
+	csa:person csa:Person2 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
+aama:ID2e73af54-7273-466c-a1c0-5ecfcec028bc a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;
+	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE1 ;
+	csa:morphClass csa:Intensive1 ;
+	csa:pos csa:Pronoun ;
+	csa:token "ⲙⲁⲩⲁⲁⲧⲟⲩ" ;
+	csa:person csa:Person3 ;
+	csa:number csa:Plural ;
+	csa:gender csa:Common ;
+	.
