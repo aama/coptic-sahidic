@@ -1,6 +1,9 @@
 {
 :lang :coptic-sahidic
 :sgpref "csa"
+:datasource "Lambdin1983"
+:geodemoURL "http://www.ethnologue.com/language/cop"
+:geodemoTXT "Varieties of Cooptic, the last stage of Egyptian from about mid-first millennium BCE, were spoken in Egypt until about the 16th century. The Bohairic variety still serves as a liturgical language of the Egyptian Coptic church. Sahidic, whose geographic localization is not clear, was the language of the official Coptic translation of the Bible, and served as the principal literary dialect from about the fourth to the tenth century."
 :schemata {
 :clauseConjugation [:Conditional, :Main, :Relative, :Result, :Subordinate, :Temporal, :TemporalSubordinate, :Terminative, :U, :Variable]
 	  :clauseType [:Relative]
@@ -731,7 +734,47 @@
 	    [:Fem, :Singular, :Person2, "ⲛ̄ⲧⲟ", "construct form:ⲛ̄ⲧⲉ-"],
 	    [:Masc, :Singular, :Person3, "ⲛ̄ⲧⲟϥ", "construct form:ⲛ̄ⲧϥ̄- (rare)"],
 	    [:Fem, :Singular, :Person3, "ⲛ̄ⲧⲟⲥ", "⊤"],
-	    [:Common, :Plural,	    [:Common, :Singular, :Person1, "ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟⲓ"],
+	    [:Common, :Plural, :Person1, "ⲁⲛⲟⲛ" , "construct form:ⲁⲛ-"],	    
+	    [:Common, :Plural, :Person2, "ⲛ̄ⲧⲱⲧⲛ̄", "construct form:ⲛ̄ⲧⲉⲧⲛ̄-" ],	    
+	    [:Common, :Plural, :Person3, "ⲛ̄ⲧⲟⲟⲩ", "⊤"]]
+     }
+    {:label "coptic_S-PIntensive1"
+     :note "This intensive pronoun may be alternately spelled ⲙⲁⲩⲁⲧ= or ⲟⲩⲁⲁ(ⲧ)=.",
+     :common {:morpheme :PROINTENSIVE1,
+              :morphClass :Intensive1,
+              :pos :Pronoun}
+     :terms [[:number, :person, :gender, :token]  ;; schema
+             [:Singular, :Person1, :Common, "ⲙⲁⲩⲁⲁⲧ"],
+             [:Singular, :Person2, :Masc, "ⲙⲁⲩⲁⲁⲕ"],
+             [:Singular, :Person2, :Fem, "ⲙⲁⲩⲁⲁⲧⲉ"],
+             [:Singular, :Person3, :Masc, "ⲙⲁⲩⲁⲁϥ"],
+             [:Singular, :Person3, :Fem, "ⲙⲁⲩⲁⲁⲥ"],
+             [:Plural, :Person1, :Common, "ⲙⲁⲩⲁⲁⲛ"],
+             [:Plural, :Person2, :Common, "ⲙⲁⲩⲁⲁⲧ-ⲧⲉⲩⲧⲛ̄"],
+             [:Plural, :Person3, :Common, "ⲙⲁⲩⲁⲁⲧⲟⲩ"]]
+     }
+    {:label "coptic_S-PIntensive2"
+    :note "The intensive or emphatic pronoun ϩⲱⲱ= or ϩⲱ= is used in apposition to pronominal elements. May also be used adverbially in the 3rd m. sg. (ϩⲱⲱϥ) with the meaning however,on the other hand."
+    :common {:morpheme :PROINTENSIVE2,
+	    :morphClass :Intensive2,
+	    :pos :Pronoun}
+    :terms [[:gender, :number, :person, :token, :token-note]  ;; schema
+	    [:Common, :Singular, :Person1, "ϩⲱⲱⲧ", "alternate spelling:ϩⲱ"],
+	    [:Masc, :Singular, :Person2, "ϩⲱⲱⲕ", "⊤"],
+	    [:Fem, :Singular, :Person2, "ϩⲱⲱⲧⲉ", "⊤"],
+	    [:Masc, :Singular, :Person3, "ϩⲱⲱϥ", "⊤"],
+	    [:Fem, :Singular, :Person3, "ϩⲱⲱⲥ", "⊤"],
+	    [:Common, :Plural, :Person1, "ϩⲱⲱⲛ", "⊤"],
+	    [:Common, :Plural, :Person2, "ϩⲱⲧ-ⲧⲉⲩⲧⲛ̄", "⊤"],
+	    [:Common, :Plural, :Person3, "ϩⲱⲱⲧⲟⲩ", "⊤"]]
+    }
+    {:label "coptic_S-PIntensive3"
+    :note "The intensive pronoun ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟ= is used in apposition to reflexive and possessive pronominal elements."
+    :common {:morpheme :PROINTENSIVE3,
+	    :morphClass :Intensive3,
+	    :pos :Pronoun}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+             [:Common, :Singular, :Person1, "ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟⲓ"],
 	    [:Masc, :Singular, :Person2, "ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟⲕ"],
 	    [:Fem, :Singular, :Person2, "ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟ"],
 	    [:Masc, :Singular, :Person3, "ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟϥ"],
@@ -781,21 +824,6 @@
 	    [:Common, :Fem, :Plural, :Singular, :Person3, "ⲧⲱⲟⲩ"],
 	    [:Common, :Common, :Plural, :Plural, :Person3, "ⲛⲟⲩⲟⲩ"]]
     }
-    {:label "coptic_S-PIntensive2"
-    :note "The intensive or emphatic pronoun ϩⲱⲱ= or ϩⲱ= is used in apposition to pronominal elements. May also be used adverbially in the 3rd m. sg. (ϩⲱⲱϥ) with the meaning however,on the other hand."
-    :common {:morpheme :PROINTENSIVE2,
-	    :morphClass :Intensive2,
-	    :pos :Pronoun}
-    :terms [[:gender, :number, :person, :token, :token-note]  ;; schema
-	    [:Common, :Singular, :Person1, "ϩⲱⲱⲧ", "alternate spelling:ϩⲱ"],
-	    [:Masc, :Singular, :Person2, "ϩⲱⲱⲕ", "⊤"],
-	    [:Fem, :Singular, :Person2, "ϩⲱⲱⲧⲉ", "⊤"],
-	    [:Masc, :Singular, :Person3, "ϩⲱⲱϥ", "⊤"],
-	    [:Fem, :Singular, :Person3, "ϩⲱⲱⲥ", "⊤"],
-	    [:Common, :Plural, :Person1, "ϩⲱⲱⲛ", "⊤"],
-	    [:Common, :Plural, :Person2, "ϩⲱⲧ-ⲧⲉⲩⲧⲛ̄", "⊤"],
-	    [:Common, :Plural, :Person3, "ϩⲱⲱⲧⲟⲩ", "⊤"]]
-    }
     {:label "coptic_S-PDemonstrativeNear"
     :note "The near demonstrative pronouns are related to the demonstrative prefixes,ⲡⲉⲓ-,ⲧⲉⲓ-,ⲛⲉⲓ-."
     :common {:morpheme :PRODEMNEAR,
@@ -805,5 +833,4 @@
 	    [:Masc, :Singular, "ⲡⲁⲓ"],
 	    [:Fem, :Singular, "ⲧⲁⲓ"],
 	    [:Common, :Plural, "ⲛⲁⲓ"]]
-    }}
-}
+   }}}}
