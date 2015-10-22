@@ -653,10 +653,10 @@ aama:Coptic-sahidic-ji a aamas:Lexeme ;
 
 csa:coptic_S-VAffImperf-rime a aamas:Termcluster ;
 	rdfs:label "coptic_S-VAffImperf-rime" ;
-	rdfs:comment "The Imperfect is actually a subset of the present forms,but the sense is past progressive. Negation is with ⲁⲛ (e.g. ⲛⲉⲓⲣⲓⲙⲉ ⲁⲛ)." 
+	rdfs:comment "The Imperfect is actually a subset of the present forms%%but the sense is past progressive. Negation is with ⲁⲛ (e.g. ⲛⲉⲓⲣⲓⲙⲉ ⲁⲛ)." 
 	.
 
-aama:IDbe41b4b0-573a-4940-9a79-479a96dc1c28 a aamas:Term ;
+aama:ID7f540d16-e549-4ec1-bb0a-cdfe5c9001ec a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffImperf-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -672,7 +672,7 @@ aama:IDbe41b4b0-573a-4940-9a79-479a96dc1c28 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID6989d78b-1d4a-4bad-9501-15529a2c852f a aamas:Term ;
+aama:ID7d59fba5-b59d-494d-b07f-bc0c5151d124 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffImperf-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -688,7 +688,7 @@ aama:ID6989d78b-1d4a-4bad-9501-15529a2c852f a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID97c4af82-5d68-43cc-8020-012321a14ff1 a aamas:Term ;
+aama:ID56c79e8d-fd39-443e-828d-1066f3cfec4a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffImperf-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -704,7 +704,7 @@ aama:ID97c4af82-5d68-43cc-8020-012321a14ff1 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDb2781ad3-9a1c-4294-9092-747da9696aac a aamas:Term ;
+aama:ID04a97f14-1921-4981-b30e-5c81721b55ca a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffImperf-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -720,7 +720,7 @@ aama:IDb2781ad3-9a1c-4294-9092-747da9696aac a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID73bed2f5-f70b-4a1a-830a-c9b80d49ae23 a aamas:Term ;
+aama:ID7bc538e9-a5e1-4e56-bf9f-772864dc0ae5 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffImperf-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -736,7 +736,7 @@ aama:ID73bed2f5-f70b-4a1a-830a-c9b80d49ae23 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID7cb9ef6a-3e71-4b5a-a90e-49c00f86729c a aamas:Term ;
+aama:IDe532f10c-31c3-4fa8-8e01-c56d1b0dc1cb a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffImperf-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -752,7 +752,7 @@ aama:ID7cb9ef6a-3e71-4b5a-a90e-49c00f86729c a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDc19a0c27-ebd1-40bf-8387-a394bb37bc7c a aamas:Term ;
+aama:ID7bc56846-ffc7-4f60-ab4e-7a2bb88501f5 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffImperf-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -768,7 +768,7 @@ aama:IDc19a0c27-ebd1-40bf-8387-a394bb37bc7c a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID2a0f411d-c5f1-4ed6-bd10-eef5aab4a2ba a aamas:Term ;
+aama:ID28b79511-3458-40f6-a37f-f201e8866ba4 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffImperf-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -784,7 +784,7 @@ aama:ID2a0f411d-c5f1-4ed6-bd10-eef5aab4a2ba a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID023a566e-2d83-498a-8139-268b7ac5f7e5 a aamas:Term ;
+aama:IDa391dbeb-9fbf-4739-ba96-1015ee61ab76 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffImperf-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -807,7 +807,7 @@ csa:coptic_S-VAffAorist-rime a aamas:Termcluster ;
 	rdfs:comment "Alternately called the Habitual or praesens consuetudinis. Converters can be used to create a variety of clause conjugations." 
 	.
 
-aama:IDf06600a7-121e-42f7-90b0-c80a9d706e35 a aamas:Term ;
+aama:IDa31344f6-0de4-4b01-807b-b270c6b8c01a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffAorist-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -822,7 +822,7 @@ aama:IDf06600a7-121e-42f7-90b0-c80a9d706e35 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDe3afe913-d84f-4174-ba8b-97e89e58ec42 a aamas:Term ;
+aama:IDfebfc994-b60c-4e57-8f3e-c51872b0c842 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffAorist-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -837,7 +837,7 @@ aama:IDe3afe913-d84f-4174-ba8b-97e89e58ec42 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:IDa7804cd4-7ac3-4bb3-a355-1cf006073137 a aamas:Term ;
+aama:ID10826cf9-fae9-42e7-aab6-152c67623d6e a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffAorist-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -852,7 +852,7 @@ aama:IDa7804cd4-7ac3-4bb3-a355-1cf006073137 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDaf4871c4-98ec-4d0e-b415-f33fe303e842 a aamas:Term ;
+aama:ID99d1619a-62e1-4c4a-8777-f7cf7b4365de a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffAorist-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -867,7 +867,7 @@ aama:IDaf4871c4-98ec-4d0e-b415-f33fe303e842 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID7d7286a6-9e5c-4748-b200-cbe459f2e5e7 a aamas:Term ;
+aama:ID068b0bf5-6a31-4ca0-aefa-1f06628aa606 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffAorist-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -882,7 +882,7 @@ aama:ID7d7286a6-9e5c-4748-b200-cbe459f2e5e7 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID620a0cf6-3ec7-440a-992e-47111d851ad9 a aamas:Term ;
+aama:ID4c10eab6-9675-4bda-84f3-55f17a8e8432 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffAorist-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -897,7 +897,7 @@ aama:ID620a0cf6-3ec7-440a-992e-47111d851ad9 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID507ea17a-1e47-4c02-b073-341be09ed225 a aamas:Term ;
+aama:IDa0c97daa-fde7-4f17-9bf0-2918a60e2a92 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffAorist-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -912,7 +912,7 @@ aama:ID507ea17a-1e47-4c02-b073-341be09ed225 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID65b80974-624e-4b25-bdff-92955af0a4e4 a aamas:Term ;
+aama:ID40d3ef40-62d1-44e0-bc83-b25cdd8e97ce a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffAorist-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -927,7 +927,7 @@ aama:ID65b80974-624e-4b25-bdff-92955af0a4e4 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDa0d29e23-e935-4432-9fda-72b140480c5b a aamas:Term ;
+aama:ID7ab11c09-1ecd-4ceb-8fef-f9eb90a8037a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffAorist-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -946,10 +946,10 @@ aama:IDa0d29e23-e935-4432-9fda-72b140480c5b a aamas:Term ;
 
 csa:coptic_S-VAffCircumstantial-rime a aamas:Termcluster ;
 	rdfs:label "coptic_S-VAffCircumstantial-rime" ;
-	rdfs:comment "The tense of the Circumstantial is identical to the tense of the verb of the main clause. The Circumstantial is not negated directly. Instead,the Circumstantial converter ⲉ- is prefixed to the negative First Present." 
+	rdfs:comment "The tense of the Circumstantial is identical to the tense of the verb of the main clause. The Circumstantial is not negated directly. Instead%%the Circumstantial converter ⲉ- is prefixed to the negative First Present." 
 	.
 
-aama:IDb85f572a-0a73-48cb-aa41-6276de0f1bf8 a aamas:Term ;
+aama:IDf37eb7dc-63ed-4d21-b876-8bbfe4c3ff9b a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffCircumstantial-rime ;
 	csa:clauseConjugation csa:Subordinate ;
@@ -964,7 +964,7 @@ aama:IDb85f572a-0a73-48cb-aa41-6276de0f1bf8 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID50f8403e-452d-4e3e-8efa-9d61a194d4bf a aamas:Term ;
+aama:IDf18e85c3-0a83-44c2-8fab-6eae9954ab29 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffCircumstantial-rime ;
 	csa:clauseConjugation csa:Subordinate ;
@@ -979,7 +979,7 @@ aama:ID50f8403e-452d-4e3e-8efa-9d61a194d4bf a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID049d39fc-224e-411c-b32a-1f3cfb43893c a aamas:Term ;
+aama:ID124313c4-b207-4984-a79a-e34832293668 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffCircumstantial-rime ;
 	csa:clauseConjugation csa:Subordinate ;
@@ -994,7 +994,7 @@ aama:ID049d39fc-224e-411c-b32a-1f3cfb43893c a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDfbd7c38e-1c6f-4d97-af69-ee05c184ad63 a aamas:Term ;
+aama:IDbc39f7d6-e4f6-455a-a02f-e7827fe63add a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffCircumstantial-rime ;
 	csa:clauseConjugation csa:Subordinate ;
@@ -1009,7 +1009,7 @@ aama:IDfbd7c38e-1c6f-4d97-af69-ee05c184ad63 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID43da4e68-cab0-40dd-8db7-bc19e7f4fdff a aamas:Term ;
+aama:ID20e63b93-603d-4d89-92ae-fd3825d51c2d a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffCircumstantial-rime ;
 	csa:clauseConjugation csa:Subordinate ;
@@ -1024,7 +1024,7 @@ aama:ID43da4e68-cab0-40dd-8db7-bc19e7f4fdff a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID74fb1bed-4bcd-48c4-b5cb-525279e109e1 a aamas:Term ;
+aama:IDd7ed8cec-2530-4852-a9a1-a2efbe8bdb33 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffCircumstantial-rime ;
 	csa:clauseConjugation csa:Subordinate ;
@@ -1039,7 +1039,7 @@ aama:ID74fb1bed-4bcd-48c4-b5cb-525279e109e1 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID5759a330-cb63-4865-8d44-b48b9961dd34 a aamas:Term ;
+aama:ID7388cceb-5d74-416d-8c15-31bd53190f63 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffCircumstantial-rime ;
 	csa:clauseConjugation csa:Subordinate ;
@@ -1054,7 +1054,7 @@ aama:ID5759a330-cb63-4865-8d44-b48b9961dd34 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID7fb43e37-a8c7-4045-a24f-bfaff3bb1717 a aamas:Term ;
+aama:ID6cbddcdb-bbf1-4bb0-b559-edd1cd958f27 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffCircumstantial-rime ;
 	csa:clauseConjugation csa:Subordinate ;
@@ -1069,7 +1069,7 @@ aama:ID7fb43e37-a8c7-4045-a24f-bfaff3bb1717 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID7f151e9d-c4f7-4983-b082-a1e07400eb9a a aamas:Term ;
+aama:IDf5957881-d8a6-4ed3-ac92-cc5bc9f415fc a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffCircumstantial-rime ;
 	csa:clauseConjugation csa:Subordinate ;
@@ -1091,7 +1091,7 @@ csa:coptic_S-VNotYet-bok a aamas:Termcluster ;
 	rdfs:comment "The Not-Yettense corresponds to what is called the Perfect Negative in earlier phases of the Egyptian language. It is used to describe expected action that has not yet occurred." 
 	.
 
-aama:ID16c0dca9-2a25-4098-ab84-196fd60c1943 a aamas:Term ;
+aama:ID3a7a9b9b-1e3b-4ddc-b937-d7b484c7f7d5 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNotYet-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -1106,7 +1106,7 @@ aama:ID16c0dca9-2a25-4098-ab84-196fd60c1943 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID61796ea4-aa8a-4dfe-aa35-1f504f3ecb8e a aamas:Term ;
+aama:ID3a264928-d553-4a57-b5bc-1bafd08259bb a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNotYet-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -1121,7 +1121,7 @@ aama:ID61796ea4-aa8a-4dfe-aa35-1f504f3ecb8e a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID851ece71-e83a-463a-82e9-4682e507b132 a aamas:Term ;
+aama:ID98fb85ca-2c32-40d0-939d-89e30ed33345 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNotYet-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -1136,7 +1136,7 @@ aama:ID851ece71-e83a-463a-82e9-4682e507b132 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDe35ba6b8-b1d4-4906-be0e-28d27e5e14b2 a aamas:Term ;
+aama:ID4eaeaad6-8bb9-49d5-a963-7c4859bb3230 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNotYet-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -1151,7 +1151,7 @@ aama:IDe35ba6b8-b1d4-4906-be0e-28d27e5e14b2 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID599ab924-8337-4465-83ed-94d15a14d2fa a aamas:Term ;
+aama:ID9b58f45a-bbdc-4cf3-9a1e-a2d22fb5b5e6 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNotYet-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -1166,7 +1166,7 @@ aama:ID599ab924-8337-4465-83ed-94d15a14d2fa a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID6494d887-2b2f-4e8d-a2db-9999ddfc5e0c a aamas:Term ;
+aama:IDad144a5e-cb0d-4d43-97ab-1f64415987d9 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNotYet-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -1181,7 +1181,7 @@ aama:ID6494d887-2b2f-4e8d-a2db-9999ddfc5e0c a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID09fb2a46-e3cd-4eb1-a171-b395e70096d5 a aamas:Term ;
+aama:IDc933a354-868b-46f2-a6b4-f076948d8515 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNotYet-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -1196,7 +1196,7 @@ aama:ID09fb2a46-e3cd-4eb1-a171-b395e70096d5 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDd795893e-2d54-497f-8b64-ffef1f8d1a26 a aamas:Term ;
+aama:IDe2cbc141-14e9-473c-8bfd-57317b0c6c42 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNotYet-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -1211,7 +1211,7 @@ aama:IDd795893e-2d54-497f-8b64-ffef1f8d1a26 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDb3fd96b6-33d5-4f96-a414-dc80b4fcd24b a aamas:Term ;
+aama:ID928f08d4-0f7b-4ad0-9763-7553320a0264 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNotYet-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -1233,7 +1233,7 @@ csa:coptic_S-VNegAorist-rime a aamas:Termcluster ;
 	rdfs:comment "Alternately called the Habitual or praesens consuetudinis. Converters can be used to create a variety of clause conjugations." 
 	.
 
-aama:IDbe359e81-4124-4904-939f-3f5675290ef2 a aamas:Term ;
+aama:ID7215984b-cda8-45b2-963d-64195d8a0174 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegAorist-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -1248,7 +1248,7 @@ aama:IDbe359e81-4124-4904-939f-3f5675290ef2 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID72bcbc03-c5e8-4bd0-a73c-e218b8883d9d a aamas:Term ;
+aama:IDf2b2a96a-15b8-4a0b-95ec-073652cdc475 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegAorist-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -1263,7 +1263,7 @@ aama:ID72bcbc03-c5e8-4bd0-a73c-e218b8883d9d a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:IDc6b3296d-4abc-4837-b4eb-2f978419865f a aamas:Term ;
+aama:IDc703923d-d3f2-4234-b358-4727c160b3d6 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegAorist-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -1278,7 +1278,7 @@ aama:IDc6b3296d-4abc-4837-b4eb-2f978419865f a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID3c7cde3d-1d23-41ee-9a38-4683b49c0360 a aamas:Term ;
+aama:IDdec1ccba-1631-4a5f-81d0-3146be267341 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegAorist-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -1293,7 +1293,7 @@ aama:ID3c7cde3d-1d23-41ee-9a38-4683b49c0360 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID06d945c3-50b9-4ab0-875f-80b5c4fb43ed a aamas:Term ;
+aama:ID250823d5-515b-4f9a-b868-5fbb42448f0a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegAorist-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -1308,7 +1308,7 @@ aama:ID06d945c3-50b9-4ab0-875f-80b5c4fb43ed a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID882bb63f-4447-40f7-87cf-bd2f3d57a9c1 a aamas:Term ;
+aama:ID01cb2238-528e-4595-b63e-a22ab2f7f59d a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegAorist-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -1323,7 +1323,7 @@ aama:ID882bb63f-4447-40f7-87cf-bd2f3d57a9c1 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDa53b3c5d-27e7-4ddf-a307-96d11fda1f40 a aamas:Term ;
+aama:ID020697a4-9496-45be-9197-a4240b433203 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegAorist-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -1338,7 +1338,7 @@ aama:IDa53b3c5d-27e7-4ddf-a307-96d11fda1f40 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDa99b65de-2896-482e-b4d1-58179ce29a08 a aamas:Term ;
+aama:ID77baba82-a011-414b-9fc0-c897589a997d a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegAorist-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -1353,7 +1353,7 @@ aama:IDa99b65de-2896-482e-b4d1-58179ce29a08 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID67d6221e-b325-4187-a82c-ff0cac0737a2 a aamas:Term ;
+aama:IDe8a00a81-9fb8-4bdd-bd7a-69fc69f6eadc a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegAorist-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -1375,7 +1375,7 @@ csa:coptic_S-VAffInjunct-rime a aamas:Termcluster ;
 	rdfs:comment "Also called the Optative. Negative is expressed with the negative imperative prefix ⲙ̄ⲡⲣ̄- attached to the Inflected Infinitive." 
 	.
 
-aama:ID4a108bcd-6972-48e9-ab7c-0c42f59152dd a aamas:Term ;
+aama:ID28b1a2d4-e8a4-462c-a86f-9d9dfe97d553 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffInjunct-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -1390,7 +1390,7 @@ aama:ID4a108bcd-6972-48e9-ab7c-0c42f59152dd a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID8fc12129-9e96-484e-951b-edfc0dab2adf a aamas:Term ;
+aama:IDb23f177c-d5b2-4bec-972b-aea49e40c762 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffInjunct-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -1405,7 +1405,7 @@ aama:ID8fc12129-9e96-484e-951b-edfc0dab2adf a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:IDfa5d293b-6112-4d0e-9a47-6885652f6831 a aamas:Term ;
+aama:IDd3cc7264-96a3-47e6-bda7-c5f11fc191b8 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffInjunct-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -1420,7 +1420,7 @@ aama:IDfa5d293b-6112-4d0e-9a47-6885652f6831 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID71f4bd56-7e47-43ab-a17b-660232f0acc8 a aamas:Term ;
+aama:ID15cecf21-aacf-4420-b450-6e7581fe1e51 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffInjunct-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -1435,7 +1435,7 @@ aama:ID71f4bd56-7e47-43ab-a17b-660232f0acc8 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID4cd7602e-85f8-4063-980a-57a90616938b a aamas:Term ;
+aama:ID0fb64398-0747-4e91-9c27-9a3672704955 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffInjunct-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -1450,7 +1450,7 @@ aama:ID4cd7602e-85f8-4063-980a-57a90616938b a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDc3ad9d1d-e155-4adc-99b5-6861334fbefc a aamas:Term ;
+aama:IDf2061e65-1f50-4182-a2f8-101b1dacd1ec a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffInjunct-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -1465,7 +1465,7 @@ aama:IDc3ad9d1d-e155-4adc-99b5-6861334fbefc a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID32d5491f-b979-4228-92b8-b25149d46940 a aamas:Term ;
+aama:ID37da55da-d883-47e4-95ec-96815d6f8ad0 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffInjunct-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -1480,7 +1480,7 @@ aama:ID32d5491f-b979-4228-92b8-b25149d46940 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDacde737a-9b0a-448d-98a2-ef64bd19ec9b a aamas:Term ;
+aama:IDb5b48ca4-b86d-4671-8c01-7036a3dbff91 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffInjunct-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -1495,7 +1495,7 @@ aama:IDacde737a-9b0a-448d-98a2-ef64bd19ec9b a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID5e0b39a0-9356-4db2-a6ec-6747261a0e1d a aamas:Term ;
+aama:IDc8cb6b63-bac0-4600-854f-99c3a017ddbb a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffInjunct-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -1514,10 +1514,10 @@ aama:ID5e0b39a0-9356-4db2-a6ec-6747261a0e1d a aamas:Term ;
 
 csa:coptic_S-VInfinCVC1-hop a aamas:Termcluster ;
 	rdfs:label "coptic_S-VInfinCVC1-hop" ;
-	rdfs:comment "Infinitives of the type (consonant +) ⲱ + consonant follow the regular pattern of (C)ⲱC in the absolute,(C)ⲉC- in construct and (C)ⲟC= in pronominal. In infinitives of this type beginning with ⲙ or ⲛ,the vowel ⲱ in the absolute form is modified to ⲟⲩ. Verbs of the type (C)ⲱCⲉ follow the same pattern in construct and pronominal." 
+	rdfs:comment "Infinitives of the type (consonant +) ⲱ + consonant follow the regular pattern of (C)ⲱC in the absolute%%(C)ⲉC- in construct and (C)ⲟC= in pronominal. In infinitives of this type beginning with ⲙ or ⲛ%%the vowel ⲱ in the absolute form is modified to ⲟⲩ. Verbs of the type (C)ⲱCⲉ follow the same pattern in construct and pronominal." 
 	.
 
-aama:IDcd58cff4-b05c-4e1e-8a71-da9ff9ab91f9 a aamas:Term ;
+aama:ID815ccc18-4df3-444b-81db-55285e31352c a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC1-hop ;
 	csa:clauseConjugation csa:U ;
@@ -1536,7 +1536,7 @@ aama:IDcd58cff4-b05c-4e1e-8a71-da9ff9ab91f9 a aamas:Term ;
 	csa:infinitiveForm csa:Absolute ;
 	.
 
-aama:ID99ad91d8-792e-4bbe-8911-543bdf897aaf a aamas:Term ;
+aama:ID6d7ceed5-27be-4380-ab18-0ad2179c7eda a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC1-hop ;
 	csa:clauseConjugation csa:U ;
@@ -1555,7 +1555,7 @@ aama:ID99ad91d8-792e-4bbe-8911-543bdf897aaf a aamas:Term ;
 	csa:infinitiveForm csa:Construct ;
 	.
 
-aama:IDa91678f5-e03f-402c-99df-38dc9db72bef a aamas:Term ;
+aama:ID7b4c77d0-a3ca-48b4-93d7-6fd175f40337 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC1-hop ;
 	csa:clauseConjugation csa:U ;
@@ -1574,7 +1574,7 @@ aama:IDa91678f5-e03f-402c-99df-38dc9db72bef a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID203dba94-dc3b-4b4e-a64a-59a897572f5e a aamas:Term ;
+aama:ID67f5fe0c-f50e-47e8-8b46-5d02194599bd a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC1-hop ;
 	csa:clauseConjugation csa:U ;
@@ -1593,7 +1593,7 @@ aama:ID203dba94-dc3b-4b4e-a64a-59a897572f5e a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID0f2c47b0-ec00-45c3-a520-5f1b559ed4e0 a aamas:Term ;
+aama:ID6a92ae06-4d7f-4afb-886e-f31da778db74 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC1-hop ;
 	csa:clauseConjugation csa:U ;
@@ -1612,7 +1612,7 @@ aama:ID0f2c47b0-ec00-45c3-a520-5f1b559ed4e0 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDe00f5576-8cea-4653-985f-9e547fb266b7 a aamas:Term ;
+aama:IDffe2d78c-03d1-4727-b329-efdbd084fa2b a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC1-hop ;
 	csa:clauseConjugation csa:U ;
@@ -1631,7 +1631,7 @@ aama:IDe00f5576-8cea-4653-985f-9e547fb266b7 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDa76aa7ee-ba16-4641-a2ef-955b455b7e97 a aamas:Term ;
+aama:ID7ff2fe00-6fa9-40e2-b182-1496c8a33e2a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC1-hop ;
 	csa:clauseConjugation csa:U ;
@@ -1650,7 +1650,7 @@ aama:IDa76aa7ee-ba16-4641-a2ef-955b455b7e97 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDf398718c-1075-4def-b124-58b1cc395a94 a aamas:Term ;
+aama:ID55135181-04d0-45b1-8071-79613ab4a10c a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC1-hop ;
 	csa:clauseConjugation csa:U ;
@@ -1669,7 +1669,7 @@ aama:IDf398718c-1075-4def-b124-58b1cc395a94 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID61418975-bcf3-4e43-b80b-09f10fc143c9 a aamas:Term ;
+aama:ID3d0bb188-ae69-4b01-925b-7be073908f2d a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC1-hop ;
 	csa:clauseConjugation csa:U ;
@@ -1688,7 +1688,7 @@ aama:ID61418975-bcf3-4e43-b80b-09f10fc143c9 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID7dfb2cd4-6152-4176-8859-c5f0eb0ca5b9 a aamas:Term ;
+aama:ID6b320d1f-db97-44ed-9fbe-afe6b9fd73c7 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC1-hop ;
 	csa:clauseConjugation csa:U ;
@@ -1714,7 +1714,7 @@ csa:coptic_S-VAffRelPerf1-bok a aamas:Termcluster ;
 	rdfs:comment "The relative of the First Perfect is formed by combining the First Perfect prefix with the relative pronoun (ⲉⲛⲧ-). This form can only be used with a defined antecedent. Negation is formed with the relative pronoun ⲉⲧⲉ before the negative First Perfect." 
 	.
 
-aama:IDf45bd1be-4ba2-46d9-ae7c-31ab24aff3a4 a aamas:Term ;
+aama:ID7964349d-184a-485a-997c-1117e8d76d51 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffRelPerf1-bok ;
 	csa:clauseConjugation csa:Relative ;
@@ -1730,7 +1730,7 @@ aama:IDf45bd1be-4ba2-46d9-ae7c-31ab24aff3a4 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID489a9797-438d-4d99-9f7b-e4ca6c9510fc a aamas:Term ;
+aama:ID39e7fc4e-fe02-4ad3-8691-a61dc80a99d8 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffRelPerf1-bok ;
 	csa:clauseConjugation csa:Relative ;
@@ -1746,7 +1746,7 @@ aama:ID489a9797-438d-4d99-9f7b-e4ca6c9510fc a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:IDce75a28d-77ee-4435-9a6a-51ea83345153 a aamas:Term ;
+aama:IDe3945d8d-f03f-457e-ab0d-42a2400dc094 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffRelPerf1-bok ;
 	csa:clauseConjugation csa:Relative ;
@@ -1762,7 +1762,7 @@ aama:IDce75a28d-77ee-4435-9a6a-51ea83345153 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDc44b3b95-59aa-4317-ac65-62a75a54f65e a aamas:Term ;
+aama:IDba336f48-5ed9-40c0-9c57-53c8c10c796b a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffRelPerf1-bok ;
 	csa:clauseConjugation csa:Relative ;
@@ -1778,7 +1778,7 @@ aama:IDc44b3b95-59aa-4317-ac65-62a75a54f65e a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID327459f3-5c20-4591-83e5-4798fdadc706 a aamas:Term ;
+aama:IDcb8f40c9-bf21-491a-82f2-a4ee84a2117e a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffRelPerf1-bok ;
 	csa:clauseConjugation csa:Relative ;
@@ -1794,7 +1794,7 @@ aama:ID327459f3-5c20-4591-83e5-4798fdadc706 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID2e80b55c-4760-4828-8676-97d2652c55a0 a aamas:Term ;
+aama:IDea072b11-1282-42c3-a44f-7f11c04fc2c2 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffRelPerf1-bok ;
 	csa:clauseConjugation csa:Relative ;
@@ -1810,7 +1810,7 @@ aama:ID2e80b55c-4760-4828-8676-97d2652c55a0 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID41b8b58b-4188-4764-8be3-c160f3660476 a aamas:Term ;
+aama:IDf9f08491-8eed-48cd-ac44-87b2774c7096 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffRelPerf1-bok ;
 	csa:clauseConjugation csa:Relative ;
@@ -1826,7 +1826,7 @@ aama:ID41b8b58b-4188-4764-8be3-c160f3660476 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDe2ee0d5c-d433-4c34-964f-40cf56ecc093 a aamas:Term ;
+aama:ID480d16f2-7733-408d-a2aa-0e089a566b3a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffRelPerf1-bok ;
 	csa:clauseConjugation csa:Relative ;
@@ -1842,7 +1842,7 @@ aama:IDe2ee0d5c-d433-4c34-964f-40cf56ecc093 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDcca18ffe-3c49-4324-b6b5-7928cec51845 a aamas:Term ;
+aama:ID52f3bae6-355e-41d0-912f-c5f7dc430ed4 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffRelPerf1-bok ;
 	csa:clauseConjugation csa:Relative ;
@@ -1865,7 +1865,7 @@ csa:coptic_S-VAffRelPres1-bok a aamas:Termcluster ;
 	rdfs:comment "The relative of the First Present is formed by combining the relative pronoun ⲉⲧ with the First Present prefix." 
 	.
 
-aama:IDf8af44bc-5b83-41a5-a586-6c2fa9287331 a aamas:Term ;
+aama:ID12397ad0-ab6d-43bd-b07b-60c8f088000e a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffRelPres1-bok ;
 	csa:clauseConjugation csa:Relative ;
@@ -1882,7 +1882,7 @@ aama:IDf8af44bc-5b83-41a5-a586-6c2fa9287331 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDb6a2a6fe-fd05-4bb4-8367-88d660969880 a aamas:Term ;
+aama:ID4e1a46a0-8c92-44e7-b525-84016b502e3c a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffRelPres1-bok ;
 	csa:clauseConjugation csa:Relative ;
@@ -1899,7 +1899,7 @@ aama:IDb6a2a6fe-fd05-4bb4-8367-88d660969880 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:IDf7b38e9c-71ca-4c94-9fd0-5954aad79e75 a aamas:Term ;
+aama:IDeaaab90c-89eb-4b99-b344-bdde4e408347 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffRelPres1-bok ;
 	csa:clauseConjugation csa:Relative ;
@@ -1916,7 +1916,7 @@ aama:IDf7b38e9c-71ca-4c94-9fd0-5954aad79e75 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID3050ce54-ef2f-4171-90bd-946af2bdddb4 a aamas:Term ;
+aama:IDd67fded1-fb08-47ba-aa68-a9490107ad98 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffRelPres1-bok ;
 	csa:clauseConjugation csa:Relative ;
@@ -1933,7 +1933,7 @@ aama:ID3050ce54-ef2f-4171-90bd-946af2bdddb4 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:IDc6a3b21d-227e-44a1-bd0b-b59ae2b3ae55 a aamas:Term ;
+aama:ID89a19a0a-6407-4c68-a477-f709b813c891 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffRelPres1-bok ;
 	csa:clauseConjugation csa:Relative ;
@@ -1950,7 +1950,7 @@ aama:IDc6a3b21d-227e-44a1-bd0b-b59ae2b3ae55 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID728927e2-0c13-404a-8142-41cddc175d48 a aamas:Term ;
+aama:IDef5c6761-fc43-4ffa-9fd7-88e36c50e4d0 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffRelPres1-bok ;
 	csa:clauseConjugation csa:Relative ;
@@ -1967,7 +1967,7 @@ aama:ID728927e2-0c13-404a-8142-41cddc175d48 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID55695495-1b2a-435f-a831-f155bced4697 a aamas:Term ;
+aama:ID4966ee2a-744a-431b-86c1-ebdde30dc9cc a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffRelPres1-bok ;
 	csa:clauseConjugation csa:Relative ;
@@ -1984,7 +1984,7 @@ aama:ID55695495-1b2a-435f-a831-f155bced4697 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID8ce0db20-38f0-47fe-9014-c352a1b963e7 a aamas:Term ;
+aama:ID258843e0-b330-4497-98f6-588691c8a3c4 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffRelPres1-bok ;
 	csa:clauseConjugation csa:Relative ;
@@ -2001,7 +2001,7 @@ aama:ID8ce0db20-38f0-47fe-9014-c352a1b963e7 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID3153ee65-524b-49c2-ac11-1d11f3ba0567 a aamas:Term ;
+aama:IDcdb74e53-bf4e-4607-bc70-aa076612456b a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffRelPres1-bok ;
 	csa:clauseConjugation csa:Relative ;
@@ -2025,7 +2025,7 @@ csa:coptic_S-VAffConditional-rime a aamas:Termcluster ;
 	rdfs:comment "Negation of the conditional is with -ⲧⲙ̄- prefixed to the infinitive. ϣⲁⲛ is sometimes omitted from the prefix in the negative." 
 	.
 
-aama:ID564926ab-46ef-4dec-85ab-db0b5feeefc0 a aamas:Term ;
+aama:IDe40ad131-4fa7-4dcb-99ca-555281aff980 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffConditional-rime ;
 	csa:clauseConjugation csa:Conditional ;
@@ -2040,7 +2040,7 @@ aama:ID564926ab-46ef-4dec-85ab-db0b5feeefc0 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDcf0bd0c0-b41b-4724-b15d-d3f5d15353ab a aamas:Term ;
+aama:ID913432b0-baae-4d1a-b889-228b8be5515a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffConditional-rime ;
 	csa:clauseConjugation csa:Conditional ;
@@ -2055,7 +2055,7 @@ aama:IDcf0bd0c0-b41b-4724-b15d-d3f5d15353ab a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID8686b1da-66f7-403b-a51e-316fca244593 a aamas:Term ;
+aama:IDd7877a70-3c14-4f04-9d35-3decfa238891 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffConditional-rime ;
 	csa:clauseConjugation csa:Conditional ;
@@ -2070,7 +2070,7 @@ aama:ID8686b1da-66f7-403b-a51e-316fca244593 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDcd4311ed-b810-45d4-b584-daa8b176139f a aamas:Term ;
+aama:IDe66f1a7d-24c9-4b98-b492-35edfd932c02 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffConditional-rime ;
 	csa:clauseConjugation csa:Conditional ;
@@ -2085,7 +2085,7 @@ aama:IDcd4311ed-b810-45d4-b584-daa8b176139f a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:IDc1539292-7ee2-433e-8b8d-75854e74e1ff a aamas:Term ;
+aama:IDf3771b6a-a467-4d98-a605-aa36a7eeb954 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffConditional-rime ;
 	csa:clauseConjugation csa:Conditional ;
@@ -2100,7 +2100,7 @@ aama:IDc1539292-7ee2-433e-8b8d-75854e74e1ff a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDa5dcfa84-6f91-40c3-a307-09a2e6f45475 a aamas:Term ;
+aama:ID5bf0df3f-cd81-4814-95bc-01b6ad0ac002 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffConditional-rime ;
 	csa:clauseConjugation csa:Conditional ;
@@ -2115,7 +2115,7 @@ aama:IDa5dcfa84-6f91-40c3-a307-09a2e6f45475 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDb7f4f797-a744-4800-9319-6d5131c33ba9 a aamas:Term ;
+aama:IDf0ae98b8-33a4-4e47-ba69-f70d79bc66b0 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffConditional-rime ;
 	csa:clauseConjugation csa:Conditional ;
@@ -2130,7 +2130,7 @@ aama:IDb7f4f797-a744-4800-9319-6d5131c33ba9 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDd0bad687-1005-4b99-8e4f-0fb71769b28d a aamas:Term ;
+aama:IDf1773747-0da6-4c95-94e4-960c3d110f52 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffConditional-rime ;
 	csa:clauseConjugation csa:Conditional ;
@@ -2145,7 +2145,7 @@ aama:IDd0bad687-1005-4b99-8e4f-0fb71769b28d a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID51b913d0-131f-43a9-8804-20338d67ee25 a aamas:Term ;
+aama:ID0413553b-1bc5-4153-b930-85ec12a026b0 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffConditional-rime ;
 	csa:clauseConjugation csa:Conditional ;
@@ -2164,10 +2164,10 @@ aama:ID51b913d0-131f-43a9-8804-20338d67ee25 a aamas:Term ;
 
 csa:coptic_S-VAffResult-rime a aamas:Termcluster ;
 	rdfs:label "coptic_S-VAffResult-rime" ;
-	rdfs:comment "Also called the Future Conjunctive of Result. Lambdin omits 1st person singular,but this form is attested." 
+	rdfs:comment "Also called the Future Conjunctive of Result. Lambdin omits 1st person singular%%but this form is attested." 
 	.
 
-aama:IDeea838c7-04ca-4d19-a3b6-a3329d615126 a aamas:Term ;
+aama:ID4b897722-37d6-432e-960d-19efb02b03ef a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffResult-rime ;
 	csa:clauseConjugation csa:Result ;
@@ -2182,7 +2182,7 @@ aama:IDeea838c7-04ca-4d19-a3b6-a3329d615126 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDdbbe9575-82c5-4412-886d-80654228f541 a aamas:Term ;
+aama:IDfec7a445-b4e4-43fe-a6b1-1fff870908e4 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffResult-rime ;
 	csa:clauseConjugation csa:Result ;
@@ -2197,7 +2197,7 @@ aama:IDdbbe9575-82c5-4412-886d-80654228f541 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID6dcf7f41-a1f6-4b00-9253-27dda5a03e3b a aamas:Term ;
+aama:ID397585ad-f308-4982-8ad4-e6e3329a385a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffResult-rime ;
 	csa:clauseConjugation csa:Result ;
@@ -2212,7 +2212,7 @@ aama:ID6dcf7f41-a1f6-4b00-9253-27dda5a03e3b a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID505e08c0-e241-4767-91ae-505f5aabdebb a aamas:Term ;
+aama:ID3304c8c4-1773-4d04-acc9-27ece5f68b52 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffResult-rime ;
 	csa:clauseConjugation csa:Result ;
@@ -2227,7 +2227,7 @@ aama:ID505e08c0-e241-4767-91ae-505f5aabdebb a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID64172c74-2331-49cf-8700-f36df8c3aa4f a aamas:Term ;
+aama:IDde8c4a99-7cf6-4293-9bb1-b1c3a5d5e0bd a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffResult-rime ;
 	csa:clauseConjugation csa:Result ;
@@ -2242,7 +2242,7 @@ aama:ID64172c74-2331-49cf-8700-f36df8c3aa4f a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID71b6d6c0-f898-42fc-b4bb-78c7c260b63c a aamas:Term ;
+aama:IDa8450f53-722a-47a1-9a16-f8c67446ecae a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffResult-rime ;
 	csa:clauseConjugation csa:Result ;
@@ -2257,7 +2257,7 @@ aama:ID71b6d6c0-f898-42fc-b4bb-78c7c260b63c a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDd2965eb1-6b66-4350-8e36-e6f531f0208f a aamas:Term ;
+aama:ID51a80134-e5af-4222-9e6e-5fd801e81c3a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffResult-rime ;
 	csa:clauseConjugation csa:Result ;
@@ -2272,7 +2272,7 @@ aama:IDd2965eb1-6b66-4350-8e36-e6f531f0208f a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID63fed62d-a646-4cbc-bcf6-d503f97bafc6 a aamas:Term ;
+aama:IDdeca13b7-8737-44fe-b5a0-281a609be032 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffResult-rime ;
 	csa:clauseConjugation csa:Result ;
@@ -2287,7 +2287,7 @@ aama:ID63fed62d-a646-4cbc-bcf6-d503f97bafc6 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID15ad0b08-5fd5-44c9-a67a-bddd309abfce a aamas:Term ;
+aama:IDd42d25e6-3e2d-401b-9555-b43a590fd21e a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffResult-rime ;
 	csa:clauseConjugation csa:Result ;
@@ -2309,7 +2309,7 @@ csa:coptic_S-VAffFut3-rime a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:IDc64b8644-088a-468e-ba39-674fd3c50373 a aamas:Term ;
+aama:ID5e8e0e53-91df-4c03-85e8-e1e1d3a51f16 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffFut3-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -2324,7 +2324,7 @@ aama:IDc64b8644-088a-468e-ba39-674fd3c50373 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID3eee0923-f325-40f4-becc-ac17d2cd5ca9 a aamas:Term ;
+aama:ID83622bb8-8a68-4c41-9a89-2ad87001abc4 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffFut3-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -2339,7 +2339,7 @@ aama:ID3eee0923-f325-40f4-becc-ac17d2cd5ca9 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:IDc6d4f6df-fb55-4989-aa4f-e9f04f8b988f a aamas:Term ;
+aama:IDe86cbe91-8b16-4485-932e-6f0ed3ce4b80 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffFut3-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -2354,7 +2354,7 @@ aama:IDc6d4f6df-fb55-4989-aa4f-e9f04f8b988f a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID9b31be4e-b177-4efa-a78e-235120f8946c a aamas:Term ;
+aama:ID29e0a55d-3329-4d37-978e-7b97e1675bd6 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffFut3-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -2369,7 +2369,7 @@ aama:ID9b31be4e-b177-4efa-a78e-235120f8946c a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID29f019b7-cd16-46c7-ae62-5013aaf522be a aamas:Term ;
+aama:IDc57acd0e-f7a8-4c0f-8d8e-b33bf23e95ef a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffFut3-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -2384,7 +2384,7 @@ aama:ID29f019b7-cd16-46c7-ae62-5013aaf522be a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID2f7d7018-98bb-4885-b49e-4b1e93f184db a aamas:Term ;
+aama:ID408dd7d8-0c03-44b5-8a54-f57405b571d4 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffFut3-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -2399,7 +2399,7 @@ aama:ID2f7d7018-98bb-4885-b49e-4b1e93f184db a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID04d0d3ef-c70f-45a5-ad72-283cc9acaf90 a aamas:Term ;
+aama:ID8437b9ad-3e4f-4e5c-94b2-822ec8ef9b77 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffFut3-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -2414,7 +2414,7 @@ aama:ID04d0d3ef-c70f-45a5-ad72-283cc9acaf90 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID31394f77-900e-4173-a859-59e6ebec2335 a aamas:Term ;
+aama:ID6ea20e05-b9e9-4309-ad15-858753b2bf64 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffFut3-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -2429,7 +2429,7 @@ aama:ID31394f77-900e-4173-a859-59e6ebec2335 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID959a4087-97a0-42c4-adfe-794168d88e26 a aamas:Term ;
+aama:ID3b7a7d79-86ff-454e-aed8-ac72c51374c3 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffFut3-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -2448,10 +2448,10 @@ aama:ID959a4087-97a0-42c4-adfe-794168d88e26 a aamas:Term ;
 
 csa:coptic_S-VInfinCompoundCausative-tamo a aamas:Termcluster ;
 	rdfs:label "coptic_S-VInfinCompoundCausative-tamo" ;
-	rdfs:comment "Verbs of this type derive from an earlier phase of the Egyptian language in which the causative could be formed by means of a periphrastic construction with the word dỉ,cause. Most of these verbs begin with ⲧ and end in ⲟ in the absolute state. However,if the original base verb began with ϣ,the resulting compound will begin with ϫ. In a few cases the initial ⲧ is lost (e.g. ⲕⲧⲟ,turn). Others retain a fossilized suffix ending -ⲟⲩ or -ⲥ (e.g. ϫⲟⲟⲩ,send)." 
+	rdfs:comment "Verbs of this type derive from an earlier phase of the Egyptian language in which the causative could be formed by means of a periphrastic construction with the word dỉ%%cause. Most of these verbs begin with ⲧ and end in ⲟ in the absolute state. However%%if the original base verb began with ϣ%%the resulting compound will begin with ϫ. In a few cases the initial ⲧ is lost (e.g. ⲕⲧⲟ%%turn). Others retain a fossilized suffix ending -ⲟⲩ or -ⲥ (e.g. ϫⲟⲟⲩ%%send)." 
 	.
 
-aama:ID6cd5d642-abbf-4d12-87ef-bb7df1d019d1 a aamas:Term ;
+aama:ID57a3055e-f4a9-4a0d-b232-86bb4ede0e4a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCompoundCausative-tamo ;
 	csa:clauseConjugation csa:U ;
@@ -2469,7 +2469,7 @@ aama:ID6cd5d642-abbf-4d12-87ef-bb7df1d019d1 a aamas:Term ;
 	csa:infinitiveForm csa:Absolute ;
 	.
 
-aama:IDef1ae9ac-c5c1-44ba-8da6-88ea16434213 a aamas:Term ;
+aama:ID6e2146a5-1da1-4213-8de7-aafa7ab66666 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCompoundCausative-tamo ;
 	csa:clauseConjugation csa:U ;
@@ -2487,7 +2487,7 @@ aama:IDef1ae9ac-c5c1-44ba-8da6-88ea16434213 a aamas:Term ;
 	csa:infinitiveForm csa:Construct ;
 	.
 
-aama:IDcc441df6-7bf0-42de-9247-0ba5295829c2 a aamas:Term ;
+aama:ID5b57fc71-1d9c-45fc-a7d0-ed4c30a55830 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCompoundCausative-tamo ;
 	csa:clauseConjugation csa:U ;
@@ -2505,7 +2505,7 @@ aama:IDcc441df6-7bf0-42de-9247-0ba5295829c2 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID7fb1e02d-79c0-4b73-adb3-d986c3173fc5 a aamas:Term ;
+aama:IDb5eb8b64-a8ea-4097-8ae3-95560a785c67 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCompoundCausative-tamo ;
 	csa:clauseConjugation csa:U ;
@@ -2523,7 +2523,7 @@ aama:ID7fb1e02d-79c0-4b73-adb3-d986c3173fc5 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID5c6a8450-20f4-4b74-b982-b8a7b5bd3f59 a aamas:Term ;
+aama:ID68fb2b35-7b88-49ba-a476-7ae9183a331c a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCompoundCausative-tamo ;
 	csa:clauseConjugation csa:U ;
@@ -2541,7 +2541,7 @@ aama:ID5c6a8450-20f4-4b74-b982-b8a7b5bd3f59 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID01414015-81cb-436b-ae1f-5bb9f609f17e a aamas:Term ;
+aama:ID5c670793-c8ef-4d0a-9893-394581e97d41 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCompoundCausative-tamo ;
 	csa:clauseConjugation csa:U ;
@@ -2559,7 +2559,7 @@ aama:ID01414015-81cb-436b-ae1f-5bb9f609f17e a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID15583f66-20f1-4eb7-8eac-c6363741a10d a aamas:Term ;
+aama:IDa570bebc-9612-4e92-a949-cf3fd213161a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCompoundCausative-tamo ;
 	csa:clauseConjugation csa:U ;
@@ -2577,7 +2577,7 @@ aama:ID15583f66-20f1-4eb7-8eac-c6363741a10d a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID30db4b24-5268-4b62-89fc-0e9fd88d5758 a aamas:Term ;
+aama:IDdbc2875f-8301-40af-bd6d-9f72a860d58f a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCompoundCausative-tamo ;
 	csa:clauseConjugation csa:U ;
@@ -2595,7 +2595,7 @@ aama:ID30db4b24-5268-4b62-89fc-0e9fd88d5758 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDb7260769-859b-4a5f-bfe7-7952723814d7 a aamas:Term ;
+aama:IDb18424f6-1ccf-4953-9d8e-f3d8d0eccb77 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCompoundCausative-tamo ;
 	csa:clauseConjugation csa:U ;
@@ -2613,7 +2613,7 @@ aama:IDb7260769-859b-4a5f-bfe7-7952723814d7 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDed44adeb-4d4d-4040-8dea-6bdc650d1b6b a aamas:Term ;
+aama:IDd54a5ae1-a686-4c7e-8123-f55c38c59fcf a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCompoundCausative-tamo ;
 	csa:clauseConjugation csa:U ;
@@ -2635,10 +2635,10 @@ aama:IDed44adeb-4d4d-4040-8dea-6bdc650d1b6b a aamas:Term ;
 
 csa:coptic_S-VAffImperative-jo a aamas:Termcluster ;
 	rdfs:label "coptic_S-VAffImperative-jo" ;
-	rdfs:comment "Most imperatives are identical to the infinitive,but a few verbs have a special imperative form with a prefixed ⲁ-. The imperative of ϯ (cause) is usually ⲙⲁ/ⲙⲁ-/ⲙⲁⲧ=,but the simple infinitive ϯ may also be used. The causative compound imperatives are frequently formed by prefixing ⲙⲁ- to the infinitive form. The irregular verb ⲉⲓ (come) has distinct masculine,feminine and plural imperative forms:ⲁⲙⲟⲩ (m. s.),ⲁⲙⲏ (f. s.),ⲁⲙⲉⲓⲧⲛ̄ (c. pl.)." 
+	rdfs:comment "Most imperatives are identical to the infinitive%%but a few verbs have a special imperative form with a prefixed ⲁ-. The imperative of ϯ (cause) is usually ⲙⲁ/ⲙⲁ-/ⲙⲁⲧ=%%but the simple infinitive ϯ may also be used. The causative compound imperatives are frequently formed by prefixing ⲙⲁ- to the infinitive form. The irregular verb ⲉⲓ (come) has distinct masculine%%feminine and plural imperative forms:ⲁⲙⲟⲩ (m. s.)%%ⲁⲙⲏ (f. s.)%%ⲁⲙⲉⲓⲧⲛ̄ (c. pl.)." 
 	.
 
-aama:IDc5158b23-6d97-4137-8062-ab39b0e6e6f1 a aamas:Term ;
+aama:IDccb13d01-e44c-4220-9dfe-c703778526ba a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffImperative-jo ;
 	aamas:lexeme aama:Coptic-sahidic-jo ;
@@ -2654,7 +2654,7 @@ aama:IDc5158b23-6d97-4137-8062-ab39b0e6e6f1 a aamas:Term ;
 	csa:imperativeForm csa:Construct ;
 	.
 
-aama:IDedd907f9-4c04-4371-affc-fe0e438cc948 a aamas:Term ;
+aama:IDe4fe2591-b442-471f-b2f0-da85c65b81d3 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffImperative-jo ;
 	aamas:lexeme aama:Coptic-sahidic-jo ;
@@ -2670,7 +2670,7 @@ aama:IDedd907f9-4c04-4371-affc-fe0e438cc948 a aamas:Term ;
 	csa:imperativeForm csa:Pronominal ;
 	.
 
-aama:ID5467de11-30ad-42a7-97e9-2992c4801c0a a aamas:Term ;
+aama:ID758f9d8d-e0bf-4673-b139-461633416cdd a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffImperative-jo ;
 	aamas:lexeme aama:Coptic-sahidic-jo ;
@@ -2686,7 +2686,7 @@ aama:ID5467de11-30ad-42a7-97e9-2992c4801c0a a aamas:Term ;
 	csa:imperativeForm csa:Pronominal ;
 	.
 
-aama:ID13fc42b6-3eed-4d8c-acc8-cb7c6e43d4a6 a aamas:Term ;
+aama:IDf29d8f0d-a80c-40bf-934c-772bc87e0107 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffImperative-jo ;
 	aamas:lexeme aama:Coptic-sahidic-jo ;
@@ -2702,7 +2702,7 @@ aama:ID13fc42b6-3eed-4d8c-acc8-cb7c6e43d4a6 a aamas:Term ;
 	csa:imperativeForm csa:Pronominal ;
 	.
 
-aama:ID85390a38-663c-4b5c-9ba6-1f0a32d5e119 a aamas:Term ;
+aama:ID8bb21e73-efa0-43e9-a57e-17f2f369e84b a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffImperative-jo ;
 	aamas:lexeme aama:Coptic-sahidic-jo ;
@@ -2718,7 +2718,7 @@ aama:ID85390a38-663c-4b5c-9ba6-1f0a32d5e119 a aamas:Term ;
 	csa:imperativeForm csa:Pronominal ;
 	.
 
-aama:IDb5237d98-75ea-42ce-baea-c16471287aa2 a aamas:Term ;
+aama:ID03da15e7-32cd-46b4-88cf-95fe96d1ff46 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffImperative-jo ;
 	aamas:lexeme aama:Coptic-sahidic-jo ;
@@ -2734,7 +2734,7 @@ aama:IDb5237d98-75ea-42ce-baea-c16471287aa2 a aamas:Term ;
 	csa:imperativeForm csa:Pronominal ;
 	.
 
-aama:IDb8f9b9fc-67f0-434a-8f9b-2415bc89ae91 a aamas:Term ;
+aama:IDbe586f25-2907-48c3-90a5-c4070106a0b3 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffImperative-jo ;
 	aamas:lexeme aama:Coptic-sahidic-jo ;
@@ -2750,7 +2750,7 @@ aama:IDb8f9b9fc-67f0-434a-8f9b-2415bc89ae91 a aamas:Term ;
 	csa:imperativeForm csa:Pronominal ;
 	.
 
-aama:IDa79bcd0a-6934-4b1c-aee2-8b69fd074dfd a aamas:Term ;
+aama:ID3f2a7f54-c696-4746-a5a8-a0b9a84623ae a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffImperative-jo ;
 	aamas:lexeme aama:Coptic-sahidic-jo ;
@@ -2766,7 +2766,7 @@ aama:IDa79bcd0a-6934-4b1c-aee2-8b69fd074dfd a aamas:Term ;
 	csa:imperativeForm csa:Pronominal ;
 	.
 
-aama:ID8940af4f-55f4-43c8-a3b3-f42b5c0dad23 a aamas:Term ;
+aama:ID485a5959-c7a9-476e-9b61-d7d7c8de14fe a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffImperative-jo ;
 	aamas:lexeme aama:Coptic-sahidic-jo ;
@@ -2789,7 +2789,7 @@ csa:coptic_S-VInfinCVC2-mouh a aamas:Termcluster ;
 	rdfs:comment "Infinitives with stem final ϩ or ϣ replace the typical ⲟ of the pronominal form with ⲁ." 
 	.
 
-aama:ID65cd1ab5-8337-4c04-af75-8311f2260830 a aamas:Term ;
+aama:IDdce4e1f6-1f3b-49fb-acfe-8ecc652e550a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC2-mouh ;
 	csa:clauseConjugation csa:U ;
@@ -2808,7 +2808,7 @@ aama:ID65cd1ab5-8337-4c04-af75-8311f2260830 a aamas:Term ;
 	csa:infinitiveForm csa:Absolute ;
 	.
 
-aama:ID7421aa90-30d7-4565-8cc5-767a51cef031 a aamas:Term ;
+aama:ID56e9fff5-1604-4aba-845e-2c5cb82f631f a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC2-mouh ;
 	csa:clauseConjugation csa:U ;
@@ -2827,7 +2827,7 @@ aama:ID7421aa90-30d7-4565-8cc5-767a51cef031 a aamas:Term ;
 	csa:infinitiveForm csa:Construct ;
 	.
 
-aama:IDb6c2aaf0-2188-4a35-b4a6-f44461b8c6c6 a aamas:Term ;
+aama:ID99695ae5-d428-42b0-bac4-ba4625c0b262 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC2-mouh ;
 	csa:clauseConjugation csa:U ;
@@ -2846,7 +2846,7 @@ aama:IDb6c2aaf0-2188-4a35-b4a6-f44461b8c6c6 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID432e9479-9267-45e9-b945-b85f441ad113 a aamas:Term ;
+aama:IDeaec3f0f-44e2-4c75-b9d3-98e3f2bee6a8 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC2-mouh ;
 	csa:clauseConjugation csa:U ;
@@ -2865,7 +2865,7 @@ aama:ID432e9479-9267-45e9-b945-b85f441ad113 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID824c91f0-ceb5-4dc4-b114-c0242b3d66da a aamas:Term ;
+aama:ID6de42971-6e0c-4f13-ae95-2e8b2e657fc1 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC2-mouh ;
 	csa:clauseConjugation csa:U ;
@@ -2884,7 +2884,7 @@ aama:ID824c91f0-ceb5-4dc4-b114-c0242b3d66da a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDb43a520b-1246-49c6-980f-1a9d980c3a1d a aamas:Term ;
+aama:ID86aea6df-fc7f-4037-8b33-f5b9cc8f1abc a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC2-mouh ;
 	csa:clauseConjugation csa:U ;
@@ -2903,7 +2903,7 @@ aama:IDb43a520b-1246-49c6-980f-1a9d980c3a1d a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID90f3410d-7dc2-47c4-8539-53028dc2f752 a aamas:Term ;
+aama:ID79c46ff0-47bf-44e7-9342-4151edeedf95 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC2-mouh ;
 	csa:clauseConjugation csa:U ;
@@ -2922,7 +2922,7 @@ aama:ID90f3410d-7dc2-47c4-8539-53028dc2f752 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID866029f9-03c5-4845-977d-90d14e0ab8ed a aamas:Term ;
+aama:ID567cbe26-f1a9-4fad-bef9-0d03acc55381 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC2-mouh ;
 	csa:clauseConjugation csa:U ;
@@ -2941,7 +2941,7 @@ aama:ID866029f9-03c5-4845-977d-90d14e0ab8ed a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDe3ce8288-f666-4946-8281-2e88572c3d16 a aamas:Term ;
+aama:ID66e58d45-69c1-4d6f-8b3e-c8ded0a8fa80 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC2-mouh ;
 	csa:clauseConjugation csa:U ;
@@ -2960,7 +2960,7 @@ aama:IDe3ce8288-f666-4946-8281-2e88572c3d16 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID7a82fa8e-bf48-4f51-8ef2-35ec932a805d a aamas:Term ;
+aama:IDf370417e-6195-44ff-86c8-e2c2f827143d a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC2-mouh ;
 	csa:clauseConjugation csa:U ;
@@ -2983,10 +2983,10 @@ aama:ID7a82fa8e-bf48-4f51-8ef2-35ec932a805d a aamas:Term ;
 
 csa:coptic_S-VAffConj-bok a aamas:Termcluster ;
 	rdfs:label "coptic_S-VAffConj-bok" ;
-	rdfs:comment "The Conjunctive continues the force of any preceding verb,with the exception of the First Present." 
+	rdfs:comment "The Conjunctive continues the force of any preceding verb%%with the exception of the First Present." 
 	.
 
-aama:IDbcdd22e7-67bf-463c-a844-f114115b6c8d a aamas:Term ;
+aama:IDe1be0169-caf3-4402-b0a9-e746572ab733 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffConj-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -3001,7 +3001,7 @@ aama:IDbcdd22e7-67bf-463c-a844-f114115b6c8d a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDe14883e6-be53-401e-b492-93092ac46270 a aamas:Term ;
+aama:IDc73f6c3a-7a1d-4e6f-a624-2b03f386d76a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffConj-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -3016,7 +3016,7 @@ aama:IDe14883e6-be53-401e-b492-93092ac46270 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:IDd1ca54e1-d26c-42ee-8db8-3724f9b06ea7 a aamas:Term ;
+aama:IDf49bc928-80c2-421a-8e47-53c7f6d969e4 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffConj-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -3031,7 +3031,7 @@ aama:IDd1ca54e1-d26c-42ee-8db8-3724f9b06ea7 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID9c8a5fd4-5eef-44c5-a748-1a0c38752282 a aamas:Term ;
+aama:ID6b1a04b5-901f-48d5-9281-ef9b58b0ce47 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffConj-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -3046,7 +3046,7 @@ aama:ID9c8a5fd4-5eef-44c5-a748-1a0c38752282 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID13d223b8-3b8a-46e4-85d4-aea56e3bb378 a aamas:Term ;
+aama:ID92aac29e-c0ee-442a-a533-b075f822d24e a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffConj-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -3061,7 +3061,7 @@ aama:ID13d223b8-3b8a-46e4-85d4-aea56e3bb378 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDe583d764-d2e5-4b92-83ba-d23e7d0ba33a a aamas:Term ;
+aama:IDc2e6c44f-311f-49e6-8669-6e1fa594712a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffConj-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -3076,7 +3076,7 @@ aama:IDe583d764-d2e5-4b92-83ba-d23e7d0ba33a a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDc07406ba-c749-496d-8f80-db49e072f02d a aamas:Term ;
+aama:ID8c0a959a-fc93-4e67-91ba-c4b55872fad7 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffConj-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -3091,7 +3091,7 @@ aama:IDc07406ba-c749-496d-8f80-db49e072f02d a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDa4029728-d0be-4e37-9492-256a9b3a7797 a aamas:Term ;
+aama:ID480c7b80-0c7e-432a-948f-77af1b5ecd74 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffConj-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -3106,7 +3106,7 @@ aama:IDa4029728-d0be-4e37-9492-256a9b3a7797 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDee686da1-5355-46a1-879e-3189fff8493a a aamas:Term ;
+aama:ID8e77eac1-50f0-434a-a385-16cb98fa5504 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffConj-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -3128,7 +3128,7 @@ csa:coptic_S-VNegFut3-rime a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:ID063a6e11-5853-4996-a76e-84b6e0e9192b a aamas:Term ;
+aama:ID372e67f6-3b50-4b69-b1b0-0c31e49320b6 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegFut3-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -3144,7 +3144,7 @@ aama:ID063a6e11-5853-4996-a76e-84b6e0e9192b a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID84bc2f15-00f5-4b2e-98d1-b7816d38e4be a aamas:Term ;
+aama:ID2a47774c-65d2-47b5-bb2d-2fcfb8484815 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegFut3-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -3160,7 +3160,7 @@ aama:ID84bc2f15-00f5-4b2e-98d1-b7816d38e4be a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID402ed388-467d-4a06-9140-ddc5ed39cc42 a aamas:Term ;
+aama:ID1aab09c2-1adb-4863-a277-8cb4537a7cf2 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegFut3-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -3176,7 +3176,7 @@ aama:ID402ed388-467d-4a06-9140-ddc5ed39cc42 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID0a0a3047-4ff9-40cd-8f5d-bba16ad52103 a aamas:Term ;
+aama:ID2e7d912e-93ca-464f-a57b-ce1d153d18b6 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegFut3-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -3192,7 +3192,7 @@ aama:ID0a0a3047-4ff9-40cd-8f5d-bba16ad52103 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID7e3ecce2-a805-4b2d-b204-4945f3f9e16a a aamas:Term ;
+aama:IDb0ec640d-8cb2-4750-8c39-c0fddfe0a1eb a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegFut3-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -3208,7 +3208,7 @@ aama:ID7e3ecce2-a805-4b2d-b204-4945f3f9e16a a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID96c22ae2-fab8-4910-9234-2ab4eb648bd4 a aamas:Term ;
+aama:IDd0e832ad-2cec-431d-8dbd-98413d31116e a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegFut3-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -3224,7 +3224,7 @@ aama:ID96c22ae2-fab8-4910-9234-2ab4eb648bd4 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID8b81055d-7eb2-4c03-aab6-5f12628e5422 a aamas:Term ;
+aama:ID6fc337d4-b1bf-4993-817d-9d0f1359d19b a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegFut3-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -3240,7 +3240,7 @@ aama:ID8b81055d-7eb2-4c03-aab6-5f12628e5422 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDcbe6b54c-9d08-4207-8955-cfeb210ae5da a aamas:Term ;
+aama:IDe3ae3035-f43a-4909-896e-297ffc4c2f33 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegFut3-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -3256,7 +3256,7 @@ aama:IDcbe6b54c-9d08-4207-8955-cfeb210ae5da a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID44884165-dab4-4370-9d7a-4acb9a886597 a aamas:Term ;
+aama:IDf90b4aba-6174-44fe-baa2-84e365f854c7 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegFut3-rime ;
 	csa:clauseConjugation csa:Variable ;
@@ -3279,7 +3279,7 @@ csa:coptic_S-VAffPres2-rime a aamas:Termcluster ;
 	rdfs:comment "The Second Present is morphologically identical to the Circumstantial. The Second Present emphasizes adverbial elements." 
 	.
 
-aama:IDf00c5453-df31-4bf5-801e-0139c102aeaa a aamas:Term ;
+aama:ID399515a7-5f44-4a2d-b71d-37d4a21f5013 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPres2-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -3294,7 +3294,7 @@ aama:IDf00c5453-df31-4bf5-801e-0139c102aeaa a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID5903f1e1-ac92-4ff1-8eb3-81c460d40edb a aamas:Term ;
+aama:ID19b74789-7e5c-4fbb-9579-9d9a4146095b a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPres2-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -3309,7 +3309,7 @@ aama:ID5903f1e1-ac92-4ff1-8eb3-81c460d40edb a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID35ce8649-8d49-4ffc-ac07-aab1c4082590 a aamas:Term ;
+aama:ID8bf9ac77-1f54-487d-9504-cf24cdc5483b a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPres2-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -3324,7 +3324,7 @@ aama:ID35ce8649-8d49-4ffc-ac07-aab1c4082590 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDf926ad63-c8db-4588-a87d-e1d51f9d7bd6 a aamas:Term ;
+aama:ID33fa8119-aa35-42f9-96c5-e77efed3ac35 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPres2-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -3339,7 +3339,7 @@ aama:IDf926ad63-c8db-4588-a87d-e1d51f9d7bd6 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:IDe1f91bbe-3eeb-4b3b-86d7-479b5aba5fe3 a aamas:Term ;
+aama:ID82728677-70c9-4ef8-bc12-ae28b66f642a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPres2-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -3354,7 +3354,7 @@ aama:IDe1f91bbe-3eeb-4b3b-86d7-479b5aba5fe3 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDb496f763-16d4-4ce3-9b33-a1ce8184641f a aamas:Term ;
+aama:ID7a0d3166-3cf7-4c01-8a8c-adcc5dad9816 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPres2-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -3369,7 +3369,7 @@ aama:IDb496f763-16d4-4ce3-9b33-a1ce8184641f a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDa3d779e1-1331-410e-b59f-11dc02c38a11 a aamas:Term ;
+aama:ID81d93bdf-52b0-4ee5-8d93-60e3de3360ca a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPres2-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -3384,7 +3384,7 @@ aama:IDa3d779e1-1331-410e-b59f-11dc02c38a11 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID0e90dfdb-0962-49eb-b940-d8a9a8209e7f a aamas:Term ;
+aama:ID27d9705d-a418-4ad9-8712-fc365eeda0da a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPres2-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -3399,7 +3399,7 @@ aama:ID0e90dfdb-0962-49eb-b940-d8a9a8209e7f a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID36f37481-fce0-451c-bd76-f5f6cdc3134a a aamas:Term ;
+aama:IDee78c858-2c51-43a6-bc1a-e6cb7eb7ae90 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPres2-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -3418,10 +3418,10 @@ aama:ID36f37481-fce0-451c-bd76-f5f6cdc3134a a aamas:Term ;
 
 csa:coptic_S-VInfinCV3-ko a aamas:Termcluster ;
 	rdfs:label "coptic_S-VInfinCV3-ko" ;
-	rdfs:comment "Infinitives of the type consonant + ⲱ typically follow one of two patterns:they may take the form Cⲉ- or Cⲁ- in the construct,and Cⲟⲟ= or Cⲁⲁ= in the pronominal." 
+	rdfs:comment "Infinitives of the type consonant + ⲱ typically follow one of two patterns:they may take the form Cⲉ- or Cⲁ- in the construct%%and Cⲟⲟ= or Cⲁⲁ= in the pronominal." 
 	.
 
-aama:ID655f34a2-957d-4d6b-bbf2-8d9202b45313 a aamas:Term ;
+aama:IDb6b4eee5-4f3b-435d-8000-21e7cfda6f38 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV3-ko ;
 	csa:clauseConjugation csa:U ;
@@ -3440,7 +3440,7 @@ aama:ID655f34a2-957d-4d6b-bbf2-8d9202b45313 a aamas:Term ;
 	csa:infinitiveForm csa:Absolute ;
 	.
 
-aama:IDdb593887-6ad2-4d1e-8b7c-32c50ece52d6 a aamas:Term ;
+aama:IDe81df3f5-0b83-4c1c-affd-0dc23557a459 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV3-ko ;
 	csa:clauseConjugation csa:U ;
@@ -3459,7 +3459,7 @@ aama:IDdb593887-6ad2-4d1e-8b7c-32c50ece52d6 a aamas:Term ;
 	csa:infinitiveForm csa:Construct ;
 	.
 
-aama:ID89e59b9b-2af5-4988-8857-630931805b56 a aamas:Term ;
+aama:IDfe791605-d5aa-4ade-82b7-b4cc0a4d03df a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV3-ko ;
 	csa:clauseConjugation csa:U ;
@@ -3478,7 +3478,7 @@ aama:ID89e59b9b-2af5-4988-8857-630931805b56 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID5e18da05-31d4-4983-819f-c92085177779 a aamas:Term ;
+aama:IDa5c1a575-47a6-4e4e-aa5f-b7f222b284a3 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV3-ko ;
 	csa:clauseConjugation csa:U ;
@@ -3497,7 +3497,7 @@ aama:ID5e18da05-31d4-4983-819f-c92085177779 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDca1c5471-736d-4616-ba15-a50154b58ba6 a aamas:Term ;
+aama:ID7943a6fc-be22-414c-8849-9bc25e8955f3 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV3-ko ;
 	csa:clauseConjugation csa:U ;
@@ -3516,7 +3516,7 @@ aama:IDca1c5471-736d-4616-ba15-a50154b58ba6 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID11596cbb-d4b2-4f9a-8792-e2bbb1060ad2 a aamas:Term ;
+aama:IDf8ba90e0-b419-4d11-baec-d1eb39e5d5df a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV3-ko ;
 	csa:clauseConjugation csa:U ;
@@ -3535,7 +3535,7 @@ aama:ID11596cbb-d4b2-4f9a-8792-e2bbb1060ad2 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDf8498eef-4ac6-4c51-baf7-60f3d1a42e31 a aamas:Term ;
+aama:ID26370b76-ffb6-437e-b48a-716c398b7d9f a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV3-ko ;
 	csa:clauseConjugation csa:U ;
@@ -3554,7 +3554,7 @@ aama:IDf8498eef-4ac6-4c51-baf7-60f3d1a42e31 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDaaee64f2-f7e5-482a-8fa4-f402b48859fd a aamas:Term ;
+aama:ID780e466c-4de2-4c85-b0f4-35941679b142 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV3-ko ;
 	csa:clauseConjugation csa:U ;
@@ -3573,7 +3573,7 @@ aama:IDaaee64f2-f7e5-482a-8fa4-f402b48859fd a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID28e15ead-4926-4b18-a64a-125a024e2809 a aamas:Term ;
+aama:ID6e333250-502e-4077-ba22-f52e658d9a3c a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV3-ko ;
 	csa:clauseConjugation csa:U ;
@@ -3592,7 +3592,7 @@ aama:ID28e15ead-4926-4b18-a64a-125a024e2809 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDdbe479e8-c8cc-4706-9e34-49a7169836d5 a aamas:Term ;
+aama:IDdcb91ecf-d23d-49bf-9036-e0be7bc207d0 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV3-ko ;
 	csa:clauseConjugation csa:U ;
@@ -3618,7 +3618,7 @@ csa:coptic_S-VNegPres1-rime a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:ID92711955-30a7-4cf0-948b-7741d928b135 a aamas:Term ;
+aama:ID355d6738-97fd-475a-83d0-c31c75ae6812 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegPres1-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -3634,7 +3634,7 @@ aama:ID92711955-30a7-4cf0-948b-7741d928b135 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDa0369fa2-1dc1-4613-9176-69390a1abb66 a aamas:Term ;
+aama:IDa88ea52c-14bc-4c4d-b688-879f20cea345 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegPres1-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -3650,7 +3650,7 @@ aama:IDa0369fa2-1dc1-4613-9176-69390a1abb66 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:IDe860c357-69c7-4aed-8ec0-f2fdb3ff9753 a aamas:Term ;
+aama:ID111c3ff1-9429-45b8-be42-859f4e7a39e9 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegPres1-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -3666,7 +3666,7 @@ aama:IDe860c357-69c7-4aed-8ec0-f2fdb3ff9753 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID696c2108-bfb3-4b2d-9719-6aa156721845 a aamas:Term ;
+aama:ID39f1e753-0c44-4d41-b650-4b217f1e833d a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegPres1-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -3682,7 +3682,7 @@ aama:ID696c2108-bfb3-4b2d-9719-6aa156721845 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID8f431e16-187b-45c0-913f-9eb4411bf34f a aamas:Term ;
+aama:IDde41fa7c-74ed-403d-9de4-db69d23ff37d a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegPres1-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -3698,7 +3698,7 @@ aama:ID8f431e16-187b-45c0-913f-9eb4411bf34f a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDd6100e79-7404-42ec-b0d9-91d84cba5e9e a aamas:Term ;
+aama:ID52db71cf-75c2-4399-a024-87e0d9d6793f a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegPres1-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -3714,7 +3714,7 @@ aama:IDd6100e79-7404-42ec-b0d9-91d84cba5e9e a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID5cd3691f-61cd-4aab-a414-59b765022309 a aamas:Term ;
+aama:IDd225cfe6-4421-47af-b2d2-1ae9c01fabfb a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegPres1-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -3730,7 +3730,7 @@ aama:ID5cd3691f-61cd-4aab-a414-59b765022309 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID88db9823-1c64-440d-b801-fe0c5eaf981e a aamas:Term ;
+aama:ID3bb3e402-607a-483a-a50a-ecd65192f003 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegPres1-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -3746,7 +3746,7 @@ aama:ID88db9823-1c64-440d-b801-fe0c5eaf981e a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDf7e2181a-dfd1-4d66-abc4-75efb1f18fc5 a aamas:Term ;
+aama:ID8fa07130-2114-42b6-b7f2-26d05b41ff11 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegPres1-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -3769,7 +3769,7 @@ csa:coptic_S-VNegTemporal-bok a aamas:Termcluster ;
 	rdfs:comment "The Temporal Conjugation expresses a subordinate temporal clause." 
 	.
 
-aama:IDfaeb4337-3e62-4e45-9459-143c8a75087a a aamas:Term ;
+aama:IDaadfbbac-39ab-4239-ab41-3c71499e90cb a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegTemporal-bok ;
 	csa:clauseConjugation csa:Temporal ;
@@ -3784,7 +3784,7 @@ aama:IDfaeb4337-3e62-4e45-9459-143c8a75087a a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDe0465f01-0d79-49f8-851a-38a487c5c1e3 a aamas:Term ;
+aama:IDfc1c11ec-6a26-4b1e-9843-407bd0277a00 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegTemporal-bok ;
 	csa:clauseConjugation csa:Temporal ;
@@ -3799,7 +3799,7 @@ aama:IDe0465f01-0d79-49f8-851a-38a487c5c1e3 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID38457411-48cc-4ede-8ea4-56fa7039c56e a aamas:Term ;
+aama:ID1b908442-e3f4-41e1-a74a-dd266616141c a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegTemporal-bok ;
 	csa:clauseConjugation csa:Temporal ;
@@ -3814,7 +3814,7 @@ aama:ID38457411-48cc-4ede-8ea4-56fa7039c56e a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID73653149-7210-49ae-b6a6-9702b7f3d700 a aamas:Term ;
+aama:IDc0f463d3-a08a-483e-b622-def7bc58e956 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegTemporal-bok ;
 	csa:clauseConjugation csa:Temporal ;
@@ -3829,7 +3829,7 @@ aama:ID73653149-7210-49ae-b6a6-9702b7f3d700 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID6fa68a30-21e0-412b-a083-09553dd5648c a aamas:Term ;
+aama:ID9d7e95ec-a0a5-432e-a2f5-433cf55acf21 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegTemporal-bok ;
 	csa:clauseConjugation csa:Temporal ;
@@ -3844,7 +3844,7 @@ aama:ID6fa68a30-21e0-412b-a083-09553dd5648c a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID6b4fc5ae-a087-4f2f-9c62-3ddda40ee6a3 a aamas:Term ;
+aama:IDf172bfbe-2c36-4a38-9fc8-79b6d4413a9f a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegTemporal-bok ;
 	csa:clauseConjugation csa:Temporal ;
@@ -3859,7 +3859,7 @@ aama:ID6b4fc5ae-a087-4f2f-9c62-3ddda40ee6a3 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDbef58042-b77c-4c6c-bf01-bd8fb9772fb9 a aamas:Term ;
+aama:IDa628a870-97af-4e71-9acd-dbd18edd2510 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegTemporal-bok ;
 	csa:clauseConjugation csa:Temporal ;
@@ -3874,7 +3874,7 @@ aama:IDbef58042-b77c-4c6c-bf01-bd8fb9772fb9 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDb90160df-8877-432f-b9dd-68fae8cf2c4c a aamas:Term ;
+aama:ID0ff9ab30-4756-46d8-9415-63bbeb731f7e a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegTemporal-bok ;
 	csa:clauseConjugation csa:Temporal ;
@@ -3889,7 +3889,7 @@ aama:IDb90160df-8877-432f-b9dd-68fae8cf2c4c a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID40e4f958-73cd-45fc-983e-6e70253cde50 a aamas:Term ;
+aama:IDd10499f8-cfeb-4c0b-af13-439f6da0a05b a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegTemporal-bok ;
 	csa:clauseConjugation csa:Temporal ;
@@ -3908,10 +3908,10 @@ aama:ID40e4f958-73cd-45fc-983e-6e70253cde50 a aamas:Term ;
 
 csa:coptic_S-VAffTerminative-bok a aamas:Termcluster ;
 	rdfs:label "coptic_S-VAffTerminative-bok" ;
-	rdfs:comment "The Terminative is also known as the Until Tense,and is generally translated until he goes,etc. Negation is formed with the insertion of -ⲧⲙ̄- before the infinitive." 
+	rdfs:comment "The Terminative is also known as the Until Tense%%and is generally translated until he goes%%etc. Negation is formed with the insertion of -ⲧⲙ̄- before the infinitive." 
 	.
 
-aama:ID82af758b-8b40-4db0-9d97-62120f2cb750 a aamas:Term ;
+aama:IDc9c53f54-eb3d-4cab-b7dc-c92663a7fcfa a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffTerminative-bok ;
 	csa:clauseConjugation csa:Terminative ;
@@ -3926,7 +3926,7 @@ aama:ID82af758b-8b40-4db0-9d97-62120f2cb750 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID275611c2-795a-40a4-b187-326933a43510 a aamas:Term ;
+aama:ID9dd4839d-26b8-443c-8e16-d45f13a6360a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffTerminative-bok ;
 	csa:clauseConjugation csa:Terminative ;
@@ -3941,7 +3941,7 @@ aama:ID275611c2-795a-40a4-b187-326933a43510 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:IDe41b4c0d-30f6-4d15-ad51-8f09da023468 a aamas:Term ;
+aama:ID86f8985a-f985-43c3-9d19-0161b47fed8b a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffTerminative-bok ;
 	csa:clauseConjugation csa:Terminative ;
@@ -3956,7 +3956,7 @@ aama:IDe41b4c0d-30f6-4d15-ad51-8f09da023468 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDe6f01acd-cc36-42d0-9f8c-a5947d09ca5d a aamas:Term ;
+aama:IDa421ab71-1ab6-468e-9e64-e49369e93db3 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffTerminative-bok ;
 	csa:clauseConjugation csa:Terminative ;
@@ -3971,7 +3971,7 @@ aama:IDe6f01acd-cc36-42d0-9f8c-a5947d09ca5d a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID10f4f633-84da-4166-9962-800eeaef9e90 a aamas:Term ;
+aama:ID2a0365a7-5436-4215-a775-4c01efb38116 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffTerminative-bok ;
 	csa:clauseConjugation csa:Terminative ;
@@ -3986,7 +3986,7 @@ aama:ID10f4f633-84da-4166-9962-800eeaef9e90 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDd918a41d-474c-4ea7-9ede-f6e1cc51725e a aamas:Term ;
+aama:IDa467e863-b125-49b4-b890-69dd8849f948 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffTerminative-bok ;
 	csa:clauseConjugation csa:Terminative ;
@@ -4001,7 +4001,7 @@ aama:IDd918a41d-474c-4ea7-9ede-f6e1cc51725e a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID533daf8e-b8a3-4376-9403-14492827ea8c a aamas:Term ;
+aama:IDfe7b8936-48f3-412f-b424-62eeac3f1b90 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffTerminative-bok ;
 	csa:clauseConjugation csa:Terminative ;
@@ -4016,7 +4016,7 @@ aama:ID533daf8e-b8a3-4376-9403-14492827ea8c a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDe6d1c164-8434-4678-871b-01eb71f25ea6 a aamas:Term ;
+aama:IDf56d30ef-7da9-4ca0-882f-c78dfcfe8737 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffTerminative-bok ;
 	csa:clauseConjugation csa:Terminative ;
@@ -4031,7 +4031,7 @@ aama:IDe6d1c164-8434-4678-871b-01eb71f25ea6 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDb97a1b89-3ef4-412f-ad92-97fda0269acd a aamas:Term ;
+aama:ID007621f8-9ba6-4b06-80aa-605164cb87fd a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffTerminative-bok ;
 	csa:clauseConjugation csa:Terminative ;
@@ -4053,7 +4053,7 @@ csa:coptic_S-VInfinCV1-ji a aamas:Termcluster ;
 	rdfs:comment "Coptic infinitives are irregular and difficult to classify according to morphology. ϫⲓ is typical of monosyllabic infinitives of the type consonant + ⲓ. The verbs ϥⲓ (carry) and ϣⲓ (measure) follow the same pattern." 
 	.
 
-aama:ID61e15c72-19d4-4525-8a1e-377130fca21d a aamas:Term ;
+aama:ID0fbc4b96-a6e7-4037-aaef-ca3ff5bcd603 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV1-ji ;
 	csa:clauseConjugation csa:U ;
@@ -4072,7 +4072,7 @@ aama:ID61e15c72-19d4-4525-8a1e-377130fca21d a aamas:Term ;
 	csa:infinitiveForm csa:Absolute ;
 	.
 
-aama:ID25a127d3-0159-4d15-8ec6-251d9c088078 a aamas:Term ;
+aama:ID5d178a76-b92e-4214-89ba-8c0e28a009eb a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV1-ji ;
 	csa:clauseConjugation csa:U ;
@@ -4091,7 +4091,7 @@ aama:ID25a127d3-0159-4d15-8ec6-251d9c088078 a aamas:Term ;
 	csa:infinitiveForm csa:Construct ;
 	.
 
-aama:ID3f05d1b5-f966-454f-a68c-aa85fc22ec50 a aamas:Term ;
+aama:ID81a4bf77-9532-4fb8-b592-54b2b77dfe6a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV1-ji ;
 	csa:clauseConjugation csa:U ;
@@ -4110,7 +4110,7 @@ aama:ID3f05d1b5-f966-454f-a68c-aa85fc22ec50 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDcadd1934-9884-41ca-aa12-a0a7f7004d28 a aamas:Term ;
+aama:IDbf7cafd2-ff02-43cd-a497-56709a89a5ba a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV1-ji ;
 	csa:clauseConjugation csa:U ;
@@ -4129,7 +4129,7 @@ aama:IDcadd1934-9884-41ca-aa12-a0a7f7004d28 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID6e6c779d-06dc-4bed-bea4-e1ddf53087da a aamas:Term ;
+aama:ID1c3cf541-9358-48ef-bffe-7bf0d25752c3 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV1-ji ;
 	csa:clauseConjugation csa:U ;
@@ -4148,7 +4148,7 @@ aama:ID6e6c779d-06dc-4bed-bea4-e1ddf53087da a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDbc035789-6eb1-4ec6-b0a1-1152725381c0 a aamas:Term ;
+aama:IDb873d901-d2c3-4922-a8ff-a2726369e42e a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV1-ji ;
 	csa:clauseConjugation csa:U ;
@@ -4167,7 +4167,7 @@ aama:IDbc035789-6eb1-4ec6-b0a1-1152725381c0 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDfa03eabf-4307-49a7-91b2-5c456ff66902 a aamas:Term ;
+aama:ID409361ca-8697-4ec6-8f07-2ce430513c3f a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV1-ji ;
 	csa:clauseConjugation csa:U ;
@@ -4186,7 +4186,7 @@ aama:IDfa03eabf-4307-49a7-91b2-5c456ff66902 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDf4544087-99ba-477a-9331-d802a9520d53 a aamas:Term ;
+aama:ID4a54cb84-7429-4f04-a677-a4437ca64b44 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV1-ji ;
 	csa:clauseConjugation csa:U ;
@@ -4205,7 +4205,7 @@ aama:IDf4544087-99ba-477a-9331-d802a9520d53 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDb93ff0b0-5e97-4db3-bc04-67b4f6ab51c4 a aamas:Term ;
+aama:ID526e3c34-3662-4adc-aab7-bd3d84874d49 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV1-ji ;
 	csa:clauseConjugation csa:U ;
@@ -4224,7 +4224,7 @@ aama:IDb93ff0b0-5e97-4db3-bc04-67b4f6ab51c4 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID965f7cd7-b8bd-4d5e-a4f0-84aa05278169 a aamas:Term ;
+aama:ID196ec620-d9bb-4a61-b8ca-d6dac4a305b9 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV1-ji ;
 	csa:clauseConjugation csa:U ;
@@ -4247,10 +4247,10 @@ aama:ID965f7cd7-b8bd-4d5e-a4f0-84aa05278169 a aamas:Term ;
 
 csa:coptic_S-VInfinCVC3Irreg-eire a aamas:Termcluster ;
 	rdfs:label "coptic_S-VInfinCVC3Irreg-eire" ;
-	rdfs:comment "Infinitives with a stressed ⲓ in the first vowel position and an unstressed final ⲉ form a distinct class,although several verbs of this type exhibit irregularities. Other common irregular verbs in this class are ⲉⲓⲛⲉ/ⲛ̄-/ⲛ̄ⲧ=,ϣⲓⲛⲉ/ϣⲛ̄-/ϣⲛ̄ⲧ= and ϭⲓⲛⲉ/ϭⲛ̄-/ϭⲛ̄ⲧ=." 
+	rdfs:comment "Infinitives with a stressed ⲓ in the first vowel position and an unstressed final ⲉ form a distinct class%%although several verbs of this type exhibit irregularities. Other common irregular verbs in this class are ⲉⲓⲛⲉ/ⲛ̄-/ⲛ̄ⲧ=%%ϣⲓⲛⲉ/ϣⲛ̄-/ϣⲛ̄ⲧ= and ϭⲓⲛⲉ/ϭⲛ̄-/ϭⲛ̄ⲧ=." 
 	.
 
-aama:ID12b803c4-b861-40a4-ae8f-d5a224db8dba a aamas:Term ;
+aama:ID8e309856-e3fc-49c7-8737-ed054f66bac7 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Irreg-eire ;
 	csa:clauseConjugation csa:U ;
@@ -4269,7 +4269,7 @@ aama:ID12b803c4-b861-40a4-ae8f-d5a224db8dba a aamas:Term ;
 	csa:infinitiveForm csa:Absolute ;
 	.
 
-aama:ID14e2da28-fa3d-4e67-9dd0-80b6b0ae27e5 a aamas:Term ;
+aama:ID93506f8e-90ea-44ab-b221-10c735517e86 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Irreg-eire ;
 	csa:clauseConjugation csa:U ;
@@ -4288,7 +4288,7 @@ aama:ID14e2da28-fa3d-4e67-9dd0-80b6b0ae27e5 a aamas:Term ;
 	csa:infinitiveForm csa:Construct ;
 	.
 
-aama:ID2cb9ac1c-9123-4606-a4e6-254e80accf17 a aamas:Term ;
+aama:IDfbe394e8-5d5f-4704-92fe-316d4321562f a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Irreg-eire ;
 	csa:clauseConjugation csa:U ;
@@ -4307,7 +4307,7 @@ aama:ID2cb9ac1c-9123-4606-a4e6-254e80accf17 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID9be29025-4b2d-4e2b-b00a-37aea10bef6b a aamas:Term ;
+aama:ID54929d9a-38e1-4825-8568-ce6052b456df a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Irreg-eire ;
 	csa:clauseConjugation csa:U ;
@@ -4326,7 +4326,7 @@ aama:ID9be29025-4b2d-4e2b-b00a-37aea10bef6b a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID80ae1e88-4fbb-485f-8e9f-67d670cda2ed a aamas:Term ;
+aama:IDfe087bba-b180-4667-8816-7ff54b6c7b6c a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Irreg-eire ;
 	csa:clauseConjugation csa:U ;
@@ -4345,7 +4345,7 @@ aama:ID80ae1e88-4fbb-485f-8e9f-67d670cda2ed a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID317d7a58-2215-4ebe-9e68-33c193c21c74 a aamas:Term ;
+aama:IDc7e3b53d-61ea-4867-b9de-343a24adb60c a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Irreg-eire ;
 	csa:clauseConjugation csa:U ;
@@ -4364,7 +4364,7 @@ aama:ID317d7a58-2215-4ebe-9e68-33c193c21c74 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDcbbced10-d119-4bed-ab87-abeee9a6c0cf a aamas:Term ;
+aama:ID042e54a5-ca97-4f31-a02f-7419552a3a3a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Irreg-eire ;
 	csa:clauseConjugation csa:U ;
@@ -4383,7 +4383,7 @@ aama:IDcbbced10-d119-4bed-ab87-abeee9a6c0cf a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID992b13e9-a82f-41ce-b57c-22ae982bf237 a aamas:Term ;
+aama:ID77e50a8f-f249-4350-8394-6895b3821b92 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Irreg-eire ;
 	csa:clauseConjugation csa:U ;
@@ -4402,7 +4402,7 @@ aama:ID992b13e9-a82f-41ce-b57c-22ae982bf237 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID1f2ead76-c05b-49e9-9879-fceb00676f9a a aamas:Term ;
+aama:ID7236ddc5-779a-4063-9495-25701c82ad5a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Irreg-eire ;
 	csa:clauseConjugation csa:U ;
@@ -4421,7 +4421,7 @@ aama:ID1f2ead76-c05b-49e9-9879-fceb00676f9a a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDe500249b-6ca5-4811-b751-f5b4d84d35e0 a aamas:Term ;
+aama:IDbac004ab-617a-452e-8f7d-bf850ca74ff6 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Irreg-eire ;
 	csa:clauseConjugation csa:U ;
@@ -4444,10 +4444,10 @@ aama:IDe500249b-6ca5-4811-b751-f5b4d84d35e0 a aamas:Term ;
 
 csa:coptic_S-VInfinCVC3Reg-mise a aamas:Termcluster ;
 	rdfs:label "coptic_S-VInfinCVC3Reg-mise" ;
-	rdfs:comment "Infinitives with a stressed ⲓ in the first vowel position and an unstressed final ⲉ form a distinct class,although several verbs of this type exhibit irregularities." 
+	rdfs:comment "Infinitives with a stressed ⲓ in the first vowel position and an unstressed final ⲉ form a distinct class%%although several verbs of this type exhibit irregularities." 
 	.
 
-aama:IDe2a5762a-83ad-4e9d-b94e-b42554051420 a aamas:Term ;
+aama:ID5091780b-633e-4cc3-9bf6-decb7bab77a2 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Reg-mise ;
 	csa:clauseConjugation csa:U ;
@@ -4466,7 +4466,7 @@ aama:IDe2a5762a-83ad-4e9d-b94e-b42554051420 a aamas:Term ;
 	csa:infinitiveForm csa:Absolute ;
 	.
 
-aama:ID34b83eff-2acb-4310-a5ad-f5a7b2dc2cf3 a aamas:Term ;
+aama:ID63c86352-0f5b-48d3-be3c-cf48014162a7 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Reg-mise ;
 	csa:clauseConjugation csa:U ;
@@ -4485,7 +4485,7 @@ aama:ID34b83eff-2acb-4310-a5ad-f5a7b2dc2cf3 a aamas:Term ;
 	csa:infinitiveForm csa:Construct ;
 	.
 
-aama:IDdeb41aae-ae08-401e-bd4f-0306794b60eb a aamas:Term ;
+aama:ID19faa9f4-6d33-4768-8ec7-6c9d8e7ea404 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Reg-mise ;
 	csa:clauseConjugation csa:U ;
@@ -4504,7 +4504,7 @@ aama:IDdeb41aae-ae08-401e-bd4f-0306794b60eb a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID90c156a1-7387-4a7f-8235-3f57d839f0b2 a aamas:Term ;
+aama:IDa91b929b-e8dd-47d7-ad53-0c3adc107690 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Reg-mise ;
 	csa:clauseConjugation csa:U ;
@@ -4523,7 +4523,7 @@ aama:ID90c156a1-7387-4a7f-8235-3f57d839f0b2 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDc6442780-a109-4c66-9a5c-f35f6101fc2b a aamas:Term ;
+aama:ID996b5a7d-0a4f-41b2-8141-9f139bc3062b a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Reg-mise ;
 	csa:clauseConjugation csa:U ;
@@ -4542,7 +4542,7 @@ aama:IDc6442780-a109-4c66-9a5c-f35f6101fc2b a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDe39c660a-bd20-416a-82c1-851190f7990b a aamas:Term ;
+aama:ID71763193-e867-402a-93d7-827db015d559 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Reg-mise ;
 	csa:clauseConjugation csa:U ;
@@ -4561,7 +4561,7 @@ aama:IDe39c660a-bd20-416a-82c1-851190f7990b a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID78ceb43a-9066-4633-bf90-433f41d63178 a aamas:Term ;
+aama:ID78b184a2-e60d-4a10-a8b7-7582296db312 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Reg-mise ;
 	csa:clauseConjugation csa:U ;
@@ -4580,7 +4580,7 @@ aama:ID78ceb43a-9066-4633-bf90-433f41d63178 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDec5b0978-091f-459b-8895-04c1ad5cdf9d a aamas:Term ;
+aama:IDd5d51c7e-7496-42c9-a42b-94dfc47e4fa5 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Reg-mise ;
 	csa:clauseConjugation csa:U ;
@@ -4599,7 +4599,7 @@ aama:IDec5b0978-091f-459b-8895-04c1ad5cdf9d a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDa9db2002-538c-48f9-8d22-b12bfe5d593a a aamas:Term ;
+aama:ID346c5ced-95cc-4b24-8709-6034ebe9b498 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Reg-mise ;
 	csa:clauseConjugation csa:U ;
@@ -4618,7 +4618,7 @@ aama:IDa9db2002-538c-48f9-8d22-b12bfe5d593a a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDc5100f29-0559-44b1-b934-8134acf94df7 a aamas:Term ;
+aama:IDec11ad33-5f96-49bd-b41e-3db85e686230 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVC3Reg-mise ;
 	csa:clauseConjugation csa:U ;
@@ -4644,7 +4644,7 @@ csa:coptic_S-VAffTemporalSubordinate-bok a aamas:Termcluster ;
 	rdfs:comment "The Temporal Conjugation expresses a subordinate temporal clause." 
 	.
 
-aama:ID070e8503-5c01-425d-b2ff-ed445e19328e a aamas:Term ;
+aama:IDf9e3a879-867a-49bb-9b0f-30c23e2349a0 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffTemporalSubordinate-bok ;
 	csa:clauseConjugation csa:TemporalSubordinate ;
@@ -4660,7 +4660,7 @@ aama:ID070e8503-5c01-425d-b2ff-ed445e19328e a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID9a23b169-8730-4a20-a2f0-b4b19ef575bc a aamas:Term ;
+aama:ID4e346d29-1c63-4ed9-8a00-914674e0bef7 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffTemporalSubordinate-bok ;
 	csa:clauseConjugation csa:TemporalSubordinate ;
@@ -4676,7 +4676,7 @@ aama:ID9a23b169-8730-4a20-a2f0-b4b19ef575bc a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:IDb0b12d8a-2227-4bb0-a9d9-ccc2380a92eb a aamas:Term ;
+aama:IDf5742aab-0c6f-44b4-98e2-682b163f26d0 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffTemporalSubordinate-bok ;
 	csa:clauseConjugation csa:TemporalSubordinate ;
@@ -4692,7 +4692,7 @@ aama:IDb0b12d8a-2227-4bb0-a9d9-ccc2380a92eb a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID6e7e9492-c420-419a-9ffd-0c92df677860 a aamas:Term ;
+aama:ID93121ff0-ba57-4608-9de9-0b39bfed75eb a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffTemporalSubordinate-bok ;
 	csa:clauseConjugation csa:TemporalSubordinate ;
@@ -4708,7 +4708,7 @@ aama:ID6e7e9492-c420-419a-9ffd-0c92df677860 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID48dfb9e5-9fca-4c25-88db-db6325269293 a aamas:Term ;
+aama:ID50afd9d8-664f-4334-8097-dc79c3fe7e34 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffTemporalSubordinate-bok ;
 	csa:clauseConjugation csa:TemporalSubordinate ;
@@ -4724,7 +4724,7 @@ aama:ID48dfb9e5-9fca-4c25-88db-db6325269293 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDfa7afa5d-dbfc-4702-b4a0-8b8a99814308 a aamas:Term ;
+aama:ID6e2b1e0e-5e39-4dd7-8212-770bfff546e7 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffTemporalSubordinate-bok ;
 	csa:clauseConjugation csa:TemporalSubordinate ;
@@ -4740,7 +4740,7 @@ aama:IDfa7afa5d-dbfc-4702-b4a0-8b8a99814308 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID74ed85df-1b35-4748-9d7a-274e6fcea757 a aamas:Term ;
+aama:IDc4bb2e6c-e2d2-488c-af2c-b6f1225e689d a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffTemporalSubordinate-bok ;
 	csa:clauseConjugation csa:TemporalSubordinate ;
@@ -4756,7 +4756,7 @@ aama:ID74ed85df-1b35-4748-9d7a-274e6fcea757 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID52917ee5-a2f2-4b1d-a46f-67c9d7ed5b0c a aamas:Term ;
+aama:ID5e1f6427-c98c-4f32-981c-4c2cc9039122 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffTemporalSubordinate-bok ;
 	csa:clauseConjugation csa:TemporalSubordinate ;
@@ -4772,7 +4772,7 @@ aama:ID52917ee5-a2f2-4b1d-a46f-67c9d7ed5b0c a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID3e0e9f63-560a-4153-8aa9-c934d33a30ca a aamas:Term ;
+aama:IDf2a50e38-eb20-4392-8cc9-cfd202079bef a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffTemporalSubordinate-bok ;
 	csa:clauseConjugation csa:TemporalSubordinate ;
@@ -4795,7 +4795,7 @@ csa:coptic_S-VAffPres1-rime a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:IDef1de81e-ca53-41b0-b391-fe18e9187adc a aamas:Term ;
+aama:ID5442f918-fddf-4cee-b703-a52efba075eb a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPres1-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -4813,7 +4813,7 @@ aama:IDef1de81e-ca53-41b0-b391-fe18e9187adc a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDf1e7f98e-e9cf-4c94-af61-b18c6d078625 a aamas:Term ;
+aama:ID034eabb6-5104-49a8-b0c1-037ba5459af7 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPres1-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -4831,7 +4831,7 @@ aama:IDf1e7f98e-e9cf-4c94-af61-b18c6d078625 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID3467ac60-0b4c-425b-8356-8b5ecd703999 a aamas:Term ;
+aama:ID62d2ed6e-3e4d-4b77-a01c-62fa6e94c348 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPres1-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -4849,7 +4849,7 @@ aama:ID3467ac60-0b4c-425b-8356-8b5ecd703999 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDb00b3384-37f3-42af-a6b0-c9d0a004ddab a aamas:Term ;
+aama:ID9f25e524-0950-4223-84eb-9f2bc2a217b1 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPres1-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -4867,7 +4867,7 @@ aama:IDb00b3384-37f3-42af-a6b0-c9d0a004ddab a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID458e123b-5193-4991-a7c7-bc9baa9a98ff a aamas:Term ;
+aama:ID380031e6-9f35-4ce8-ba9d-f9c97bc5e241 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPres1-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -4885,7 +4885,7 @@ aama:ID458e123b-5193-4991-a7c7-bc9baa9a98ff a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDceee323a-2f48-41dc-8d54-2724d93fe441 a aamas:Term ;
+aama:ID79ef0b0f-8426-489b-8f72-332b673f66a2 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPres1-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -4903,7 +4903,7 @@ aama:IDceee323a-2f48-41dc-8d54-2724d93fe441 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID811ab109-d8ff-4eb5-a460-eafc929734a8 a aamas:Term ;
+aama:IDd399a172-640a-4935-b2b5-9d2f9d9b380e a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPres1-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -4921,7 +4921,7 @@ aama:ID811ab109-d8ff-4eb5-a460-eafc929734a8 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDee1c0e71-378e-4d48-9304-3cfb4d4ab58e a aamas:Term ;
+aama:IDe3b209f7-e159-4aea-ab71-330d9cd48235 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPres1-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -4939,7 +4939,7 @@ aama:IDee1c0e71-378e-4d48-9304-3cfb4d4ab58e a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDc75ea1b9-2bde-46b2-a252-c9569404dd38 a aamas:Term ;
+aama:IDd731ce75-fb8c-4754-957f-95559fbb6cdb a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPres1-rime ;
 	csa:clauseConjugation csa:Main ;
@@ -4964,7 +4964,7 @@ csa:coptic_S-VInfinCV4-me a aamas:Termcluster ;
 	rdfs:comment "ⲙⲉ is historically derived from a biconsonantal root mr. The weak consonant r returns in the construct and pronominal forms." 
 	.
 
-aama:ID8e4dff35-a181-4ff0-a975-ff5c24a75f69 a aamas:Term ;
+aama:ID4a3cced3-ca30-4807-8619-07f8ac844a2f a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV4-me ;
 	csa:clauseConjugation csa:U ;
@@ -4983,7 +4983,7 @@ aama:ID8e4dff35-a181-4ff0-a975-ff5c24a75f69 a aamas:Term ;
 	csa:infinitiveForm csa:Absolute ;
 	.
 
-aama:IDbc77b810-f037-4fcd-abfb-d5a3f011dd4e a aamas:Term ;
+aama:IDce6c0a64-c968-4b4e-be00-cc33e3639c6e a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV4-me ;
 	csa:clauseConjugation csa:U ;
@@ -5002,7 +5002,7 @@ aama:IDbc77b810-f037-4fcd-abfb-d5a3f011dd4e a aamas:Term ;
 	csa:infinitiveForm csa:Construct ;
 	.
 
-aama:ID56186ccd-2a15-451c-b6b6-d78d005902a4 a aamas:Term ;
+aama:ID6c6ff541-f3f3-435d-8b87-2f0e046618de a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV4-me ;
 	csa:clauseConjugation csa:U ;
@@ -5021,7 +5021,7 @@ aama:ID56186ccd-2a15-451c-b6b6-d78d005902a4 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDe3e0d331-2be8-4e60-8701-a1179b720963 a aamas:Term ;
+aama:ID63dd5af8-8ed1-42d6-b033-2a844fff731d a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV4-me ;
 	csa:clauseConjugation csa:U ;
@@ -5040,7 +5040,7 @@ aama:IDe3e0d331-2be8-4e60-8701-a1179b720963 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID59ad4afd-7434-4d2e-a272-e839db96d3ea a aamas:Term ;
+aama:ID1db1b247-5fee-4106-be9a-a5b07fab0f60 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV4-me ;
 	csa:clauseConjugation csa:U ;
@@ -5059,7 +5059,7 @@ aama:ID59ad4afd-7434-4d2e-a272-e839db96d3ea a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDbdd54d69-8095-47c9-b345-9fbf2465992e a aamas:Term ;
+aama:ID99dba559-c92a-4756-b20c-3a79aeeb8c8c a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV4-me ;
 	csa:clauseConjugation csa:U ;
@@ -5078,7 +5078,7 @@ aama:IDbdd54d69-8095-47c9-b345-9fbf2465992e a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDf3ccaeb0-3e0c-426f-89ff-acfcedc276a0 a aamas:Term ;
+aama:ID57437bae-10c4-474b-bd77-cb3ec8d5080b a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV4-me ;
 	csa:clauseConjugation csa:U ;
@@ -5097,7 +5097,7 @@ aama:IDf3ccaeb0-3e0c-426f-89ff-acfcedc276a0 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID0b79ff4a-2927-466a-863b-449191698939 a aamas:Term ;
+aama:ID95503b90-833b-48eb-8ba5-8a5607b6d69e a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV4-me ;
 	csa:clauseConjugation csa:U ;
@@ -5116,7 +5116,7 @@ aama:ID0b79ff4a-2927-466a-863b-449191698939 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDa95e17ce-4114-4cce-8434-281f4d08f848 a aamas:Term ;
+aama:ID95d90080-5181-4c79-8a94-5ae6a8db88c9 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV4-me ;
 	csa:clauseConjugation csa:U ;
@@ -5135,7 +5135,7 @@ aama:IDa95e17ce-4114-4cce-8434-281f4d08f848 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID01b239ec-c942-416c-82d3-2e0e6712ba5f a aamas:Term ;
+aama:ID8440b10c-e99c-427b-8700-e6732b94e199 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV4-me ;
 	csa:clauseConjugation csa:U ;
@@ -5158,10 +5158,10 @@ aama:ID01b239ec-c942-416c-82d3-2e0e6712ba5f a aamas:Term ;
 
 csa:coptic_S-VAffInflectedInfin-bok a aamas:Termcluster ;
 	rdfs:label "coptic_S-VAffInflectedInfin-bok" ;
-	rdfs:comment "The Inflected (or Causative) Infinitive has no inherent tense,and takes its tense from the main verb of the sentence. It is used either as a complementary infinitive with verbs of wishing or commanding,or in purpose or temporal clauses. Negation is formed with ⲧⲙ̄,prefixed either to the prefix or directly to the infinitive." 
+	rdfs:comment "The Inflected (or Causative) Infinitive has no inherent tense%%and takes its tense from the main verb of the sentence. It is used either as a complementary infinitive with verbs of wishing or commanding%%or in purpose or temporal clauses. Negation is formed with ⲧⲙ̄%%prefixed either to the prefix or directly to the infinitive." 
 	.
 
-aama:IDcc07047d-5cb4-485d-856b-4d61d665df7d a aamas:Term ;
+aama:IDc7983af9-350d-4c9f-8cf6-c6e749a2afed a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffInflectedInfin-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -5178,7 +5178,7 @@ aama:IDcc07047d-5cb4-485d-856b-4d61d665df7d a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDf870458d-f53c-47c9-be32-db4e10a46bff a aamas:Term ;
+aama:ID09e543e3-7be8-4e0f-bab5-ce9c891fc8af a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffInflectedInfin-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -5195,7 +5195,7 @@ aama:IDf870458d-f53c-47c9-be32-db4e10a46bff a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID7fa1bb9b-cab7-4749-88de-56bb9c0b4600 a aamas:Term ;
+aama:ID80eca529-c42f-4236-9c77-73e3273ad887 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffInflectedInfin-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -5212,7 +5212,7 @@ aama:ID7fa1bb9b-cab7-4749-88de-56bb9c0b4600 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID977a2353-29ed-4951-afca-42380d40037d a aamas:Term ;
+aama:IDa613fbba-185f-414c-8196-4618face51ed a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffInflectedInfin-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -5229,7 +5229,7 @@ aama:ID977a2353-29ed-4951-afca-42380d40037d a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID9bff4186-71e3-404e-b14c-0e8ed8c45cf0 a aamas:Term ;
+aama:IDdf2ffe8f-c8ee-44c1-9954-cf32902cbde2 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffInflectedInfin-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -5246,7 +5246,7 @@ aama:ID9bff4186-71e3-404e-b14c-0e8ed8c45cf0 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDdbd91fb2-815e-49d1-a8ea-823af8745677 a aamas:Term ;
+aama:ID2c0ca0aa-35f8-4368-8f9c-03dafd97a489 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffInflectedInfin-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -5263,7 +5263,7 @@ aama:IDdbd91fb2-815e-49d1-a8ea-823af8745677 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDea978cb2-e82d-4c96-9285-5e2f1e7b07e9 a aamas:Term ;
+aama:IDf6f830d2-ac76-48a3-b868-3879293ea72f a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffInflectedInfin-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -5280,7 +5280,7 @@ aama:IDea978cb2-e82d-4c96-9285-5e2f1e7b07e9 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDb18e0ca4-b94a-4423-939e-5b00cbfb0c9b a aamas:Term ;
+aama:ID6ee8f700-f7d5-4139-8aa8-3c12e4c8f32b a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffInflectedInfin-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -5297,7 +5297,7 @@ aama:IDb18e0ca4-b94a-4423-939e-5b00cbfb0c9b a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDfb55ad7b-9420-46a4-becb-068c59fbed23 a aamas:Term ;
+aama:IDef2e6ea8-2fd8-4f51-ace5-ae277014728e a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffInflectedInfin-bok ;
 	csa:clauseConjugation csa:Variable ;
@@ -5321,7 +5321,7 @@ csa:coptic_S-VAffPerf2-bok a aamas:Termcluster ;
 	rdfs:comment "The Second Perfect places emphasis on an adverbial element or circumstantial clause." 
 	.
 
-aama:IDa6253c3c-2873-48c5-86cf-a5a8b00f3a11 a aamas:Term ;
+aama:ID8ca0c865-8d34-4078-af8e-f82bddbc0e50 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPerf2-bok ;
 	csa:clauseConjugation csa:Main ;
@@ -5336,7 +5336,7 @@ aama:IDa6253c3c-2873-48c5-86cf-a5a8b00f3a11 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDa4556b51-1b12-4401-8397-e7f08920aec0 a aamas:Term ;
+aama:ID74b521d6-f7ca-4355-a266-86ba88315b81 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPerf2-bok ;
 	csa:clauseConjugation csa:Main ;
@@ -5351,7 +5351,7 @@ aama:IDa4556b51-1b12-4401-8397-e7f08920aec0 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID03b32838-4e3f-49ca-9fc0-32b897dea6be a aamas:Term ;
+aama:ID980c6410-a3ab-49cd-9d8b-8f92c35a0de2 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPerf2-bok ;
 	csa:clauseConjugation csa:Main ;
@@ -5366,7 +5366,7 @@ aama:ID03b32838-4e3f-49ca-9fc0-32b897dea6be a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID08529fd4-4d29-4c11-b444-6eaf41ad0103 a aamas:Term ;
+aama:IDa2dafd1c-65ac-4288-a7a0-d8ab9c68ee4d a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPerf2-bok ;
 	csa:clauseConjugation csa:Main ;
@@ -5381,7 +5381,7 @@ aama:ID08529fd4-4d29-4c11-b444-6eaf41ad0103 a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID39c19f41-7e0d-422f-9595-6bf7d747fdb8 a aamas:Term ;
+aama:ID1292870e-7e2a-4ba4-b45c-7da446b67d05 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPerf2-bok ;
 	csa:clauseConjugation csa:Main ;
@@ -5396,7 +5396,7 @@ aama:ID39c19f41-7e0d-422f-9595-6bf7d747fdb8 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID23139dcc-a1a8-4394-b78a-ca2f831abdd5 a aamas:Term ;
+aama:ID929f1473-0c28-4e8f-bd25-3f3b533ff95d a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPerf2-bok ;
 	csa:clauseConjugation csa:Main ;
@@ -5411,7 +5411,7 @@ aama:ID23139dcc-a1a8-4394-b78a-ca2f831abdd5 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDc56ef79d-3474-4ba9-8a56-750d3a73c639 a aamas:Term ;
+aama:ID714cd0fb-40dd-4a9f-83f2-e4ec1d12c8bc a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPerf2-bok ;
 	csa:clauseConjugation csa:Main ;
@@ -5426,7 +5426,7 @@ aama:IDc56ef79d-3474-4ba9-8a56-750d3a73c639 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID0bd57fe9-fc6b-449d-85b5-034053015252 a aamas:Term ;
+aama:ID89353085-4d06-46db-a519-b6f3af3b5bcf a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPerf2-bok ;
 	csa:clauseConjugation csa:Main ;
@@ -5441,7 +5441,7 @@ aama:ID0bd57fe9-fc6b-449d-85b5-034053015252 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID5bc60fe5-c5c2-4cc2-b09c-8fc9f8efd8ef a aamas:Term ;
+aama:ID905b1c9e-98c3-4de7-a2e3-a0a5060d2238 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VAffPerf2-bok ;
 	csa:clauseConjugation csa:Main ;
@@ -5463,7 +5463,7 @@ csa:coptic_S-VInfinCVReg-ji a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:ID3373e3a6-4a57-4d40-885f-de173a6171b0 a aamas:Term ;
+aama:ID1adaf0b3-2ac4-49a5-b719-2435eef5f049 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVReg-ji ;
 	csa:clauseConjugation csa:U ;
@@ -5482,7 +5482,7 @@ aama:ID3373e3a6-4a57-4d40-885f-de173a6171b0 a aamas:Term ;
 	csa:infinitiveForm csa:Absolute ;
 	.
 
-aama:IDadb3bf5a-c195-4c88-92e4-e7334b8a5e04 a aamas:Term ;
+aama:IDd782a1f4-43d8-430c-b9d2-a33fc89201e8 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVReg-ji ;
 	csa:clauseConjugation csa:U ;
@@ -5501,7 +5501,7 @@ aama:IDadb3bf5a-c195-4c88-92e4-e7334b8a5e04 a aamas:Term ;
 	csa:infinitiveForm csa:Construct ;
 	.
 
-aama:ID8c727b6b-57cc-401d-b4d0-ba764294a3ab a aamas:Term ;
+aama:ID2145d3e6-18ce-46d4-abd2-aff4ac4cb84a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVReg-ji ;
 	csa:clauseConjugation csa:U ;
@@ -5520,7 +5520,7 @@ aama:ID8c727b6b-57cc-401d-b4d0-ba764294a3ab a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDfec5f47c-6a79-449a-bcc0-75f2363b4096 a aamas:Term ;
+aama:ID29083e7b-6cfb-4b73-b44b-f43073f48ef7 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVReg-ji ;
 	csa:clauseConjugation csa:U ;
@@ -5539,7 +5539,7 @@ aama:IDfec5f47c-6a79-449a-bcc0-75f2363b4096 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDd24951f0-c049-4ded-ac70-de158a35dec9 a aamas:Term ;
+aama:IDf46a8d9b-23c1-4d5b-8f3f-3813b0647a09 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVReg-ji ;
 	csa:clauseConjugation csa:U ;
@@ -5558,7 +5558,7 @@ aama:IDd24951f0-c049-4ded-ac70-de158a35dec9 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID7f670180-e73a-45ba-9b87-464740e3bb1e a aamas:Term ;
+aama:ID2eccce80-2013-455e-8d7c-f36e6ed2316d a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVReg-ji ;
 	csa:clauseConjugation csa:U ;
@@ -5577,7 +5577,7 @@ aama:ID7f670180-e73a-45ba-9b87-464740e3bb1e a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDe898f223-3f34-4564-a3dc-2700d0236941 a aamas:Term ;
+aama:ID62278406-c01b-4c4d-9af5-ca2959f7e948 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVReg-ji ;
 	csa:clauseConjugation csa:U ;
@@ -5596,7 +5596,7 @@ aama:IDe898f223-3f34-4564-a3dc-2700d0236941 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID92aedbda-0fda-49e6-bc85-09605a067533 a aamas:Term ;
+aama:IDdd04bdbf-708a-4774-b7cf-44ed3ddb8a1a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVReg-ji ;
 	csa:clauseConjugation csa:U ;
@@ -5615,7 +5615,7 @@ aama:ID92aedbda-0fda-49e6-bc85-09605a067533 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID89f92474-9cf5-4674-93b0-22d47b416262 a aamas:Term ;
+aama:ID04a4b0fb-428c-4522-8b00-cef3377886ee a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVReg-ji ;
 	csa:clauseConjugation csa:U ;
@@ -5634,7 +5634,7 @@ aama:ID89f92474-9cf5-4674-93b0-22d47b416262 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDda981df6-536d-45b3-a533-33ef5651bb65 a aamas:Term ;
+aama:IDe549bbd8-58cd-45db-b439-b0354a427372 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVReg-ji ;
 	csa:clauseConjugation csa:U ;
@@ -5657,10 +5657,10 @@ aama:IDda981df6-536d-45b3-a533-33ef5651bb65 a aamas:Term ;
 
 csa:coptic_S-VInfinCV2-ti a aamas:Termcluster ;
 	rdfs:label "coptic_S-VInfinCV2-ti" ;
-	rdfs:comment "ϯ departs from the pattern followed by other verbs of its class,represented by ϫⲓ in the previous paradigm." 
+	rdfs:comment "ϯ departs from the pattern followed by other verbs of its class%%represented by ϫⲓ in the previous paradigm." 
 	.
 
-aama:ID162de8c8-4416-4e7b-b3ea-b342fc28a2d1 a aamas:Term ;
+aama:ID21d6d7fc-6d58-4286-bd7c-ac283293ccb5 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV2-ti ;
 	csa:clauseConjugation csa:U ;
@@ -5679,7 +5679,7 @@ aama:ID162de8c8-4416-4e7b-b3ea-b342fc28a2d1 a aamas:Term ;
 	csa:infinitiveForm csa:Absolute ;
 	.
 
-aama:ID815697a1-a407-4139-afee-fb7575c46081 a aamas:Term ;
+aama:IDb2e6887c-39d9-4143-b07a-e5788816eec9 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV2-ti ;
 	csa:clauseConjugation csa:U ;
@@ -5698,7 +5698,7 @@ aama:ID815697a1-a407-4139-afee-fb7575c46081 a aamas:Term ;
 	csa:infinitiveForm csa:Construct ;
 	.
 
-aama:ID136b4631-5e97-406e-b1c3-94ffc87a803d a aamas:Term ;
+aama:ID5721885c-c241-4265-be8e-3818cf4c6eec a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV2-ti ;
 	csa:clauseConjugation csa:U ;
@@ -5717,7 +5717,7 @@ aama:ID136b4631-5e97-406e-b1c3-94ffc87a803d a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID1ae455c7-7ebc-4ad6-8d79-d760c5f1a7a5 a aamas:Term ;
+aama:ID60cf69cb-7ff9-4278-98ce-45cc9d7061cf a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV2-ti ;
 	csa:clauseConjugation csa:U ;
@@ -5736,7 +5736,7 @@ aama:ID1ae455c7-7ebc-4ad6-8d79-d760c5f1a7a5 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID7a4c5207-fc59-446f-b9ec-b3f34ac48b7e a aamas:Term ;
+aama:ID94d60c5e-9ee7-42e2-94c1-41bf577af3f4 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV2-ti ;
 	csa:clauseConjugation csa:U ;
@@ -5755,7 +5755,7 @@ aama:ID7a4c5207-fc59-446f-b9ec-b3f34ac48b7e a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID6beb1430-b1f4-40bb-9325-0a557578e371 a aamas:Term ;
+aama:ID7a1924f4-0f4c-4a8c-84b3-436bd59a14c5 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV2-ti ;
 	csa:clauseConjugation csa:U ;
@@ -5774,7 +5774,7 @@ aama:ID6beb1430-b1f4-40bb-9325-0a557578e371 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID079c7d79-910f-40f4-96bd-da3f49e9d255 a aamas:Term ;
+aama:IDee40fd62-71cd-42c7-9517-5adc82c348ff a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV2-ti ;
 	csa:clauseConjugation csa:U ;
@@ -5793,7 +5793,7 @@ aama:ID079c7d79-910f-40f4-96bd-da3f49e9d255 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID3886a2f1-ce59-4b95-bc6c-f7a77600db39 a aamas:Term ;
+aama:ID2d0091b7-7059-42dd-a84e-b6f117601e33 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV2-ti ;
 	csa:clauseConjugation csa:U ;
@@ -5812,7 +5812,7 @@ aama:ID3886a2f1-ce59-4b95-bc6c-f7a77600db39 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID73ca7a27-f285-4b10-b9cf-e7ea0569a3fc a aamas:Term ;
+aama:IDa0e62abe-b91f-46fe-adca-3a9425d5b2f1 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV2-ti ;
 	csa:clauseConjugation csa:U ;
@@ -5831,7 +5831,7 @@ aama:ID73ca7a27-f285-4b10-b9cf-e7ea0569a3fc a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDc0e2aa78-bc9d-4229-a373-16d284e4395e a aamas:Term ;
+aama:ID4d67650b-3a88-4189-a433-8b4455988d9e a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCV2-ti ;
 	csa:clauseConjugation csa:U ;
@@ -5854,10 +5854,10 @@ aama:IDc0e2aa78-bc9d-4229-a373-16d284e4395e a aamas:Term ;
 
 csa:coptic_S-VInfinCVCC-sotp a aamas:Termcluster ;
 	rdfs:label "coptic_S-VInfinCVCC-sotp" ;
-	rdfs:comment "Verbs of the type (C)ⲱCC are the largest class of verbs in Coptic. With final consonant ⲃ,ⲗ,ⲙ,ⲛ or ⲣ,an -ⲉ- is inserted before the suffixes -ⲧ,-ⲕ,-ϥ and -ⲥ in the pronominal form. With final consonant ϩ,an -ⲁ- is sometimes inserted between the penultimate and ultimate consonants in the absolute form,and the normal -ⲟ- of the pronominal form may be replaced with -ⲁ-. As in the other verbal classes,the presence of ⲙ or ⲛ in the initial consonantal position causes ⲱ to shift to -ⲟⲩ-." 
+	rdfs:comment "Verbs of the type (C)ⲱCC are the largest class of verbs in Coptic. With final consonant ⲃ%%ⲗ%%ⲙ%%ⲛ or ⲣ%%an -ⲉ- is inserted before the suffixes -ⲧ%%-ⲕ%%-ϥ and -ⲥ in the pronominal form. With final consonant ϩ%%an -ⲁ- is sometimes inserted between the penultimate and ultimate consonants in the absolute form%%and the normal -ⲟ- of the pronominal form may be replaced with -ⲁ-. As in the other verbal classes%%the presence of ⲙ or ⲛ in the initial consonantal position causes ⲱ to shift to -ⲟⲩ-." 
 	.
 
-aama:ID262968e1-5c39-4814-bc17-f7cd963b7759 a aamas:Term ;
+aama:ID0a8d537d-425b-4ec8-9069-10a3a52c42a5 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVCC-sotp ;
 	csa:clauseConjugation csa:U ;
@@ -5876,7 +5876,7 @@ aama:ID262968e1-5c39-4814-bc17-f7cd963b7759 a aamas:Term ;
 	csa:infinitiveForm csa:Absolute ;
 	.
 
-aama:ID84d3d4b5-abb9-4140-8c5b-c07e62081468 a aamas:Term ;
+aama:ID246a93fd-f233-49ab-9cc6-be6f54ba2eba a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVCC-sotp ;
 	csa:clauseConjugation csa:U ;
@@ -5895,7 +5895,7 @@ aama:ID84d3d4b5-abb9-4140-8c5b-c07e62081468 a aamas:Term ;
 	csa:infinitiveForm csa:Construct ;
 	.
 
-aama:IDd37b4200-0f9d-4149-9e8a-7bc307e1c1db a aamas:Term ;
+aama:IDd354b4f1-e18d-4e0e-b3b1-6aae570ac5cd a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVCC-sotp ;
 	csa:clauseConjugation csa:U ;
@@ -5914,7 +5914,7 @@ aama:IDd37b4200-0f9d-4149-9e8a-7bc307e1c1db a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID9938e8d2-8eb0-43ee-b3ee-3748a8aa707f a aamas:Term ;
+aama:IDf68222d0-b243-4a66-a7a9-a974eef85d07 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVCC-sotp ;
 	csa:clauseConjugation csa:U ;
@@ -5933,7 +5933,7 @@ aama:ID9938e8d2-8eb0-43ee-b3ee-3748a8aa707f a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID6f461ff2-2c58-48be-bbfb-c73ef6ff8e4b a aamas:Term ;
+aama:IDb6931051-cac2-4a42-a966-42c935c582a9 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVCC-sotp ;
 	csa:clauseConjugation csa:U ;
@@ -5952,7 +5952,7 @@ aama:ID6f461ff2-2c58-48be-bbfb-c73ef6ff8e4b a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDd0e1fea1-894b-473d-9114-e3da04c272a2 a aamas:Term ;
+aama:IDe9ba1304-63c0-437d-8721-3a787b411d58 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVCC-sotp ;
 	csa:clauseConjugation csa:U ;
@@ -5971,7 +5971,7 @@ aama:IDd0e1fea1-894b-473d-9114-e3da04c272a2 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID81cbb7b4-5348-429a-b129-a451d7fb4cc3 a aamas:Term ;
+aama:IDabbeb9f2-362c-43fd-80a9-cba20c517041 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVCC-sotp ;
 	csa:clauseConjugation csa:U ;
@@ -5990,7 +5990,7 @@ aama:ID81cbb7b4-5348-429a-b129-a451d7fb4cc3 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID83380111-6343-4e91-85c1-3df82a2099d8 a aamas:Term ;
+aama:IDf7970eaf-d292-4872-a7b3-c4d52439f78f a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVCC-sotp ;
 	csa:clauseConjugation csa:U ;
@@ -6009,7 +6009,7 @@ aama:ID83380111-6343-4e91-85c1-3df82a2099d8 a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:IDb9c013ec-c5a6-4a5d-bacb-0f95e2fb7acb a aamas:Term ;
+aama:ID3b56f64e-3634-4884-ab67-34ef6df651a0 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVCC-sotp ;
 	csa:clauseConjugation csa:U ;
@@ -6028,7 +6028,7 @@ aama:IDb9c013ec-c5a6-4a5d-bacb-0f95e2fb7acb a aamas:Term ;
 	csa:infinitiveForm csa:Pronominal ;
 	.
 
-aama:ID5667b35d-126b-4239-b82b-e03c2392aef7 a aamas:Term ;
+aama:ID9cab9c11-84a6-4719-b50a-7857ada6da01 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VInfinCVCC-sotp ;
 	csa:clauseConjugation csa:U ;
@@ -6054,7 +6054,7 @@ csa:coptic_S-VNegPerf1-bok a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:IDdc450549-1f7a-4e84-9952-1361b4e48ab3 a aamas:Term ;
+aama:ID2a788598-7f4a-4245-9bc5-20826eab4213 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegPerf1-bok ;
 	csa:clauseConjugation csa:Main ;
@@ -6070,7 +6070,7 @@ aama:IDdc450549-1f7a-4e84-9952-1361b4e48ab3 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDe88f3536-8191-4486-a477-594a605caf9a a aamas:Term ;
+aama:ID6cdb3d30-84ab-4622-bcc0-8e2546124224 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegPerf1-bok ;
 	csa:clauseConjugation csa:Main ;
@@ -6086,7 +6086,7 @@ aama:IDe88f3536-8191-4486-a477-594a605caf9a a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:IDbd295142-2564-4826-b692-a46a296da117 a aamas:Term ;
+aama:IDd3e97580-4b05-4f57-b21a-0ce34c941b33 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegPerf1-bok ;
 	csa:clauseConjugation csa:Main ;
@@ -6102,7 +6102,7 @@ aama:IDbd295142-2564-4826-b692-a46a296da117 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDf90478f6-43bc-4af4-885e-76eb9df23dfa a aamas:Term ;
+aama:ID78f08016-cb35-4840-9964-63c5650cc102 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegPerf1-bok ;
 	csa:clauseConjugation csa:Main ;
@@ -6118,7 +6118,7 @@ aama:IDf90478f6-43bc-4af4-885e-76eb9df23dfa a aamas:Term ;
 	csa:gender csa:Masc ;
 	.
 
-aama:IDef4cded7-8470-44df-8e85-cb540ee631c0 a aamas:Term ;
+aama:IDe5ef7e6d-7dad-40e1-95e5-aba23b4291f7 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegPerf1-bok ;
 	csa:clauseConjugation csa:Main ;
@@ -6134,7 +6134,7 @@ aama:IDef4cded7-8470-44df-8e85-cb540ee631c0 a aamas:Term ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID20c43e33-d573-4eba-950e-0556217f4bf6 a aamas:Term ;
+aama:ID95de2db6-11be-4e30-9637-8e1c9f517940 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegPerf1-bok ;
 	csa:clauseConjugation csa:Main ;
@@ -6150,7 +6150,7 @@ aama:ID20c43e33-d573-4eba-950e-0556217f4bf6 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID19cd29ff-dd6c-4941-915c-6d19372f4ec8 a aamas:Term ;
+aama:ID41217126-7314-465b-ad1d-687652e5446a a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegPerf1-bok ;
 	csa:clauseConjugation csa:Main ;
@@ -6166,7 +6166,7 @@ aama:ID19cd29ff-dd6c-4941-915c-6d19372f4ec8 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID97c6f70f-0f5d-48f9-9afd-3bf73fc7ddf5 a aamas:Term ;
+aama:IDd4cf1929-d1c6-4625-86ba-3bd4dcd698ab a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegPerf1-bok ;
 	csa:clauseConjugation csa:Main ;
@@ -6182,7 +6182,7 @@ aama:ID97c6f70f-0f5d-48f9-9afd-3bf73fc7ddf5 a aamas:Term ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID7fc135be-e9cd-4ec7-9fc9-55f8b6ab53c1 a aamas:Term ;
+aama:ID4db8a7cf-c66e-4d34-866c-2c8218ea1c79 a aamas:Term ;
 	aamas:lang aama:Coptic-sahidic ;
 	aamas:memberOf csa:coptic_S-VNegPerf1-bok ;
 	csa:clauseConjugation csa:Main ;
@@ -6200,8 +6200,13 @@ aama:ID7fc135be-e9cd-4ec7-9fc9-55f8b6ab53c1 a aamas:Term ;
 
 #MUTERMCLUSTER:  coptic_S-PIntensive3
 
-aama:IDc1ad39b5-73e4-451a-9165-a1624c860ce3 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+csa:coptic_S-PIntensive3 a aamas:MuTermcluster ;
+	rdfs:label "coptic_S-PIntensive3" ;
+	rdfs:comment "The intensive pronoun ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟ= is used in apposition to reflexive and possessive pronominal elements." 
+	.
+
+aama:ID46ed3a25-bc8f-4aad-8b3e-a113ae8b09a3 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive3 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE3 ;
 	csa:morphClass csa:Intensive3 ;
 	csa:pos csa:Pronoun ;
@@ -6211,8 +6216,8 @@ aama:IDc1ad39b5-73e4-451a-9165-a1624c860ce3 a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID8512ec6c-e5dd-465d-8601-c18a6cf538dc a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID1fc993d6-6bed-4de6-9ccc-d92d319b14bf a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive3 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE3 ;
 	csa:morphClass csa:Intensive3 ;
 	csa:pos csa:Pronoun ;
@@ -6222,8 +6227,8 @@ aama:ID8512ec6c-e5dd-465d-8601-c18a6cf538dc a aamas:Muterm ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID5b00444f-57ab-4441-a9bd-6818452dfaa3 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDaffa9c79-f621-4c5c-b924-5573e33aad45 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive3 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE3 ;
 	csa:morphClass csa:Intensive3 ;
 	csa:pos csa:Pronoun ;
@@ -6233,8 +6238,8 @@ aama:ID5b00444f-57ab-4441-a9bd-6818452dfaa3 a aamas:Muterm ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID7a2047c1-8f34-4083-ba2d-af17657d4b52 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID7e9d700f-ba84-4721-a3fa-1e7bcfe307b5 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive3 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE3 ;
 	csa:morphClass csa:Intensive3 ;
 	csa:pos csa:Pronoun ;
@@ -6244,8 +6249,8 @@ aama:ID7a2047c1-8f34-4083-ba2d-af17657d4b52 a aamas:Muterm ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID141a7259-f430-4efb-93e6-6dae3a3bf514 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDc2c197d4-a4c1-422b-afe7-17d51aaedfcf a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive3 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE3 ;
 	csa:morphClass csa:Intensive3 ;
 	csa:pos csa:Pronoun ;
@@ -6255,8 +6260,8 @@ aama:ID141a7259-f430-4efb-93e6-6dae3a3bf514 a aamas:Muterm ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID94ed212f-7d6e-47a1-95d9-4386dd913169 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID02da0d6a-14e3-4c19-b70b-3653894b84e5 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive3 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE3 ;
 	csa:morphClass csa:Intensive3 ;
 	csa:pos csa:Pronoun ;
@@ -6266,8 +6271,8 @@ aama:ID94ed212f-7d6e-47a1-95d9-4386dd913169 a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID542b9019-aa88-40da-90f6-bdd6f3eb1a52 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID3a3bf957-6611-46f9-82b7-9b8ac6204bd9 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive3 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE3 ;
 	csa:morphClass csa:Intensive3 ;
 	csa:pos csa:Pronoun ;
@@ -6277,8 +6282,8 @@ aama:ID542b9019-aa88-40da-90f6-bdd6f3eb1a52 a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDad431ef5-d9cc-4cf0-a5f1-e18f3ced0f22 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDcbc291c9-7bea-4aee-b8e5-f7720b03fee0 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive3 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE3 ;
 	csa:morphClass csa:Intensive3 ;
 	csa:pos csa:Pronoun ;
@@ -6290,8 +6295,13 @@ aama:IDad431ef5-d9cc-4cf0-a5f1-e18f3ced0f22 a aamas:Muterm ;
 
 #MUTERMCLUSTER:  coptic_S-PIntensive2
 
-aama:IDdebc2006-97d4-4ce1-a940-09ce0ab37fa3 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+csa:coptic_S-PIntensive2 a aamas:MuTermcluster ;
+	rdfs:label "coptic_S-PIntensive2" ;
+	rdfs:comment "The intensive or emphatic pronoun ϩⲱⲱ= or ϩⲱ= is used in apposition to pronominal elements. May also be used adverbially in the 3rd m. sg. (ϩⲱⲱϥ) with the meaning however%%on the other hand." 
+	.
+
+aama:ID48b78375-2d86-4eb5-9b63-24f628ebee21 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive2 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE2 ;
 	csa:morphClass csa:Intensive2 ;
 	csa:pos csa:Pronoun ;
@@ -6302,8 +6312,8 @@ aama:IDdebc2006-97d4-4ce1-a940-09ce0ab37fa3 a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID9fdf4839-0b97-48e7-9fc2-71fc3e4a4ca0 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDf5454546-a9f5-450e-b267-68cc8be2f890 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive2 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE2 ;
 	csa:morphClass csa:Intensive2 ;
 	csa:pos csa:Pronoun ;
@@ -6314,8 +6324,8 @@ aama:ID9fdf4839-0b97-48e7-9fc2-71fc3e4a4ca0 a aamas:Muterm ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID31b63bfb-bc17-4e82-b1f1-24cf9df66107 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDcb3821fe-16e0-48df-a7ce-f013a5dbbabc a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive2 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE2 ;
 	csa:morphClass csa:Intensive2 ;
 	csa:pos csa:Pronoun ;
@@ -6326,8 +6336,8 @@ aama:ID31b63bfb-bc17-4e82-b1f1-24cf9df66107 a aamas:Muterm ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID683a9f0f-e679-482c-bee1-46a4bf0386ae a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDa325c845-a87f-4a2f-ba4e-1beadc23931b a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive2 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE2 ;
 	csa:morphClass csa:Intensive2 ;
 	csa:pos csa:Pronoun ;
@@ -6338,8 +6348,8 @@ aama:ID683a9f0f-e679-482c-bee1-46a4bf0386ae a aamas:Muterm ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID8beec2c6-b797-499d-8f3e-559bef1b579d a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDe91e9f30-72bc-40b9-be34-59d71ce9977b a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive2 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE2 ;
 	csa:morphClass csa:Intensive2 ;
 	csa:pos csa:Pronoun ;
@@ -6350,8 +6360,8 @@ aama:ID8beec2c6-b797-499d-8f3e-559bef1b579d a aamas:Muterm ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID9f312b6c-8d4f-4d35-91d2-e23d2a554ff1 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID28b34f42-496e-49a3-89da-8a63ddf1f0d7 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive2 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE2 ;
 	csa:morphClass csa:Intensive2 ;
 	csa:pos csa:Pronoun ;
@@ -6362,8 +6372,8 @@ aama:ID9f312b6c-8d4f-4d35-91d2-e23d2a554ff1 a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID36c0ca6d-0ee8-482f-9d18-33488f570c55 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDd424df59-14a9-4df7-80a9-b833bd5d6ae5 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive2 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE2 ;
 	csa:morphClass csa:Intensive2 ;
 	csa:pos csa:Pronoun ;
@@ -6374,8 +6384,8 @@ aama:ID36c0ca6d-0ee8-482f-9d18-33488f570c55 a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDe3601d88-d11a-4277-bf5e-f9840b81f111 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID2e56d83d-8bd1-493e-8104-d51e15b9bf4b a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive2 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE2 ;
 	csa:morphClass csa:Intensive2 ;
 	csa:pos csa:Pronoun ;
@@ -6388,8 +6398,13 @@ aama:IDe3601d88-d11a-4277-bf5e-f9840b81f111 a aamas:Muterm ;
 
 #MUTERMCLUSTER:  coptic_S-PInd
 
-aama:ID79acdb77-1771-4e23-b3bf-41ec2fbb372e a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+csa:coptic_S-PInd a aamas:MuTermcluster ;
+	rdfs:label "coptic_S-PInd" ;
+	rdfs:comment "" 
+	.
+
+aama:ID0b80aebe-ebf4-41d8-83da-adc6c0e696c9 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PInd ;
 	aamas:morpheme aama:Coptic-sahidic-PROIND ;
 	csa:pos csa:Pronoun ;
 	csa:proClass csa:Independent ;
@@ -6400,8 +6415,8 @@ aama:ID79acdb77-1771-4e23-b3bf-41ec2fbb372e a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID06f669e2-cafd-43f7-9edc-921593964db8 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID95fad0c9-cdfe-4f08-bbf3-84732114d3fc a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PInd ;
 	aamas:morpheme aama:Coptic-sahidic-PROIND ;
 	csa:pos csa:Pronoun ;
 	csa:proClass csa:Independent ;
@@ -6412,8 +6427,8 @@ aama:ID06f669e2-cafd-43f7-9edc-921593964db8 a aamas:Muterm ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID01378994-739a-4ee8-9045-ccd6d1e2d259 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDefcfeba0-6c46-426b-931f-3af066b44672 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PInd ;
 	aamas:morpheme aama:Coptic-sahidic-PROIND ;
 	csa:pos csa:Pronoun ;
 	csa:proClass csa:Independent ;
@@ -6424,8 +6439,8 @@ aama:ID01378994-739a-4ee8-9045-ccd6d1e2d259 a aamas:Muterm ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID60dc19e8-bc29-4660-a4aa-9fb263e12bfa a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID772b17fe-e717-45c0-9415-08a8eca0220b a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PInd ;
 	aamas:morpheme aama:Coptic-sahidic-PROIND ;
 	csa:pos csa:Pronoun ;
 	csa:proClass csa:Independent ;
@@ -6436,8 +6451,8 @@ aama:ID60dc19e8-bc29-4660-a4aa-9fb263e12bfa a aamas:Muterm ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID75a04521-1b31-435d-b5b2-e3789c1ab94f a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID4ad9021b-4c21-40db-8c26-7c966365cd55 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PInd ;
 	aamas:morpheme aama:Coptic-sahidic-PROIND ;
 	csa:pos csa:Pronoun ;
 	csa:proClass csa:Independent ;
@@ -6448,8 +6463,8 @@ aama:ID75a04521-1b31-435d-b5b2-e3789c1ab94f a aamas:Muterm ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID0e57c645-b69d-444a-abd3-8eae27169b6d a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID7c429b76-ed7f-4d79-a202-58374d8341dc a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PInd ;
 	aamas:morpheme aama:Coptic-sahidic-PROIND ;
 	csa:pos csa:Pronoun ;
 	csa:proClass csa:Independent ;
@@ -6460,8 +6475,8 @@ aama:ID0e57c645-b69d-444a-abd3-8eae27169b6d a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID1aacc570-55b5-4d93-8543-1f11e7ee9229 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDfb139c9d-f841-4bfc-96ec-d3bca6a58fc3 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PInd ;
 	aamas:morpheme aama:Coptic-sahidic-PROIND ;
 	csa:pos csa:Pronoun ;
 	csa:proClass csa:Independent ;
@@ -6472,8 +6487,8 @@ aama:ID1aacc570-55b5-4d93-8543-1f11e7ee9229 a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID9630e767-3dde-4937-a8f1-f2e040ab8901 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID88b65049-e3e6-42cf-ba5a-ef195479f4e5 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PInd ;
 	aamas:morpheme aama:Coptic-sahidic-PROIND ;
 	csa:pos csa:Pronoun ;
 	csa:proClass csa:Independent ;
@@ -6486,8 +6501,13 @@ aama:ID9630e767-3dde-4937-a8f1-f2e040ab8901 a aamas:Muterm ;
 
 #MUTERMCLUSTER:  coptic_S-PPossessive
 
-aama:ID0c53dba7-6715-4888-badb-6a565ed2c400 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+csa:coptic_S-PPossessive a aamas:MuTermcluster ;
+	rdfs:label "coptic_S-PPossessive" ;
+	rdfs:comment "" 
+	.
+
+aama:ID4bb370fe-df88-47a6-8162-5a14255b8b9e a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6499,8 +6519,8 @@ aama:ID0c53dba7-6715-4888-badb-6a565ed2c400 a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID1271612e-31fd-463c-b817-9be2afaf8fb0 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDef2b539f-6d0d-4840-9280-40b4fc5b89d4 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6512,8 +6532,8 @@ aama:ID1271612e-31fd-463c-b817-9be2afaf8fb0 a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID2ac87455-2685-4362-a55b-4fb27e350276 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDae973964-6249-49ed-bcf6-d93437742f6b a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6525,8 +6545,8 @@ aama:ID2ac87455-2685-4362-a55b-4fb27e350276 a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDa3744fb8-a1fa-4859-af58-6455896f5bb6 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDa30ed288-2193-4380-a09c-d9b6579d06a0 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6538,8 +6558,8 @@ aama:IDa3744fb8-a1fa-4859-af58-6455896f5bb6 a aamas:Muterm ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID1e1997c2-098d-412f-b1a1-443414f10f0f a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID60fe5447-2895-414d-9539-f8872c6d815d a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6551,8 +6571,8 @@ aama:ID1e1997c2-098d-412f-b1a1-443414f10f0f a aamas:Muterm ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID95bc2a64-6fe5-48f2-ac38-29f7f9c6c745 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID4b10c8a1-59bd-4a66-94ae-534ae87acbce a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6564,8 +6584,8 @@ aama:ID95bc2a64-6fe5-48f2-ac38-29f7f9c6c745 a aamas:Muterm ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID725c68b8-094e-4a85-8fec-852190545c5d a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID6b32236c-2900-414f-a175-c5c8fa415055 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6577,8 +6597,8 @@ aama:ID725c68b8-094e-4a85-8fec-852190545c5d a aamas:Muterm ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID874617dd-7e31-40db-a174-2b7834011eb5 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDd729b30a-77df-4731-a7b8-d212b517133d a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6590,8 +6610,8 @@ aama:ID874617dd-7e31-40db-a174-2b7834011eb5 a aamas:Muterm ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID75b87bca-bf6d-4731-a6a0-479634ebbc85 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID24e198d1-20fb-4bf0-8400-88467114947a a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6603,8 +6623,8 @@ aama:ID75b87bca-bf6d-4731-a6a0-479634ebbc85 a aamas:Muterm ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID4af83acc-2edf-4cbd-b49a-0a74e044e0fb a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID1e6b0be7-5c91-4561-9330-0690193c3da9 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6616,8 +6636,8 @@ aama:ID4af83acc-2edf-4cbd-b49a-0a74e044e0fb a aamas:Muterm ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID8c4105de-cd67-4b77-8318-584bdeead331 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDf2671535-e712-4cc9-90b2-396a48f82b92 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6629,8 +6649,8 @@ aama:ID8c4105de-cd67-4b77-8318-584bdeead331 a aamas:Muterm ;
 	csa:gender csa:Masc ;
 	.
 
-aama:IDc11b4981-e35b-4c21-b6ff-c1db324651c7 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID0a669184-b099-4b18-ac39-e5dc2c76da21 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6642,8 +6662,8 @@ aama:IDc11b4981-e35b-4c21-b6ff-c1db324651c7 a aamas:Muterm ;
 	csa:gender csa:Masc ;
 	.
 
-aama:IDf282632a-cd66-425a-8d94-11613903c33a a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID7b4f9a6e-99ea-4057-8705-77fc449d9eb8 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6655,8 +6675,8 @@ aama:IDf282632a-cd66-425a-8d94-11613903c33a a aamas:Muterm ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDb35cf65c-6b6f-469e-8fa4-3b34c8cc9e91 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDa76a75be-313c-47af-937f-cc561d7d8906 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6668,8 +6688,8 @@ aama:IDb35cf65c-6b6f-469e-8fa4-3b34c8cc9e91 a aamas:Muterm ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID93f7f682-5a5f-4e3a-8fe8-bba70bff241c a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDb37ecc9d-96df-4b76-a156-635f92978eed a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6681,8 +6701,8 @@ aama:ID93f7f682-5a5f-4e3a-8fe8-bba70bff241c a aamas:Muterm ;
 	csa:gender csa:Fem ;
 	.
 
-aama:IDc642c87c-ee90-4545-a25b-ce569df1d3da a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDb0f54907-e601-47c0-9075-14f724b01b47 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6694,8 +6714,8 @@ aama:IDc642c87c-ee90-4545-a25b-ce569df1d3da a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID5e5d2824-2312-4d50-b28a-fd91a0f2ce03 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID2f932197-ab2f-455c-a35c-56ff050aed9d a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6707,8 +6727,8 @@ aama:ID5e5d2824-2312-4d50-b28a-fd91a0f2ce03 a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDec871d83-69f1-46c6-bfa7-83dc34f40daa a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDfb62cbf0-65c5-49c3-b542-d2d819bb777a a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6720,8 +6740,8 @@ aama:IDec871d83-69f1-46c6-bfa7-83dc34f40daa a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDc91b299c-081e-4a86-af5f-f02a502acddc a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID4532248f-0966-4941-9222-bec94c089f5f a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6733,8 +6753,8 @@ aama:IDc91b299c-081e-4a86-af5f-f02a502acddc a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDcf952992-0bb6-4391-9de2-8d692d1ecb39 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDa7ff6c1b-5c39-4a26-a570-8c5469138966 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6746,8 +6766,8 @@ aama:IDcf952992-0bb6-4391-9de2-8d692d1ecb39 a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID871dabb7-f31e-49bb-a431-6fd2efee4ea5 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDa467f3d7-5c17-468e-bd38-1ccb60e7c5ec a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6759,8 +6779,8 @@ aama:ID871dabb7-f31e-49bb-a431-6fd2efee4ea5 a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID7c06f7ae-1001-47db-9c1c-6494ffda454b a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID84422be0-326a-486d-a93c-53eee91bb8b1 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6772,8 +6792,8 @@ aama:ID7c06f7ae-1001-47db-9c1c-6494ffda454b a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:IDe36cfc4c-52d5-4681-88dc-c89fac12f680 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDe9ddbc4b-5dcf-421a-b90f-3d50c8eb121e a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6785,8 +6805,8 @@ aama:IDe36cfc4c-52d5-4681-88dc-c89fac12f680 a aamas:Muterm ;
 	csa:gender csa:Common ;
 	.
 
-aama:ID280cabb2-1e50-4391-bff8-da6b6e473870 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDd0c7d928-0744-41b2-9d9a-2c213010e31a a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PPossessive ;
 	aamas:morpheme aama:Coptic-sahidic-PROPOSS ;
 	csa:morphClass csa:Possessive ;
 	csa:pos csa:Pronoun ;
@@ -6800,8 +6820,13 @@ aama:ID280cabb2-1e50-4391-bff8-da6b6e473870 a aamas:Muterm ;
 
 #MUTERMCLUSTER:  coptic_S-PIntensive1
 
-aama:IDe58a96ed-dfdf-436e-93dd-36840b0ebd38 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+csa:coptic_S-PIntensive1 a aamas:MuTermcluster ;
+	rdfs:label "coptic_S-PIntensive1" ;
+	rdfs:comment "This intensive pronoun may be alternately spelled ⲙⲁⲩⲁⲧ= or ⲟⲩⲁⲁ(ⲧ)=." 
+	.
+
+aama:IDc202801a-98dd-4ecf-acce-f6883e761a36 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive1 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE1 ;
 	csa:morphClass csa:Intensive1 ;
 	csa:pos csa:Pronoun ;
@@ -6811,8 +6836,8 @@ aama:IDe58a96ed-dfdf-436e-93dd-36840b0ebd38 a aamas:Muterm ;
 	csa:number csa:Singular ;
 	.
 
-aama:ID6b630c02-0ef9-4329-82b7-a23a57093ec0 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDae06dc6a-50cf-4692-8919-565c2722b9d7 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive1 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE1 ;
 	csa:morphClass csa:Intensive1 ;
 	csa:pos csa:Pronoun ;
@@ -6822,8 +6847,8 @@ aama:ID6b630c02-0ef9-4329-82b7-a23a57093ec0 a aamas:Muterm ;
 	csa:number csa:Singular ;
 	.
 
-aama:IDf9d5e608-0a6b-4ffc-b300-d63e65a1849f a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID04045cbd-a660-4341-b330-eba0808f833a a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive1 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE1 ;
 	csa:morphClass csa:Intensive1 ;
 	csa:pos csa:Pronoun ;
@@ -6833,8 +6858,8 @@ aama:IDf9d5e608-0a6b-4ffc-b300-d63e65a1849f a aamas:Muterm ;
 	csa:number csa:Singular ;
 	.
 
-aama:ID8eb3a147-1352-452a-8153-c223dbc79a25 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID12ccf730-1dec-4f43-b03f-d14156504885 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive1 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE1 ;
 	csa:morphClass csa:Intensive1 ;
 	csa:pos csa:Pronoun ;
@@ -6844,8 +6869,8 @@ aama:ID8eb3a147-1352-452a-8153-c223dbc79a25 a aamas:Muterm ;
 	csa:number csa:Singular ;
 	.
 
-aama:ID3ac1fc8a-668a-448c-8c66-59e08dd1bfd2 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDdfc46206-f8b9-45f6-b717-e3eff58ebe0b a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive1 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE1 ;
 	csa:morphClass csa:Intensive1 ;
 	csa:pos csa:Pronoun ;
@@ -6855,8 +6880,8 @@ aama:ID3ac1fc8a-668a-448c-8c66-59e08dd1bfd2 a aamas:Muterm ;
 	csa:number csa:Singular ;
 	.
 
-aama:IDd2d2abe8-3bc0-4667-8482-f2f322a5b025 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID94c11b50-383f-46fb-8431-dec387cb19ee a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive1 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE1 ;
 	csa:morphClass csa:Intensive1 ;
 	csa:pos csa:Pronoun ;
@@ -6866,8 +6891,8 @@ aama:IDd2d2abe8-3bc0-4667-8482-f2f322a5b025 a aamas:Muterm ;
 	csa:number csa:Plural ;
 	.
 
-aama:IDba81b246-d12a-4c68-99f1-cf7a39bd84d3 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID5bc6f41f-5931-4331-82ad-85191977f008 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive1 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE1 ;
 	csa:morphClass csa:Intensive1 ;
 	csa:pos csa:Pronoun ;
@@ -6877,8 +6902,8 @@ aama:IDba81b246-d12a-4c68-99f1-cf7a39bd84d3 a aamas:Muterm ;
 	csa:number csa:Plural ;
 	.
 
-aama:IDd3bd41b7-eb6f-4971-bdd0-f6eb82cbb9f0 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID20639681-936d-4796-a6a6-ec98c11b6512 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PIntensive1 ;
 	aamas:morpheme aama:Coptic-sahidic-PROINTENSIVE1 ;
 	csa:morphClass csa:Intensive1 ;
 	csa:pos csa:Pronoun ;
@@ -6890,8 +6915,13 @@ aama:IDd3bd41b7-eb6f-4971-bdd0-f6eb82cbb9f0 a aamas:Muterm ;
 
 #MUTERMCLUSTER:  coptic_S-PDemonstrativeRemote
 
-aama:IDa11d4c43-8aa2-40f8-85cd-562e8a8ec3e4 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+csa:coptic_S-PDemonstrativeRemote a aamas:MuTermcluster ;
+	rdfs:label "coptic_S-PDemonstrativeRemote" ;
+	rdfs:comment "The remote demonstrative pronouns have rare prefixial counterparts in Sahidic Coptic (ⲡⲓ-%%ϯ-%%ⲛⲓ-). These are also alternate spellings for the near demonstrative prefixes." 
+	.
+
+aama:IDf3a35851-5916-4003-8200-8706fddae2dc a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PDemonstrativeRemote ;
 	aamas:morpheme aama:Coptic-sahidic-PRODEMREMOTE ;
 	csa:morphClass csa:DemonstrativeRemote ;
 	csa:pos csa:Pronoun ;
@@ -6900,8 +6930,8 @@ aama:IDa11d4c43-8aa2-40f8-85cd-562e8a8ec3e4 a aamas:Muterm ;
 	csa:gender csa:Masc ;
 	.
 
-aama:ID2e910b47-6507-44c8-8c6e-d8ce041abc7f a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDeaf1ecb0-d207-4e97-9d8b-f18daa5a0949 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PDemonstrativeRemote ;
 	aamas:morpheme aama:Coptic-sahidic-PRODEMREMOTE ;
 	csa:morphClass csa:DemonstrativeRemote ;
 	csa:pos csa:Pronoun ;
@@ -6910,8 +6940,8 @@ aama:ID2e910b47-6507-44c8-8c6e-d8ce041abc7f a aamas:Muterm ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID7233e154-b278-4506-9644-3f2cff08ebc1 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:IDab5d62fe-9d89-4b58-a9b3-efb782891d6c a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PDemonstrativeRemote ;
 	aamas:morpheme aama:Coptic-sahidic-PRODEMREMOTE ;
 	csa:morphClass csa:DemonstrativeRemote ;
 	csa:pos csa:Pronoun ;
@@ -6922,8 +6952,13 @@ aama:ID7233e154-b278-4506-9644-3f2cff08ebc1 a aamas:Muterm ;
 
 #MUTERMCLUSTER:  coptic_S-PDemonstrativeNear
 
-aama:ID97d6b001-169e-4915-aa47-382c98532b38 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+csa:coptic_S-PDemonstrativeNear a aamas:MuTermcluster ;
+	rdfs:label "coptic_S-PDemonstrativeNear" ;
+	rdfs:comment "The near demonstrative pronouns are related to the demonstrative prefixes%%ⲡⲉⲓ-%%ⲧⲉⲓ-%%ⲛⲉⲓ-." 
+	.
+
+aama:ID3bf67a0d-23e7-47f7-a3dc-22668260770b a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PDemonstrativeNear ;
 	aamas:morpheme aama:Coptic-sahidic-PRODEMNEAR ;
 	csa:morphClass csa:DemonstrativeNear ;
 	csa:pos csa:Pronoun ;
@@ -6932,8 +6967,8 @@ aama:ID97d6b001-169e-4915-aa47-382c98532b38 a aamas:Muterm ;
 	csa:gender csa:Masc ;
 	.
 
-aama:IDcef98454-9f13-4301-a4b9-4dcb1c724660 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID418f04a8-94e3-4a00-b270-0fcdbffac490 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PDemonstrativeNear ;
 	aamas:morpheme aama:Coptic-sahidic-PRODEMNEAR ;
 	csa:morphClass csa:DemonstrativeNear ;
 	csa:pos csa:Pronoun ;
@@ -6942,8 +6977,8 @@ aama:IDcef98454-9f13-4301-a4b9-4dcb1c724660 a aamas:Muterm ;
 	csa:gender csa:Fem ;
 	.
 
-aama:ID23e06544-24be-4eee-91e9-0c94ce362196 a aamas:Muterm ;
-	aamas:lang aama:Coptic-sahidic ;
+aama:ID31b97987-198c-4671-a368-715daeef1ec5 a aamas:Muterm ;
+	aamas:lang aama:Coptic-sahidic ;	aamas:memberOf csa:coptic_S-PDemonstrativeNear ;
 	aamas:morpheme aama:Coptic-sahidic-PRODEMNEAR ;
 	csa:morphClass csa:DemonstrativeNear ;
 	csa:pos csa:Pronoun ;
