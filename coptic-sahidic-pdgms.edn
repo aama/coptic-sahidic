@@ -5,28 +5,34 @@
 :geodemoURL "http://www.ethnologue.com/language/cop"
 :geodemoTXT "Varieties of Cooptic, the last stage of Egyptian from about mid-first millennium BCE, were spoken in Egypt until about the 16th century. The Bohairic variety still serves as a liturgical language of the Egyptian Coptic church. Sahidic, whose geographic localization is not clear, was the language of the official Coptic translation of the Bible, and served as the principal literary dialect from about the fourth to the tenth century."
 :schemata {
-:clauseConjugation [:Conditional, :Main, :Relative, :Result, :Subordinate, :Temporal, :TemporalSubordinate, :Terminative, :U, :Variable]
+:clauseConjugation [:Conditional, :Main, :Relative, :Result, :Subordinate, :Temporal, :TemporalSubordinate, :Terminative, :Variable]
 	  :clauseType [:Relative]
 	  :formClass [:AbsoluteInfinitive]
 	  :gender [:Common, :Fem, :Masc]
-	  :genderHead [:Common, :Fem, :Masc]
-	  :imperativeForm [:Construct, :Pronominal]
+	  :genderHead [:HeadCommon, :HeadFem, :HeadMasc]
+	  :imperativeForm [:ImptvConstruct, :ImptvPronominal]
 	  :infinitiveForm [:Absolute, :Construct, :Pronominal]
 	  :morphClass [:DemonstrativeNear, :DemonstrativeRemote, :Infinitive, :InfinitiveCompCaus, :Intensive1, :Intensive2, :Intensive3, :Possessive]
-	  :number [:Common, :Plural, :Singular]
-	  :numberHead [:Plural, :Singular]
-	  :objectGender [:Common, :Fem, :Masc]
-	  :objectNumber [:Common, :Plural, :Singular]
-	  :objectPerson [:Common, :Person1, :Person2, :Person3]
+	  :number [:NumC, :Plural, :Singular]
+	  :numberHead [:HeadPlural, :HeadSingular]
+	  :genderObj [:ObjCommon, :ObjFem, :ObjMasc]
+	  :numberObj [:ObjNumC, :ObjPlural, :ObjSingular]
+	  :personObj [:ObjPersC, :ObjPerson1, :ObjPerson2, :ObjPerson3]
 	  :objectType [:Nominal, :SuffixPron]
 	  :person [:NomSubj, :Person1, :Person2, :Person3]
-	  :polarity [:Affirmative, :Negative, :U]
+	  :polarity [:Affirmative, :Negative]
 	  :pos [:Pronoun, :Verb]
 	  :proClass [:Independent]
-	  :stemClass [:CV1, :CV2, :CV3, :CV4, :CVC1, :CVC2, :CVC3Irreg, :CVCC, :CVCReg, :CVReg, :U]
-	  :tam [:Aorist, :Circumstantial, :Conditional, :Conjunctive, :Future, :Future3, :Imperative, :Imperfect, :InflectedInfiitive, :Injunct, :NotYet, :Perf1, :Perf2, :Pres1, :Pres2, :SimplePast, :Terminative, :U]
+	  :stemClass [:CV1, :CV2, :CV3, :CV4, :CVC1, :CVC2, :CVC3Irreg, :CVCC, :CVCReg, :CVReg]
+	  :tam [:Aorist, :Circumstantial, :Conditional, :Conjunctive, :Future, :Future3, :Imperative, :Imperfect, :InflectedInfiitive, :Injunct, :NotYet, :Perf1, :Perf2, :Pres1, :Pres2, :SimplePast, :Terminative]
 	  :transitivity [:Intransitive, :Trans]
 	  }
+:pclass {
+           :pngClass [:person :number :gender :genderHead :numberHead :genderObj :numberObj :personObj]
+           :synsemClass [:clauseConjugation :clauseType   :derivedStem :polarity :pos :proClass :tam ]
+           :inflClass [:formClass :imperativeForm :infinitiveForm :objectType :stemClass  ]
+           :otherClass [ ]
+          }
 :morphemes {
   :PRODEMNEAR {:gloss "[x]", :lemma "[y]", }
   :PRODEMREMOTE {:gloss "[x]", :lemma "[y]", }
