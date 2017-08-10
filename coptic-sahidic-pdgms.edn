@@ -838,8 +838,8 @@
             [:Plural :Person2 :Common "ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲱⲧⲛ̄"],
             [:Plural :Person3 :Common "ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟⲟⲩ"]]
     }
-    {:label "coptic_S-PPossessive"
-    :note ""
+    {:label "coptic_S-PPossessiveInd"
+    :note "independent possessive pronouns"
     :pdgmType :Possessive
     :common {:morpheme :PROPOSS,
              :morphClass :Possessive,
@@ -868,6 +868,38 @@
             [:HeadMasc :HeadSingular :Singular :Person3 :Fem "ⲡⲱⲥ"],
             [:HeadMasc :HeadSingular :Plural :Person1 :Common "ⲡⲱⲛ"],
             [:HeadMasc :HeadSingular :Plural :Person2 :Common "ⲡⲱⲧⲛ̄"],
+            [:HeadMasc :HeadSingular :Plural :Person3 :Common "ⲡⲱⲟⲩ"]]
+    }
+    {:label "coptic_S-PPossessiveIndTranscriibed"
+    :note "independent possessive pronouns"
+    :pdgmType :Possessive
+    :common {:morpheme :PROPOSS,
+             :morphClass :Possessive,
+             :pos :Pronoun}
+    :terms [[:genderHead :numHead :number :person :gender :token],
+            [:HeadCommon :HeadPlural :Singular :Person1 :Common "ⲛⲟⲩⲓ"],
+            [:HeadCommon :HeadPlural :Singular :Person2 :Masc "nⲟⲩⲕ"],
+            [:HeadCommon :HeadPlural :Singular :Person2 :Fem "nⲟⲩ"],
+            [:HeadCommon :HeadPlural :Singular :Person3 :Masc "nⲟⲩϥ"],
+            [:HeadCommon :HeadPlural :Singular :Person3 :Fem "nⲟⲩⲥ"],
+            [:HeadCommon :HeadPlural :Plural :Person1 :Common "nⲟⲩn"],
+            [:HeadCommon :HeadPlural :Plural :Person2 :Common "nⲟⲩⲧn̄"],
+            [:HeadCommon :HeadPlural :Plural :Person3 :Common "nⲟⲩⲟⲩ"],
+            [:HeadFem :HeadSingular :Singular :Person1 :Common "ⲧⲱⲓ"],
+            [:HeadFem :HeadSingular :Singular :Person2 :Masc "ⲧⲱⲕ"],
+            [:HeadFem :HeadSingular :Singular :Person2 :Fem "ⲧⲱ"],
+            [:HeadFem :HeadSingular :Singular :Person3 :Masc "ⲧⲱϥ"],
+            [:HeadFem :HeadSingular :Singular :Person3 :Fem "ⲧⲱⲥ"],
+            [:HeadFem :HeadSingular :Plural :Person1 :Common "ⲧⲱn"],
+            [:HeadFem :HeadSingular :Plural :Person2 :Common "ⲧⲱⲧn̄"],
+            [:HeadFem :HeadSingular :Plural :Person3 :Common "ⲧⲱⲟⲩ"],
+            [:HeadMasc :HeadSingular :Singular :Person1 :Common "ⲡⲱⲓ"],
+            [:HeadMasc :HeadSingular :Singular :Person2 :Masc "ⲡⲱⲕ"],
+            [:HeadMasc :HeadSingular :Singular :Person2 :Fem "ⲡⲱ"],
+            [:HeadMasc :HeadSingular :Singular :Person3 :Masc "ⲡⲱϥ"],
+            [:HeadMasc :HeadSingular :Singular :Person3 :Fem "ⲡⲱⲥ"],
+            [:HeadMasc :HeadSingular :Plural :Person1 :Common "ⲡⲱn"],
+            [:HeadMasc :HeadSingular :Plural :Person2 :Common "ⲡⲱⲧn̄"],
             [:HeadMasc :HeadSingular :Plural :Person3 :Common "ⲡⲱⲟⲩ"]]
     }
 ]
