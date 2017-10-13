@@ -13,7 +13,7 @@
           :clauseConjugation [:ConditionalClause :Main :Relative :Result :Subordinate :Temporal :TemporalSubordinate :TerminativeClause :Variable],
           :polarity [:Affirmative :Negative],
           :transitivity [:Intransitive :Trans],
-          :pdgmType [:Infinitive :Finite :DemonstrativeRemote :InfinitiveCompCaus :Possessive :NA :DemonstrativeNear :Intensive1 :Intensive2 :Intensive3]
+          :pdgmType [:Infinitive :Finite :DemonstrativeRemote :Possessive :NA :DemonstrativeNear :Intensive1 :Intensive2 :Intensive3]
           :pos [:Pronoun :Verb],
           :person [:NomSubj :Person1 :Person2 :Person3],
           :imperativeForm [:ImptvConstruct :ImptvPronominal],
@@ -611,7 +611,7 @@
     }
     {:label "coptic_S-VInfinCompoundCausative-tamo"
     :note "Verbs of this type derive from an earlier phase of the Egyptian language in which the causative could be formed by means of a periphrastic construction with the word dỉ,cause. Most of these verbs begin with ⲧ and end in ⲟ in the absolute state. However,if the original base verb began with ϣ,the resulting compound will begin with ϫ. In a few cases the initial ⲧ is lost (e.g. ⲕⲧⲟ,turn). Others retain a fossilized suffix ending -ⲟⲩ or -ⲥ (e.g. ϫⲟⲟⲩ,send)."
-    :pdgmType :InfinitiveCompCaus
+    :pdgmType :Infinitive
     :common {:clauseConjugation :U,
              :lexeme :tamo,
              :morphClass :InfinitiveCompCaus,
