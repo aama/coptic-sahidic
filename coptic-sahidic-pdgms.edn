@@ -5,24 +5,26 @@
 :datasource "Lambdin1983"
 :geodemoURL "http://www.ethnologue.com/language/cop"
 :geodemoTXT "Varieties of Cooptic, the last stage of Egyptian from about mid-first millennium BCE, were spoken in Egypt until about the 16th century. The Bohairic variety still serves as a liturgical language of the Egyptian Coptic church. Sahidic, whose geographic localization is not clear, was the language of the official Coptic translation of the Bible, and served as the principal literary dialect from about the fourth to the tenth century."
-:schemata{:infinitiveForm [:Absolute :Construct :Pronominal],
-          :gender [:Common :Fem :Masc],
-          :genderHead [:HeadCommon :HeadFem :HeadMasc],
-          :formClass [:AbsoluteInfinitive],
-          :stemClass [:CV1 :CV2 :CV3 :CV4 :CVC1 :CVC2 :CVC3Irreg :CVCC :CVCReg :CVReg],
-          :clauseConjugation [:ConditionalClause :Main :Relative :Result :Subordinate :Temporal :TemporalSubordinate :TerminativeClause :Variable],
-          :polarity [:Affirmative :Negative],
-          :transitivity [:Intransitive :Trans],
-          :pdgmType [:Infinitive :Finite :DemonstrativeRemote :Possessive :NA :DemonstrativeNear :Intensive1 :Intensive2 :Intensive3]
-          :pos [:Pronoun :Verb],
-          :person [:NomSubj :Person1 :Person2 :Person3],
-          :imperativeForm [:ImptvConstruct :ImptvPronominal],
-          :morphClass [:DemonstrativeNear :DemonstrativeRemote :Infinitive :InfinitiveCompCaus :Intensive1 :Intensive2 :Intensive3 :Possessive],
-          :proClass [:Independent],
-          :tam [:Aorist :Circumstantial :Conditional :Conjunctive :Future :Future3 :Imperative :Imperfect :InflectedInfiitive :Injunct :NotYet :Perf1 :Perf2 :Pres1 :Pres2 :SimplePast :Terminative],
-          :numHead [:HeadPlural :HeadSingular],
-          :number [:Plural :Singular],
-          :objectType [:Nominal :SuffixPron]}
+ :schemata {:clauseConjugation [:ConditionalClause  :Main :Relative :Result :Subordinate :Temporal :TemporalSubordinate :TerminativeClause :Variable],
+            :formClass [:AbsoluteInfinitive],
+            :gender [:Common :Fem :Masc],
+            :genderHead [:HeadCommon :HeadFem :HeadMasc],
+            :imperativeForm [:Construct :Pronominal],
+            :infinitiveForm [:Absolute :Construct :Pronominal],
+            :numHead [:HeadPlural :HeadSingular],
+            :number [:Common :Plural :Singular],
+            :objectGender [:Common :Fem :Masc],
+            :objectNumber [:Common :Plural :Singular],
+            :objectPerson [:Common :Person1 :Person2 :Person3],
+            :objectType [:Nominal :SuffixPron],
+            :person [:NomSubj :Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:DemonstrativeNear :DemonstrativeRemote :Independent :Intensive1 :Intensive3 :Possessive1 :Possessive2],
+            :stemClass [:CV1 :CV2 :CV3 :CV4 :CVC1 :CVC2 :CVC3Irreg :CVCC :CVCReg :CVReg],
+            :tam [:Aorist :Circumstantial :Conditional :Conjunctive :Future :Future3 :Imperative :Imperfect :InflectedInfiitive :Injunct :NotYet :Perf1 :Perf2 :Pres1 :Pres2 :SimplePast :Terminative],
+            :vmorphClass [:Infinitive :InfinitiveCompCaus]
+            :pdgmType [:Finite :FiniteInf :PRO]}
 :pclass {:pngClass [:person :number :gender :genderHead :numHead],
           :synsemClass [:clauseConjugation :clauseType :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:formClass :imperativeForm :infinitiveForm :objectType :stemClass],
@@ -195,7 +197,6 @@
              :lexeme :bok,
              :polarity :Affirmative,
              :pos :Verb,
-             :stemClass :U,
              :tam :InflectedInfiitive}
     :terms [[:number :person :gender :token :token-note-varPref],
             [:Singular :Person1 :Common "ⲧⲣⲁⲃⲱⲕ" "Common"],
@@ -256,7 +257,6 @@
              :lexeme :rime,
              :polarity :Affirmative,
              :pos :Verb,
-             :stemClass :U,
              :tam :Pres1}
     :terms [[:number :person :gender :token :token-note-varPref],
             [:Singular :Person1 :Common "ϯⲣⲓⲙⲉ" "⊤ + Common"],
@@ -391,14 +391,11 @@
     }
     {:label "coptic_S-VInfinCV1-ji"
     :note "Coptic infinitives are irregular and difficult to classify according to morphology. ϫⲓ is typical of monosyllabic infinitives of the type consonant + ⲓ. The verbs ϥⲓ (carry) and ϣⲓ (measure) follow the same pattern."
-    :pdgmType :Infinitive
-    :common {:clauseConjugation :U,
-             :lexeme :ji,
-             :morphClass :Infinitive,
-             :polarity :U,
+    :pdgmType :FiniteInf
+    :common {:lexeme :ji,
+             :vmorphClass :Infinitive,
              :pos :Verb,
-             :stemClass :CV1,
-             :tam :U}
+             :stemClass :CV1}
     :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
             [:Absolute :Common :Common :Common :Nominal "ϫⲓ ⲙ̄ ⲡϫⲱⲱⲙⲉ" "May also occur with suffix pronoun object and object marker"],
             [:Construct :Common :Common :Common :Nominal "ϫⲓ-ⲡϫⲱⲱⲙⲉ" "⊤"],
@@ -413,14 +410,11 @@
     }
     {:label "coptic_S-VInfinCV2-ti"
     :note "ϯ departs from the pattern followed by other verbs of its class,represented by ϫⲓ in the previous paradigm."
-    :pdgmType :Infinitive
-    :common {:clauseConjugation :U,
-             :lexeme :ti,
-             :morphClass :Infinitive,
-             :polarity :U,
+    :pdgmType :FiniteInf
+    :common {:lexeme :ti,
+             :vmorphClass :Infinitive,
              :pos :Verb,
-             :stemClass :CV2,
-             :tam :U}
+             :stemClass :CV2}
     :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
             [:Absolute :Common :Common :Common :Nominal "ϯ ⲙ̄ ⲡϫⲱⲱⲙⲉ" "May also occur with suffix pronoun object and object marker"],
             [:Construct :Common :Common :Common :Nominal "ϯ-ⲡϫⲱⲱⲙⲉ" "⊤"],
@@ -435,14 +429,11 @@
     }
     {:label "coptic_S-VInfinCV3-ko"
     :note "Infinitives of the type consonant + ⲱ typically follow one of two patterns:they may take the form Cⲉ- or Cⲁ- in the construct,and Cⲟⲟ= or Cⲁⲁ= in the pronominal."
-    :pdgmType :Infinitive
-    :common {:clauseConjugation :U,
-             :lexeme :ko,
-             :morphClass :Infinitive,
-             :polarity :U,
+    :pdgmType :FiniteInf
+    :common {:lexeme :ko,
+             :vmorphClass :Infinitive,
              :pos :Verb,
-             :stemClass :CV3,
-             :tam :U}
+             :stemClass :CV3}
     :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
             [:Absolute :Common :Common :Common :Nominal "ⲕⲱ ⲙ̄ ⲡϫⲱⲱⲙⲉ" "May also occur with suffix pronoun object and object marker"],
             [:Construct :Common :Common :Common :Nominal "ⲕⲁ- ⲡϫⲱⲱⲙⲉ " "⊤"],
@@ -457,14 +448,11 @@
     }
     {:label "coptic_S-VInfinCV4-me"
     :note "ⲙⲉ is historically derived from a biconsonantal root mr. The weak consonant r returns in the construct and pronominal forms."
-    :pdgmType :Infinitive
-    :common {:clauseConjugation :U,
-             :lexeme :me,
-             :morphClass :Infinitive,
-             :polarity :U,
+    :pdgmType :FiniteInf
+    :common {:lexeme :me,
+             :vmorphClass :Infinitive,
              :pos :Verb,
-             :stemClass :CV4,
-             :tam :U}
+             :stemClass :CV4}
     :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
             [:Absolute :Common :Common :Common :Nominal "ⲙⲉ ⲙ̄ ⲡⲣⲱⲙⲉ" "May also occur with suffix pronoun object and object marker"],
             [:Construct :Common :Common :Common :Nominal "ⲙⲉⲣⲉ- ⲡⲣⲱⲙⲉ " "⊤"],
@@ -479,14 +467,11 @@
     }
     {:label "coptic_S-VInfinCVC1-hop"
     :note "Infinitives of the type (consonant +) ⲱ + consonant follow the regular pattern of (C)ⲱC in the absolute,(C)ⲉC- in construct and (C)ⲟC= in pronominal. In infinitives of this type beginning with ⲙ or ⲛ,the vowel ⲱ in the absolute form is modified to ⲟⲩ. Verbs of the type (C)ⲱCⲉ follow the same pattern in construct and pronominal."
-    :pdgmType :Infinitive
-    :common {:clauseConjugation :U,
-             :lexeme :hop,
-             :morphClass :Infinitive,
-             :polarity :U,
+    :pdgmType :FiniteInf
+    :common {:lexeme :hop,
+             :vmorphClass :Infinitive,
              :pos :Verb,
-             :stemClass :CVC1,
-             :tam :U}
+             :stemClass :CVC1}
     :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
             [:Absolute :Common :Common :Common :Nominal "ϩⲱⲡ ⲙ̄ ⲡⲣⲱⲙⲉ" "May also occur with suffix pronoun object and object marker"],
             [:Construct :Common :Common :Common :Nominal "ϩⲉⲡ- ⲡⲣⲱⲙⲉ " "⊤"],
@@ -501,14 +486,11 @@
     }
     {:label "coptic_S-VInfinCVC2-mouh"
     :note "Infinitives with stem final ϩ or ϣ replace the typical ⲟ of the pronominal form with ⲁ."
-    :pdgmType :Infinitive
-    :common {:clauseConjugation :U,
-             :lexeme :mouh,
-             :morphClass :Infinitive,
-             :polarity :U,
+    :pdgmType :FiniteInf
+    :common {:lexeme :mouh,
+             :vmorphClass :Infinitive,
              :pos :Verb,
-             :stemClass :CVC2,
-             :tam :U}
+             :stemClass :CVC2}
     :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
             [:Absolute :Common :Common :Common :Nominal "ⲙⲟⲩϩ ⲙ̄ ⲧϭⲓϫ" "May also occur with suffix pronoun object and object marker"],
             [:Construct :Common :Common :Common :Nominal "ⲙⲉϩ-ⲧϭⲓϫ" "⊤"],
@@ -523,14 +505,11 @@
     }
     {:label "coptic_S-VInfinCVC3Irreg-eire"
     :note "Infinitives with a stressed ⲓ in the first vowel position and an unstressed final ⲉ form a distinct class,although several verbs of this type exhibit irregularities. Other common irregular verbs in this class are ⲉⲓⲛⲉ/ⲛ̄-/ⲛ̄ⲧ=,ϣⲓⲛⲉ/ϣⲛ̄-/ϣⲛ̄ⲧ= and ϭⲓⲛⲉ/ϭⲛ̄-/ϭⲛ̄ⲧ=."
-    :pdgmType :Infinitive
-    :common {:clauseConjugation :U,
-             :lexeme :eire,
-             :morphClass :Infinitive,
-             :polarity :U,
-             :pos :Verb,
-             :stemClass :CVC3Irreg,
-             :tam :U}
+    :pdgmType :FiniteInf
+    :common {:lexeme :eire,
+             :vmorphClass :Infinitive,
+             :pos :Verb
+             :stemClass :CVC3Irreg}
     :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
             [:Absolute :Common :Common :Common :Nominal "ⲉⲓⲣⲉ ⲙ̄ ⲡϩⲁⲡ" "May also occur with suffix pronoun object and object marker"],
             [:Construct :Common :Common :Common :Nominal "ⲣ̄-ⲡϩⲁⲡ" "Also ⲉⲣ-"],
@@ -545,14 +524,11 @@
     }
     {:label "coptic_S-VInfinCVC3Reg-mise"
     :note "Infinitives with a stressed ⲓ in the first vowel position and an unstressed final ⲉ form a distinct class,although several verbs of this type exhibit irregularities."
-    :pdgmType :Infinitive
-    :common {:clauseConjugation :U,
-             :lexeme :mise,
-             :morphClass :Infinitive,
-             :polarity :U,
+    :pdgmType :FiniteInf
+    :common {:lexeme :mise,
+             :vmorphClass :Infinitive,
              :pos :Verb,
-             :stemClass :CVCReg,
-             :tam :U}
+             :stemClass :CVCReg}
     :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
             [:Absolute :Common :Common :Common :Nominal "ⲙⲓⲥⲉ ⲙ̄ ⲡϣⲏⲣⲉ" "May also occur with suffix pronoun object and object marker"],
             [:Construct :Common :Common :Common :Nominal "ⲙⲉⲥⲧ̄-ⲡϣⲏⲣⲉ" "Also ⲙⲉⲥ-"],
@@ -567,14 +543,11 @@
     }
     {:label "coptic_S-VInfinCVCC-sotp"
     :note "Verbs of the type (C)ⲱCC are the largest class of verbs in Coptic. With final consonant ⲃ,ⲗ,ⲙ,ⲛ or ⲣ,an -ⲉ- is inserted before the suffixes -ⲧ,-ⲕ,-ϥ and -ⲥ in the pronominal form. With final consonant ϩ,an -ⲁ- is sometimes inserted between the penultimate and ultimate consonants in the absolute form,and the normal -ⲟ- of the pronominal form may be replaced with -ⲁ-. As in the other verbal classes,the presence of ⲙ or ⲛ in the initial consonantal position causes ⲱ to shift to -ⲟⲩ-."
-    :pdgmType :Infinitive
-    :common {:clauseConjugation :U,
-             :lexeme :sotp,
-             :morphClass :Infinitive,
-             :polarity :U,
+    :pdgmType :FiniteInf
+    :common {:lexeme :sotp,
+             :vmorphClass :Infinitive,
              :pos :Verb,
-             :stemClass :CVCC,
-             :tam :U}
+             :stemClass :CVCC}
     :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
             [:Absolute :Common :Common :Common :Nominal "ⲥⲱⲧⲡ̄ ⲙ̄ ⲡⲉⲛⲕⲁ" "May also occur with suffix pronoun object and object marker"],
             [:Construct :Common :Common :Common :Nominal "ⲥⲉⲧⲡ̄-ⲡⲉⲛⲕⲁ" "⊤"],
@@ -589,14 +562,11 @@
     }
     {:label "coptic_S-VInfinCVReg-ji"
     :note ""
-    :pdgmType :Infinitive
-    :common {:clauseConjugation :U,
-             :lexeme :ji,
-             :morphClass :Infinitive,
-             :polarity :U,
+    :pdgmType :FiniteInf
+    :common {:lexeme :ji,
+             :vmorphClass :Infinitive,
              :pos :Verb,
-             :stemClass :CVReg,
-             :tam :U}
+             :stemClass :CVReg}
     :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
             [:Absolute :Common :Common :Common :Nominal "ϫⲓ ⲙ̄ ⲡϫⲱⲱⲙⲉ" "May also occur with suffix pronoun object and object marker"],
             [:Construct :Common :Common :Common :Nominal "ϫⲓ-ⲡϫⲱⲱⲙⲉ" "⊤"],
@@ -611,13 +581,10 @@
     }
     {:label "coptic_S-VInfinCompoundCausative-tamo"
     :note "Verbs of this type derive from an earlier phase of the Egyptian language in which the causative could be formed by means of a periphrastic construction with the word dỉ,cause. Most of these verbs begin with ⲧ and end in ⲟ in the absolute state. However,if the original base verb began with ϣ,the resulting compound will begin with ϫ. In a few cases the initial ⲧ is lost (e.g. ⲕⲧⲟ,turn). Others retain a fossilized suffix ending -ⲟⲩ or -ⲥ (e.g. ϫⲟⲟⲩ,send)."
-    :pdgmType :Infinitive
-    :common {:clauseConjugation :U,
-             :lexeme :tamo,
-             :morphClass :InfinitiveCompCaus,
-             :polarity :U,
-             :pos :Verb,
-             :tam :U}
+    :pdgmType :FiniteInf
+    :common {:lexeme :tamo,
+             :vmorphClass :InfinitiveCompCaus,
+             :pos :Verb}
     :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
             [:Absolute :Common :Common :Common :Nominal "ⲧⲁⲙⲟ ⲙ̄ ⲡⲣⲱⲙⲉ" "May also occur with suffix pronoun object and object marker"],
             [:Construct :Common :Common :Common :Nominal "ⲧⲁⲙⲉ-ⲡⲉⲛⲕⲁ" "⊤"],
@@ -754,9 +721,8 @@
 :muterms [
     {:label "coptic_S-PDemonstrativeNear"
     :note "The near demonstrative pronouns are related to the demonstrative prefixes,ⲡⲉⲓ-,ⲧⲉⲓ-,ⲛⲉⲓ-."
-    :pdgmType :DemonstrativeNear
-    :common {:morpheme :PRODEMNEAR,
-             :morphClass :DemonstrativeNear,
+    :pdgmType :PRO
+    :common {:proClass :DemonstrativeNear,
              :pos :Pronoun}
     :terms [[:number :gender :token],
             [:Singular :Masc "ⲡⲁⲓ"],
@@ -765,9 +731,8 @@
     }
     {:label "coptic_S-PDemonstrativeRemote"
     :note "The remote demonstrative pronouns have rare prefixial counterparts in Sahidic Coptic (ⲡⲓ-,ϯ-,ⲛⲓ-). These are also alternate spellings for the near demonstrative prefixes."
-    :pdgmType :DemonstrativeRemote
-    :common {:morpheme :PRODEMREMOTE,
-             :morphClass :DemonstrativeRemote,
+    :pdgmType :PRO
+    :common {:proClass :DemonstrativeRemote,
              :pos :Pronoun}
     :terms [[:number :gender :token],
             [:Singular :Masc "ⲡⲏ"],
@@ -776,9 +741,8 @@
     }
     {:label "coptic_S-PInd"
     :note ""
-    :pdgmType :NA
-    :common {:morpheme :PROIND,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Independent}
     :terms [[:number :person :gender :token :token-note],
             [:Singular :Person1 :Common "ⲁⲛⲟⲕ" "construct form:ⲁⲛⲅ̄-"],
@@ -792,9 +756,8 @@
     }
     {:label "coptic_S-PIntensive1"
     :note "This intensive pronoun may be alternately spelled ⲙⲁⲩⲁⲧ= or ⲟⲩⲁⲁ(ⲧ)=."
-    :pdgmType :Intensive1
-    :common {:morpheme :PROINTENSIVE1,
-             :morphClass :Intensive1,
+    :pdgmType :PRO
+    :common {:proClass :Intensive1,
              :pos :Pronoun}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "ⲙⲁⲩⲁⲁⲧ"],
@@ -808,25 +771,8 @@
     }
     {:label "coptic_S-PIntensive2"
     :note "The intensive or emphatic pronoun ϩⲱⲱ= or ϩⲱ= is used in apposition to pronominal elements. May also be used adverbially in the 3rd m. sg. (ϩⲱⲱϥ) with the meaning however,on the other hand."
-    :pdgmType :Intensive2
-    :common {:morpheme :PROINTENSIVE2,
-             :morphClass :Intensive2,
-             :pos :Pronoun}
-    :terms [[:number :person :gender :token :token-note],
-            [:Singular :Person1 :Common "ϩⲱⲱⲧ" "alternate spelling:ϩⲱ"],
-            [:Singular :Person2 :Masc "ϩⲱⲱⲕ" "⊤"],
-            [:Singular :Person2 :Fem "ϩⲱⲱⲧⲉ" "⊤"],
-            [:Singular :Person3 :Masc "ϩⲱⲱϥ" "⊤"],
-            [:Singular :Person3 :Fem "ϩⲱⲱⲥ" "⊤"],
-            [:Plural :Person1 :Common "ϩⲱⲱⲛ" "⊤"],
-            [:Plural :Person2 :Common "ϩⲱⲧ-ⲧⲉⲩⲧⲛ̄" "⊤"],
-            [:Plural :Person3 :Common "ϩⲱⲱⲧⲟⲩ" "⊤"]]
-    }
-    {:label "coptic_S-PIntensive3"
-    :note "The intensive pronoun ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟ= is used in apposition to reflexive and possessive pronominal elements."
-    :pdgmType :Intensive3
-    :common {:morpheme :PROINTENSIVE3,
-             :morphClass :Intensive3,
+    :pdgmType :PRO
+    :common {:proClass :Intensive3,
              :pos :Pronoun}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟⲓ"],
@@ -840,9 +786,8 @@
     }
     {:label "coptic_S-PPossessiveInd"
     :note "independent possessive pronouns"
-    :pdgmType :Possessive
-    :common {:morpheme :PROPOSS,
-             :morphClass :Possessive,
+    :pdgmType :PRO
+    :common {:proClass :Possessive1,
              :pos :Pronoun}
     :terms [[:genderHead :numHead :number :person :gender :token],
             [:HeadCommon :HeadPlural :Singular :Person1 :Common "ⲛⲟⲩⲓ"],
@@ -872,9 +817,8 @@
     }
     {:label "coptic_S-PPossessiveIndTranscriibed"
     :note "independent possessive pronouns"
-    :pdgmType :Possessive
-    :common {:morpheme :PROPOSS,
-             :morphClass :Possessive,
+    :pdgmType :PRO
+    :common {:proClass :Possessive2,
              :pos :Pronoun}
     :terms [[:genderHead :numHead :number :person :gender :token],
             [:HeadCommon :HeadPlural :Singular :Person1 :Common "ⲛⲟⲩⲓ"],
