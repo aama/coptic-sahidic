@@ -5,26 +5,26 @@
  :datasource "Lambdin1983"
  :geodemoURL "http://www.ethnologue.com/language/cop"
  :geodemoTXT "Varieties of Cooptic, the last stage of Egyptian from about mid-first millennium BCE, were spoken in Egypt until about the 16th century. The Bohairic variety still serves as a liturgical language of the Egyptian Coptic church. Sahidic, whose geographic localization is not clear, was the language of the official Coptic translation of the Bible, and served as the principal literary dialect from about the fourth to the tenth century."
-:schemata {:clauseConjugation [:ConditionalClause :Main :Relative :Result :Subordinate :Temporal :TemporalSubordinate :TerminativeClause :Variable],
-           :formClass [:AbsoluteInfinitive],
-           :gender [:Common :Fem :Masc],
-           :genderHead [:HeadCommon :HeadFem :HeadMasc],
-           :imperativeForm [:Construct :Pronominal],
-           :infinitiveForm [:Absolute :Construct :Pronominal],
-           :numHead [:HeadPlural :HeadSingular],
-           :number [:Common :Plural :Singular],
-           :objectGender [:Common :Fem :Masc],
-           :objectNumber [:Common :Plural :Singular],
-           :objectPerson [:Common :Person1 :Person2 :Person3],
-           :objectType [:Nominal :SuffixPron],
-           :person [:NomSubj :Person1 :Person2 :Person3],
-           :polarity [:Affirmative :Negative],
-           :pos [:Pronoun :Verb],
-           :proClass [:DemonstrativeNear :DemonstrativeRemote :Independent :Intensive1 :Intensive3 :Possessive1 :Possessive2],
-           :stemClass [:CV1 :CV2 :CV3 :CV4 :CVC1 :CVC2 :CVC3Irreg :CVCC :CVCReg :CVReg],
-           :tam [:Aorist :Circumstantial :Conditional :Conjunctive :Future :Future3 :Imperative :Imperfect :InflectedInfiitive :Injunct :NotYet :Perf1 :Perf2 :Pres1 :Pres2 :SimplePast :Terminative],
-           :vmorphClass [:Finite  :FiniteInf :Infinitive :InfinitiveCompCaus]
-           }
+ :schemata {:clauseConjugation [:ConditionalClause  :Main :Relative :Result :Subordinate :Temporal :TemporalSubordinate :TerminativeClause :Variable],
+            :formClass [:AbsoluteInfinitive :Infinitive :InfinitiveCompCaus],
+            :gender [:Common :Fem :Masc],
+            :genderHead [:HeadCommon :HeadFem :HeadMasc],
+            :imperativeForm [:Construct :Pronominal],
+            :infinitiveForm [:Absolute :Construct :Pronominal],
+            :numHead [:HeadPlural :HeadSingular],
+            :number [:Common :Plural :Singular],
+            :objectGender [:Common :Fem :Masc],
+            :objectNumber [:Common :Plural :Singular],
+            :objectPerson [:Common :Person1 :Person2 :Person3],
+            :objectType [:Nominal :SuffixPron],
+            :person [:NomSubj :Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:DemonstrativeNear :DemonstrativeRemote :Independent :Intensive1 :Intensive3 :Possessive1 :Possessive2],
+            :stemClass [:CV1 :CV2 :CV3 :CV4 :CVC1 :CVC2 :CVC3Irreg :CVCC :CVCReg :CVReg],
+            :tam [:Aorist :Circumstantial :Conditional :Conjunctive :Future :Future3 :Imperative :Imperfect :InflectedInfiitive :Injunct :NotYet :Perf1 :Perf2 :Pres1 :Pres2 :SimplePast :Terminative],
+            :vmorphClass [:Finite :FiniteInf]
+            }
  :pclass {:pngClass [:person :number :gender :genderHead :numHead],
           :synsemClass [:clauseConjugation :clauseType :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:formClass :imperativeForm :infinitiveForm :objectType :stemClass],
@@ -39,13 +39,16 @@
           :ji {:lemma "ϫⲓ", :gloss "take", :pos :Verb, :transitivity :Trans},
           :eire {:lemma "ⲉⲓⲣⲉ", :gloss "do", :pos :Verb, :transitivity :Trans},
           :mise {:lemma "ⲙⲓⲥⲉ", :gloss "bear (a child)", :pos :Verb, :transitivity :Trans},
+
+
+
           :hop {:lemma "ϩⲱⲡ", :gloss "hide", :pos :Verb, :transitivity :Trans},
           :tamo {:lemma "ⲧⲁⲙⲟ", :gloss "inform", :pos :Verb, :transitivity :Trans},
           :ti {:lemma "ϯ", :gloss "give", :pos :Verb, :transitivity :Trans}}
  :termclusters [
                 {:label "coptic_S-VAffAorist-rime"
                  :note "Alternately called the Habitual or praesens consuetudinis. Converters can be used to create a variety of clause conjugations."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :Main,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :rime,
@@ -65,7 +68,7 @@
                  }
                 {:label "coptic_S-VAffCircumstantial-rime"
                  :note "The tense of the Circumstantial is identical to the tense of the verb of the main clause. The Circumstantial is not negated directly. Instead,the Circumstantial converter ⲉ- is prefixed to the negative First Present."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :Subordinate,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :rime,
@@ -85,7 +88,7 @@
                  }
                 {:label "coptic_S-VAffConditional-rime"
                  :note "Negation of the conditional is with -ⲧⲙ̄- prefixed to the infinitive. ϣⲁⲛ is sometimes omitted from the prefix in the negative."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :ConditionalClause,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :rime,
@@ -105,7 +108,7 @@
                  }
                 {:label "coptic_S-VAffConj-bok"
                  :note "The Conjunctive continues the force of any preceding verb,with the exception of the First Present."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :Variable,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :bok,
@@ -125,7 +128,7 @@
                  }
                 {:label "coptic_S-VAffFut3-rime"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :Variable,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :rime,
@@ -145,7 +148,7 @@
                  }
                 {:label "coptic_S-VAffImperative-jo"
                  :note "Most imperatives are identical to the infinitive,but a few verbs have a special imperative form with a prefixed ⲁ-. The imperative of ϯ (cause) is usually ⲙⲁ/ⲙⲁ-/ⲙⲁⲧ=,but the simple infinitive ϯ may also be used. The causative compound imperatives are frequently formed by prefixing ⲙⲁ- to the infinitive form. The irregular verb ⲉⲓ (come) has distinct masculine,feminine and plural imperative forms:ⲁⲙⲟⲩ (m. s.),ⲁⲙⲏ (f. s.),ⲁⲙⲉⲓⲧⲛ̄ (c. pl.)."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :jo,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -164,7 +167,7 @@
                  }
                 {:label "coptic_S-VAffImperf-rime"
                  :note "The Imperfect is actually a subset of the present forms,but the sense is past progressive. Negation is with ⲁⲛ (e.g. ⲛⲉⲓⲣⲓⲙⲉ ⲁⲛ)."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :Variable,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :rime,
@@ -184,7 +187,7 @@
                  }
                 {:label "coptic_S-VAffInflectedInfin-bok"
                  :note "The Inflected (or Causative) Infinitive has no inherent tense,and takes its tense from the main verb of the sentence. It is used either as a complementary infinitive with verbs of wishing or commanding,or in purpose or temporal clauses. Negation is formed with ⲧⲙ̄,prefixed either to the prefix or directly to the infinitive."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :Variable,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :bok,
@@ -204,7 +207,7 @@
                  }
                 {:label "coptic_S-VAffInjunct-rime"
                  :note "Also called the Optative. Negative is expressed with the negative imperative prefix ⲙ̄ⲡⲣ̄- attached to the Inflected Infinitive."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :Main,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :rime,
@@ -224,7 +227,7 @@
                  }
                 {:label "coptic_S-VAffPerf2-bok"
                  :note "The Second Perfect places emphasis on an adverbial element or circumstantial clause."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :Main,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :bok,
@@ -244,7 +247,7 @@
                  }
                 {:label "coptic_S-VAffPres1-rime"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :Main,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :rime,
@@ -264,7 +267,7 @@
                  }
                 {:label "coptic_S-VAffPres2-rime"
                  :note "The Second Present is morphologically identical to the Circumstantial. The Second Present emphasizes adverbial elements."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :Main,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :rime,
@@ -284,7 +287,7 @@
                  }
                 {:label "coptic_S-VAffRelPerf1-bok"
                  :note "The relative of the First Perfect is formed by combining the First Perfect prefix with the relative pronoun (ⲉⲛⲧ-). This form can only be used with a defined antecedent. Negation is formed with the relative pronoun ⲉⲧⲉ before the negative First Perfect."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :Relative,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :bok,
@@ -304,7 +307,7 @@
                  }
                 {:label "coptic_S-VAffRelPres1-bok"
                  :note "The relative of the First Present is formed by combining the relative pronoun ⲉⲧ with the First Present prefix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :Relative,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :bok,
@@ -324,7 +327,7 @@
                  }
                 {:label "coptic_S-VAffResult-rime"
                  :note "Also called the Future Conjunctive of Result. Lambdin omits 1st person singular,but this form is attested."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :Result,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :rime,
@@ -344,7 +347,7 @@
                  }
                 {:label "coptic_S-VAffTemporalSubordinate-bok"
                  :note "The Temporal Conjugation expresses a subordinate temporal clause."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :TemporalSubordinate,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :bok,
@@ -364,7 +367,7 @@
                  }
                 {:label "coptic_S-VAffTerminative-bok"
                  :note "The Terminative is also known as the Until Tense,and is generally translated until he goes,etc. Negation is formed with the insertion of -ⲧⲙ̄- before the infinitive."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :TerminativeClause,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :bok,
@@ -384,9 +387,9 @@
                  }
                 {:label "coptic_S-VInfinCV1-ji"
                  :note "Coptic infinitives are irregular and difficult to classify according to morphology. ϫⲓ is typical of monosyllabic infinitives of the type consonant + ⲓ. The verbs ϥⲓ (carry) and ϣⲓ (measure) follow the same pattern."
-                 :common {:vmorphclass :FiniteInf
+                 :common {:vmorphClass :FiniteInf
                           :lexeme :ji,
-                          :vmorphClass :Infinitive,
+                          :formClass :Infinitive,
                           :pos :Verb,
                           :stemClass :CV1}
                  :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
@@ -403,9 +406,9 @@
                  }
                 {:label "coptic_S-VInfinCV2-ti"
                  :note "ϯ departs from the pattern followed by other verbs of its class,represented by ϫⲓ in the previous paradigm."
-                 :common {:vmorphclass :FiniteInf
+                 :common {:vmorphClass :FiniteInf
                           :lexeme :ti,
-                          :vmorphClass :Infinitive,
+                          :formClass :Infinitive,
                           :pos :Verb,
                           :stemClass :CV2}
                  :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
@@ -422,9 +425,9 @@
                  }
                 {:label "coptic_S-VInfinCV3-ko"
                  :note "Infinitives of the type consonant + ⲱ typically follow one of two patterns:they may take the form Cⲉ- or Cⲁ- in the construct,and Cⲟⲟ= or Cⲁⲁ= in the pronominal."
-                 :common {:vmorphclass :FiniteInf
+                 :common {:vmorphClass :FiniteInf
                           :lexeme :ko,
-                          :vmorphClass :Infinitive,
+                          :formClass :Infinitive,
                           :pos :Verb,
                           :stemClass :CV3}
                  :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
@@ -441,9 +444,9 @@
                  }
                 {:label "coptic_S-VInfinCV4-me"
                  :note "ⲙⲉ is historically derived from a biconsonantal root mr. The weak consonant r returns in the construct and pronominal forms."
-                 :common {:vmorphclass :FiniteInf
+                 :common {:vmorphClass :FiniteInf
                           :lexeme :me,
-                          :vmorphClass :Infinitive,
+                          :formClass :Infinitive,
                           :pos :Verb,
                           :stemClass :CV4}
                  :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
@@ -460,9 +463,9 @@
                  }
                 {:label "coptic_S-VInfinCVC1-hop"
                  :note "Infinitives of the type (consonant +) ⲱ + consonant follow the regular pattern of (C)ⲱC in the absolute,(C)ⲉC- in construct and (C)ⲟC= in pronominal. In infinitives of this type beginning with ⲙ or ⲛ,the vowel ⲱ in the absolute form is modified to ⲟⲩ. Verbs of the type (C)ⲱCⲉ follow the same pattern in construct and pronominal."
-                 :common {:vmorphclass :FiniteInf
+                 :common {:vmorphClass :FiniteInf
                           :lexeme :hop,
-                          :vmorphClass :Infinitive,
+                          :formClass :Infinitive,
                           :pos :Verb,
                           :stemClass :CVC1}
                  :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
@@ -479,9 +482,9 @@
                  }
                 {:label "coptic_S-VInfinCVC2-mouh"
                  :note "Infinitives with stem final ϩ or ϣ replace the typical ⲟ of the pronominal form with ⲁ."
-                 :common {:vmorphclass :FiniteInf
+                 :common {:vmorphClass :FiniteInf
                           :lexeme :mouh,
-                          :vmorphClass :Infinitive,
+                          :formClass :Infinitive,
                           :pos :Verb,
                           :stemClass :CVC2}
                  :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
@@ -498,9 +501,9 @@
                  }
                 {:label "coptic_S-VInfinCVC3Irreg-eire"
                  :note "Infinitives with a stressed ⲓ in the first vowel position and an unstressed final ⲉ form a distinct class,although several verbs of this type exhibit irregularities. Other common irregular verbs in this class are ⲉⲓⲛⲉ/ⲛ̄-/ⲛ̄ⲧ=,ϣⲓⲛⲉ/ϣⲛ̄-/ϣⲛ̄ⲧ= and ϭⲓⲛⲉ/ϭⲛ̄-/ϭⲛ̄ⲧ=."
-                 :common {:vmorphclass :FiniteInf
+                 :common {:vmorphClass :FiniteInf
                           :lexeme :eire,
-                          :vmorphClass :Infinitive,
+                          :formClass :Infinitive,
                           :pos :Verb
                           :stemClass :CVC3Irreg}
                  :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
@@ -517,9 +520,9 @@
                  }
                 {:label "coptic_S-VInfinCVC3Reg-mise"
                  :note "Infinitives with a stressed ⲓ in the first vowel position and an unstressed final ⲉ form a distinct class,although several verbs of this type exhibit irregularities."
-                 :common {:vmorphclass :FiniteInf
+                 :common {:vmorphClass :FiniteInf
                           :lexeme :mise,
-                          :vmorphClass :Infinitive,
+                          :formClass :Infinitive,
                           :pos :Verb,
                           :stemClass :CVCReg}
                  :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
@@ -536,9 +539,9 @@
                  }
                 {:label "coptic_S-VInfinCVCC-sotp"
                  :note "Verbs of the type (C)ⲱCC are the largest class of verbs in Coptic. With final consonant ⲃ,ⲗ,ⲙ,ⲛ or ⲣ,an -ⲉ- is inserted before the suffixes -ⲧ,-ⲕ,-ϥ and -ⲥ in the pronominal form. With final consonant ϩ,an -ⲁ- is sometimes inserted between the penultimate and ultimate consonants in the absolute form,and the normal -ⲟ- of the pronominal form may be replaced with -ⲁ-. As in the other verbal classes,the presence of ⲙ or ⲛ in the initial consonantal position causes ⲱ to shift to -ⲟⲩ-."
-                 :common {:vmorphclass :FiniteInf
+                 :common {:vmorphClass :FiniteInf
                           :lexeme :sotp,
-                          :vmorphClass :Infinitive,
+                          :formClass :Infinitive,
                           :pos :Verb,
                           :stemClass :CVCC}
                  :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
@@ -555,9 +558,9 @@
                  }
                 {:label "coptic_S-VInfinCVReg-ji"
                  :note ""
-                 :common {:vmorphclass :FiniteInf
+                 :common {:vmorphClass :FiniteInf
                           :lexeme :ji,
-                          :vmorphClass :Infinitive,
+                          :formClass :Infinitive,
                           :pos :Verb,
                           :stemClass :CVReg}
                  :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
@@ -574,9 +577,9 @@
                  }
                 {:label "coptic_S-VInfinCompoundCausative-tamo"
                  :note "Verbs of this type derive from an earlier phase of the Egyptian language in which the causative could be formed by means of a periphrastic construction with the word dỉ,cause. Most of these verbs begin with ⲧ and end in ⲟ in the absolute state. However,if the original base verb began with ϣ,the resulting compound will begin with ϫ. In a few cases the initial ⲧ is lost (e.g. ⲕⲧⲟ,turn). Others retain a fossilized suffix ending -ⲟⲩ or -ⲥ (e.g. ϫⲟⲟⲩ,send)."
-                 :common {:vmorphclass :FiniteInf
+                 :common {:vmorphClass :FiniteInf
                           :lexeme :tamo,
-                          :vmorphClass :InfinitiveCompCaus,
+                          :formClass :InfinitiveCompCaus,
                           :pos :Verb}
                  :terms [[:infinitiveForm :objectGender :objectNumber :objectPerson :objectType :token :token-note],
                          [:Absolute :Common :Common :Common :Nominal "ⲧⲁⲙⲟ ⲙ̄ ⲡⲣⲱⲙⲉ" "May also occur with suffix pronoun object and object marker"],
@@ -592,7 +595,7 @@
                  }
                 {:label "coptic_S-VNegAorist-rime"
                  :note "Alternately called the Habitual or praesens consuetudinis. Converters can be used to create a variety of clause conjugations."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :Main,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :rime,
@@ -612,7 +615,7 @@
                  }
                 {:label "coptic_S-VNegFut3-rime"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :Variable,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :rime,
@@ -632,7 +635,7 @@
                  }
                 {:label "coptic_S-VNegPerf1-bok"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :Main,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :bok,
@@ -652,7 +655,7 @@
                  }
                 {:label "coptic_S-VNegPres1-rime"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :Main,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :rime,
@@ -672,7 +675,7 @@
                  }
                 {:label "coptic_S-VNegTemporal-bok"
                  :note "The Temporal Conjugation expresses a subordinate temporal clause."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :Temporal,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :bok,
@@ -692,7 +695,7 @@
                  }
                 {:label "coptic_S-VNotYet-bok"
                  :note "The Not-Yettense corresponds to what is called the Perfect Negative in earlier phases of the Egyptian language. It is used to describe expected action that has not yet occurred."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseConjugation :Variable,
                           :formClass :AbsoluteInfinitive,
                           :lexeme :bok,
