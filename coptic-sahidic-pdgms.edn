@@ -5,44 +5,46 @@
  :datasource "Lambdin1983"
  :geodemoURL "http://www.ethnologue.com/language/cop"
  :geodemoTXT "Varieties of Cooptic, the last stage of Egyptian from about mid-first millennium BCE, were spoken in Egypt until about the 16th century. The Bohairic variety still serves as a liturgical language of the Egyptian Coptic church. Sahidic, whose geographic localization is not clear, was the language of the official Coptic translation of the Bible, and served as the principal literary dialect from about the fourth to the tenth century."
- :schemata {:lexeme [:bok  :eire :hop :ji :jo :ko :me :mise :mouh :rime :sotp :tamo :ti],
- :clauseConjugation [:ConditionalClause :Main :Relative :Result :Subordinate :Temporal :TemporalSubordinate :TerminativeClause :Variable],
- :formClass [:AbsoluteInfinitive :Infinitive :InfinitiveCompCaus],
+ :schemata {:numberHead [:Plural  :Singular],
+ :pmorphClass [:ProMorph],
+ :clauseConjugation [:ConditionalClause :Main :Relative :Result :Subordinate :Temporal :TemporalSubordinate :TerminativeClause :Variable :U],
+ :formClass [:AbsoluteInfinitive],
  :gender [:Common :Fem :Masc],
- :genderHead [:HeadCommon :HeadFem :HeadMasc],
+ :genderHead [:Common :Fem :Masc],
  :imperativeForm [:Construct :Pronominal],
  :infinitiveForm [:Absolute :Construct :Pronominal],
- :numHead [:HeadPlural :HeadSingular],
  :number [:Common :Plural :Singular],
  :objectGender [:Common :Fem :Masc],
  :objectNumber [:Common :Plural :Singular],
  :objectPerson [:Common :Person1 :Person2 :Person3],
  :objectType [:Nominal :SuffixPron],
  :person [:NomSubj :Person1 :Person2 :Person3],
- :polarity [:Affirmative :Negative],
+ :polarity [:Affirmative :Negative :U],
  :pos [:Pronoun :Verb],
- :proClass [:DemonstrativeNear :DemonstrativeRemote :Independent :Intensive1 :Intensive3 :Possessive1 :Possessive2],
- :stemClass [:CV1 :CV2 :CV3 :CV4 :CVC1 :CVC2 :CVC3Irreg :CVCC :CVCReg :CVReg],
- :tam [:Aorist :Circumstantial :Conditional :Conjunctive :Future :Future3 :Imperative :Imperfect :InflectedInfiitive :Injunct :NotYet :Perf1 :Perf2 :Pres1 :Pres2 :SimplePast :Terminative],
- :vmorphClass [:Finite :FiniteInf]
+ :proClass [:Independent],
+ :stemClass [:CV1 :CV2 :CV3 :CV4 :CVC1 :CVC2 :CVC3Irreg :CVCC :CVCReg :CVReg :U],
+ :tam [:Aorist :Circumstantial :Conditional :Conjunctive :Future :Future3 :Imperative :Imperfect :InflectedInfiitive :Injunct :NotYet :Perf1 :Perf2 :Pres1 :Pres2 :SimplePast :Terminative :U],
+ :vmorphClass [:DemonstrativeNear :DemonstrativeRemote :Finite :Infinitive :InfinitiveCompCaus :Intensive1 :Intensive3 :Intensive2 :Possessive]
  }
  :pclass {:pngClass [:person :number :gender :genderHead :numberHead :genderObj :numberObj :personObj],
           :synsemClass [:clauseConjugation :clauseType :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:formClass :imperativeForm :infinitiveForm :objectType :stemClass],
           :otherClass []}
- :lexemes{:me {:lemma "ⲙⲉ", :gloss "love", :pos :Verb, :transitivity :Trans},
-          :jo {:lemma "ϫⲱ", :gloss "say", :pos :Verb, :transitivity :Trans},
-          :mouh {:lemma "ⲙⲟⲩϩ", :gloss "fill", :pos :Verb, :transitivity :Trans},
-          :rime {:lemma "ⲣⲓⲙⲉ", :gloss "weep", :pos :Verb, :transitivity :Intransitive},
-          :ko {:lemma "ⲕⲱ", :gloss "put", :pos :Verb, :transitivity :Trans},
-          :bok {:lemma "ⲃⲱⲕ", :gloss "go", :pos :Verb, :transitivity :Intransitive},
-          :sotp {:lemma "ⲥⲱⲧⲡ̄", :gloss "choose", :pos :Verb, :transitivity :Trans},
-          :ji {:lemma "ϫⲓ", :gloss "take", :pos :Verb, :transitivity :Trans},
-          :eire {:lemma "ⲉⲓⲣⲉ", :gloss "do", :pos :Verb, :transitivity :Trans},
-          :mise {:lemma "ⲙⲓⲥⲉ", :gloss "bear (a child)", :pos :Verb, :transitivity :Trans},
-          :hop {:lemma "ϩⲱⲡ", :gloss "hide", :pos :Verb, :transitivity :Trans},
-          :tamo {:lemma "ⲧⲁⲙⲟ", :gloss "inform", :pos :Verb, :transitivity :Trans},
-          :ti {:lemma "ϯ", :gloss "give", :pos :Verb, :transitivity :Trans}}
+ :lexemes {
+:bok   {:pos :Verb, :lemma "ⲃⲱⲕ", :gloss "go", :transitivity :Intransitive},
+:eire   {:pos :Verb, :lemma "ⲉⲓⲣⲉ", :gloss "do", :transitivity :Trans},
+:hop   {:pos :Verb, :lemma "ϩⲱⲡ", :gloss "hide", :transitivity :Trans},
+:ji   {:pos :Verb, :lemma "ϫⲓ", :gloss "take", :transitivity :Trans},
+:jo   {:pos :Verb, :lemma "ϫⲱ", :gloss "say", :transitivity :Trans},
+:ko   {:pos :Verb, :lemma "ⲕⲱ", :gloss "put", :transitivity :Trans},
+:me   {:pos :Verb, :lemma "ⲙⲉ", :gloss "love", :transitivity :Trans},
+:mise   {:pos :Verb, :lemma "ⲙⲓⲥⲉ", :gloss "bear (a child)", :transitivity :Trans},
+:mouh   {:pos :Verb, :lemma "ⲙⲟⲩϩ", :gloss "fill", :transitivity :Trans},
+:rime   {:pos :Verb, :lemma "ⲣⲓⲙⲉ", :gloss "weep", :transitivity :Intransitive},
+:sotp   {:pos :Verb, :lemma "ⲥⲱⲧⲡ̄", :gloss "choose", :transitivity :Trans},
+:tamo   {:pos :Verb, :lemma "ⲧⲁⲙⲟ", :gloss "inform", :transitivity :Trans},
+:ti   {:pos :Verb, :lemma "ϯ", :gloss "give", :transitivity :Trans},
+}
  :termclusters [
                 {:label "coptic_S-VAffAorist-rime"
                  :note "Alternately called the Habitual or praesens consuetudinis. Converters can be used to create a variety of clause conjugations."
