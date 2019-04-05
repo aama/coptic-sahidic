@@ -2,7 +2,7 @@
  :lang :coptic-sahidic
  :subfamily "Egyptian"
  :sgpref "csa"
- :datasource "Lambdin1983"
+ :datasource "Lambdin1983; abbrev. L83"
  :geodemoURL "http://www.ethnologue.com/language/cop"
  :geodemoTXT "Varieties of Cooptic, the last stage of Egyptian from about mid-first millennium BCE, were spoken in Egypt until about the 16th century. The Bohairic variety still serves as a liturgical language of the Egyptian Coptic church. Sahidic, whose geographic localization is not clear, was the language of the official Coptic translation of the Bible, and served as the principal literary dialect from about the fourth to the tenth century."
  :schemata {:numberHead [:Plural  :Singular],
@@ -47,7 +47,7 @@
 }
  :termclusters [
                 {:label "coptic_S-VAffAorist-rime"
-                 :note "Alternately called the Habitual or praesens consuetudinis. Converters can be used to create a variety of clause conjugations."
+                 :note "L83 :: Alternately called the Habitual or praesens consuetudinis. Converters can be used to create a variety of clause conjugations."
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :Main,
                           :formClass :AbsoluteInfinitive,
@@ -67,7 +67,7 @@
                          [:Common :NomSubj :Common "ϣⲁⲣⲉ-ⲡⲣⲱⲙⲉ ⲣⲓⲙⲉ"]]
                  }
                 {:label "coptic_S-VAffCircumstantial-rime"
-                 :note "The tense of the Circumstantial is identical to the tense of the verb of the main clause. The Circumstantial is not negated directly. Instead,the Circumstantial converter ⲉ- is prefixed to the negative First Present."
+                 :note "L83 :: The tense of the Circumstantial is identical to the tense of the verb of the main clause. The Circumstantial is not negated directly. Instead,the Circumstantial converter ⲉ- is prefixed to the negative First Present."
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :Subordinate,
                           :formClass :AbsoluteInfinitive,
@@ -87,7 +87,7 @@
                          [:Common :NomSubj :Common "ⲉⲣⲉ-ⲣⲱⲙⲉ ⲣⲓⲙⲉ"]]
                  }
                 {:label "coptic_S-VAffConditional-rime"
-                 :note "Negation of the conditional is with -ⲧⲙ̄- prefixed to the infinitive. ϣⲁⲛ is sometimes omitted from the prefix in the negative."
+                 :note "L83 :: Negation of the conditional is with -ⲧⲙ̄- prefixed to the infinitive. ϣⲁⲛ is sometimes omitted from the prefix in the negative."
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :ConditionalClause,
                           :formClass :AbsoluteInfinitive,
@@ -107,7 +107,7 @@
                          [:Common :NomSubj :Common "ⲉⲣϣⲁⲛ-ⲡⲣⲱⲙⲉ ⲣⲓⲙⲉ"]]
                  }
                 {:label "coptic_S-VAffConj-bok"
-                 :note "The Conjunctive continues the force of any preceding verb,with the exception of the First Present."
+                 :note "L83 :: The Conjunctive continues the force of any preceding verb,with the exception of the First Present."
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :Variable,
                           :formClass :AbsoluteInfinitive,
@@ -127,7 +127,7 @@
                          [:Common :NomSubj :Common "ⲛ̄ⲧⲉ-ⲡⲣⲱⲙⲉ ⲃⲱⲕ"]]
                  }
                 {:label "coptic_S-VAffFut3-rime"
-                 :note ""
+                 :note "L83"
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :Variable,
                           :formClass :AbsoluteInfinitive,
@@ -147,7 +147,7 @@
                          [:Common :NomSubj :Common "ⲉⲣⲉ-ⲡⲣⲱⲙⲉ ⲣⲓⲙⲉ"]]
                  }
                 {:label "coptic_S-VAffImperative-jo"
-                 :note "Most imperatives are identical to the infinitive,but a few verbs have a special imperative form with a prefixed ⲁ-. The imperative of ϯ (cause) is usually ⲙⲁ/ⲙⲁ-/ⲙⲁⲧ=,but the simple infinitive ϯ may also be used. The causative compound imperatives are frequently formed by prefixing ⲙⲁ- to the infinitive form. The irregular verb ⲉⲓ (come) has distinct masculine,feminine and plural imperative forms:ⲁⲙⲟⲩ (m. s.),ⲁⲙⲏ (f. s.),ⲁⲙⲉⲓⲧⲛ̄ (c. pl.)."
+                 :note "L83 :: Most imperatives are identical to the infinitive,but a few verbs have a special imperative form with a prefixed ⲁ-. The imperative of ϯ (cause) is usually ⲙⲁ/ⲙⲁ-/ⲙⲁⲧ=,but the simple infinitive ϯ may also be used. The causative compound imperatives are frequently formed by prefixing ⲙⲁ- to the infinitive form. The irregular verb ⲉⲓ (come) has distinct masculine,feminine and plural imperative forms:ⲁⲙⲟⲩ (m. s.),ⲁⲙⲏ (f. s.),ⲁⲙⲉⲓⲧⲛ̄ (c. pl.)."
                  :common {:vmorphClass :Finite,
                           :lexeme :jo,
                           :polarity :Affirmative,
@@ -166,7 +166,7 @@
                          [:Pronominal :Masc :Singular :Person3 :SuffixPron "ⲁϫⲓϥ"]]
                  }
                 {:label "coptic_S-VAffImperf-rime"
-                 :note "The Imperfect is actually a subset of the present forms,but the sense is past progressive. Negation is with ⲁⲛ (e.g. ⲛⲉⲓⲣⲓⲙⲉ ⲁⲛ)."
+                 :note "L83 :: The Imperfect is actually a subset of the present forms,but the sense is past progressive. Negation is with ⲁⲛ (e.g. ⲛⲉⲓⲣⲓⲙⲉ ⲁⲛ)."
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :Variable,
                           :formClass :AbsoluteInfinitive,
@@ -186,7 +186,7 @@
                          [:Common :NomSubj :Common "ⲛⲉⲣⲉ-ⲣⲱⲙⲉ ⲣⲓⲙⲉ" "indefSubj:ⲛⲉⲣⲉ-ⲟⲩⲛ̄-ⲟⲩⲣⲱⲙⲉ ⲣⲓⲙⲉ"]]
                  }
                 {:label "coptic_S-VAffInflectedInfin-bok"
-                 :note "The Inflected (or Causative) Infinitive has no inherent tense,and takes its tense from the main verb of the sentence. It is used either as a complementary infinitive with verbs of wishing or commanding,or in purpose or temporal clauses. Negation is formed with ⲧⲙ̄,prefixed either to the prefix or directly to the infinitive."
+                 :note "L83 :: The Inflected (or Causative) Infinitive has no inherent tense,and takes its tense from the main verb of the sentence. It is used either as a complementary infinitive with verbs of wishing or commanding,or in purpose or temporal clauses. Negation is formed with ⲧⲙ̄,prefixed either to the prefix or directly to the infinitive."
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :Variable,
                           :formClass :AbsoluteInfinitive,
@@ -207,7 +207,7 @@
                          [:Common :NomSubj :Common "ⲧⲣⲉ-ⲡⲣⲱⲙⲉ ⲃⲱⲕ" "Common"]]
                  }
                 {:label "coptic_S-VAffInjunct-rime"
-                 :note "Also called the Optative. Negative is expressed with the negative imperative prefix ⲙ̄ⲡⲣ̄- attached to the Inflected Infinitive."
+                 :note "L83 :: Also called the Optative. Negative is expressed with the negative imperative prefix ⲙ̄ⲡⲣ̄- attached to the Inflected Infinitive."
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :Main,
                           :formClass :AbsoluteInfinitive,
@@ -227,7 +227,7 @@
                          [:Common :NomSubj :Common "ⲙⲁⲣⲉ-ⲡⲣⲱⲙⲉ ⲣⲓⲙⲉ"]]
                  }
                 {:label "coptic_S-VAffPerf2-bok"
-                 :note "The Second Perfect places emphasis on an adverbial element or circumstantial clause."
+                 :note "L83 :: The Second Perfect places emphasis on an adverbial element or circumstantial clause."
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :Main,
                           :formClass :AbsoluteInfinitive,
@@ -247,7 +247,7 @@
                          [:Common :NomSubj :Common "ⲛ̄ⲧⲁ-ⲡⲣⲱⲙⲉ ⲃⲱⲕ"]]
                  }
                 {:label "coptic_S-VAffPres1-rime"
-                 :note ""
+                 :note "L83"
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :Main,
                           :formClass :AbsoluteInfinitive,
@@ -268,7 +268,7 @@
                          [:Common :NomSubj :Common "ⲡⲣⲱⲙⲉ ⲣⲓⲙⲉ" "indefSubj:ⲟⲩⲛ̄-ⲟⲩⲣⲱⲙⲉ ⲣⲓⲙⲉ + Common"]]
                  }
                 {:label "coptic_S-VAffPres2-rime"
-                 :note "The Second Present is morphologically identical to the Circumstantial. The Second Present emphasizes adverbial elements."
+                 :note "L83 :: The Second Present is morphologically identical to the Circumstantial. The Second Present emphasizes adverbial elements."
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :Main,
                           :formClass :AbsoluteInfinitive,
@@ -288,7 +288,7 @@
                          [:Common :NomSubj :Common "ⲉⲣⲉ-ⲣⲱⲙⲉ ⲣⲓⲙⲉ"]]
                  }
                 {:label "coptic_S-VAffRelPerf1-bok"
-                 :note "The relative of the First Perfect is formed by combining the First Perfect prefix with the relative pronoun (ⲉⲛⲧ-). This form can only be used with a defined antecedent. Negation is formed with the relative pronoun ⲉⲧⲉ before the negative First Perfect."
+                 :note "L83 :: The relative of the First Perfect is formed by combining the First Perfect prefix with the relative pronoun (ⲉⲛⲧ-). This form can only be used with a defined antecedent. Negation is formed with the relative pronoun ⲉⲧⲉ before the negative First Perfect."
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :Relative,
                           :formClass :AbsoluteInfinitive,
@@ -308,7 +308,7 @@
                          [:Common :NomSubj :Common "ⲉⲛⲧⲁ-ⲡⲣⲱⲙⲉ ⲃⲱⲕ"]]
                  }
                 {:label "coptic_S-VAffRelPres1-bok"
-                 :note "The relative of the First Present is formed by combining the relative pronoun ⲉⲧ with the First Present prefix."
+                 :note "L83 :: The relative of the First Present is formed by combining the relative pronoun ⲉⲧ with the First Present prefix."
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :Relative,
                           :formClass :AbsoluteInfinitive,
@@ -328,7 +328,7 @@
                          [:Common :NomSubj :Common "ⲉⲧⲉⲣⲉ-ⲡⲣⲱⲙⲉ ⲃⲱⲕ" "Common"]]
                  }
                 {:label "coptic_S-VAffResult-rime"
-                 :note "Also called the Future Conjunctive of Result. Lambdin omits 1st person singular,but this form is attested."
+                 :note "L83 :: Also called the Future Conjunctive of Result. Lambdin omits 1st person singular,but this form is attested."
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :Result,
                           :formClass :AbsoluteInfinitive,
@@ -348,7 +348,7 @@
                          [:Common :NomSubj :Common "ⲧⲁⲣⲉ-ⲡⲣⲱⲙⲉ ⲣⲓⲙⲉ"]]
                  }
                 {:label "coptic_S-VAffTemporalSubordinate-bok"
-                 :note "The Temporal Conjugation expresses a subordinate temporal clause."
+                 :note "L83 :: The Temporal Conjugation expresses a subordinate temporal clause."
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :TemporalSubordinate,
                           :formClass :AbsoluteInfinitive,
@@ -368,7 +368,7 @@
                          [:Common :NomSubj :Common "ⲛ̄ⲧⲉⲣⲉ-ⲡⲣⲱⲙⲉ ⲃⲱⲕ" "Common"]]
                  }
                 {:label "coptic_S-VAffTerminative-bok"
-                 :note "The Terminative is also known as the Until Tense,and is generally translated until he goes,etc. Negation is formed with the insertion of -ⲧⲙ̄- before the infinitive."
+                 :note "L83 :: The Terminative is also known as the Until Tense,and is generally translated until he goes,etc. Negation is formed with the insertion of -ⲧⲙ̄- before the infinitive."
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :TerminativeClause,
                           :formClass :AbsoluteInfinitive,
@@ -388,7 +388,7 @@
                          [:Common :NomSubj :Common "ϣⲁⲛⲧⲉ-ⲡⲣⲱⲙⲉ ⲃⲱⲕ"]]
                  }
                 {:label "coptic_S-VInfinCV1-ji"
-                 :note "Coptic infinitives are irregular and difficult to classify according to morphology. ϫⲓ is typical of monosyllabic infinitives of the type consonant + ⲓ. The verbs ϥⲓ (carry) and ϣⲓ (measure) follow the same pattern."
+                 :note "L83 :: Coptic infinitives are irregular and difficult to classify according to morphology. ϫⲓ is typical of monosyllabic infinitives of the type consonant + ⲓ. The verbs ϥⲓ (carry) and ϣⲓ (measure) follow the same pattern."
                  :common {:clauseConjugation :U,
                           :lexeme :ji,
                           :vmorphClass :Infinitive,
@@ -409,7 +409,7 @@
                          [:Pronominal :Masc :Singular :Person3 :SuffixPron "ϫⲓⲧϥ̄" "⊤"]]
                  }
                 {:label "coptic_S-VInfinCV2-ti"
-                 :note "ϯ departs from the pattern followed by other verbs of its class,represented by ϫⲓ in the previous paradigm."
+                 :note "L83 :: ϯ departs from the pattern followed by other verbs of its class,represented by ϫⲓ in the previous paradigm."
                  :common {:clauseConjugation :U,
                           :lexeme :ti,
                           :vmorphClass :Infinitive,
@@ -430,7 +430,7 @@
                          [:Pronominal :Masc :Singular :Person3 :SuffixPron "ⲧⲁⲁϥ" "⊤"]]
                  }
                 {:label "coptic_S-VInfinCV3-ko"
-                 :note "Infinitives of the type consonant + ⲱ typically follow one of two patterns:they may take the form Cⲉ- or Cⲁ- in the construct,and Cⲟⲟ= or Cⲁⲁ= in the pronominal."
+                 :note "L83 :: Infinitives of the type consonant + ⲱ typically follow one of two patterns:they may take the form Cⲉ- or Cⲁ- in the construct,and Cⲟⲟ= or Cⲁⲁ= in the pronominal."
                  :common {:clauseConjugation :U,
                           :lexeme :ko,
                           :vmorphClass :Infinitive,
@@ -451,7 +451,7 @@
                          [:Pronominal :Masc :Singular :Person3 :SuffixPron "ⲕⲁⲁϥ" "⊤"]]
                  }
                 {:label "coptic_S-VInfinCV4-me"
-                 :note "ⲙⲉ is historically derived from a biconsonantal root mr. The weak consonant r returns in the construct and pronominal forms."
+                 :note "L83 :: ⲙⲉ is historically derived from a biconsonantal root mr. The weak consonant r returns in the construct and pronominal forms."
                  :common {:clauseConjugation :U,
                           :lexeme :me,
                           :vmorphClass :Infinitive,
@@ -472,7 +472,7 @@
                          [:Pronominal :Masc :Singular :Person3 :SuffixPron "ⲙⲉⲣⲓⲧϥ̄" "⊤"]]
                  }
                 {:label "coptic_S-VInfinCVC1-hop"
-                 :note "Infinitives of the type (consonant +) ⲱ + consonant follow the regular pattern of (C)ⲱC in the absolute,(C)ⲉC- in construct and (C)ⲟC= in pronominal. In infinitives of this type beginning with ⲙ or ⲛ,the vowel ⲱ in the absolute form is modified to ⲟⲩ. Verbs of the type (C)ⲱCⲉ follow the same pattern in construct and pronominal."
+                 :note "L83 :: Infinitives of the type (consonant +) ⲱ + consonant follow the regular pattern of (C)ⲱC in the absolute,(C)ⲉC- in construct and (C)ⲟC= in pronominal. In infinitives of this type beginning with ⲙ or ⲛ,the vowel ⲱ in the absolute form is modified to ⲟⲩ. Verbs of the type (C)ⲱCⲉ follow the same pattern in construct and pronominal."
                  :common {:clauseConjugation :U,
                           :lexeme :hop,
                           :vmorphClass :Infinitive,
@@ -493,7 +493,7 @@
                          [:Pronominal :Masc :Singular :Person3 :SuffixPron "ϩⲟⲡϥ̄" "⊤"]]
                  }
                 {:label "coptic_S-VInfinCVC2-mouh"
-                 :note "Infinitives with stem final ϩ or ϣ replace the typical ⲟ of the pronominal form with ⲁ."
+                 :note "L83 :: Infinitives with stem final ϩ or ϣ replace the typical ⲟ of the pronominal form with ⲁ."
                  :common {:clauseConjugation :U,
                           :lexeme :mouh,
                           :vmorphClass :Infinitive,
@@ -514,7 +514,7 @@
                          [:Pronominal :Masc :Singular :Person3 :SuffixPron "ⲙⲁϩϥ̄" "⊤"]]
                  }
                 {:label "coptic_S-VInfinCVC3Irreg-eire"
-                 :note "Infinitives with a stressed ⲓ in the first vowel position and an unstressed final ⲉ form a distinct class,although several verbs of this type exhibit irregularities. Other common irregular verbs in this class are ⲉⲓⲛⲉ/ⲛ̄-/ⲛ̄ⲧ=,ϣⲓⲛⲉ/ϣⲛ̄-/ϣⲛ̄ⲧ= and ϭⲓⲛⲉ/ϭⲛ̄-/ϭⲛ̄ⲧ=."
+                 :note "L83 :: Infinitives with a stressed ⲓ in the first vowel position and an unstressed final ⲉ form a distinct class,although several verbs of this type exhibit irregularities. Other common irregular verbs in this class are ⲉⲓⲛⲉ/ⲛ̄-/ⲛ̄ⲧ=,ϣⲓⲛⲉ/ϣⲛ̄-/ϣⲛ̄ⲧ= and ϭⲓⲛⲉ/ϭⲛ̄-/ϭⲛ̄ⲧ=."
                  :common {:clauseConjugation :U,
                           :lexeme :eire,
                           :vmorphClass :Infinitive,
@@ -535,7 +535,7 @@
                          [:Pronominal :Masc :Singular :Person3 :SuffixPron "ⲁⲁϥ" "⊤"]]
                  }
                 {:label "coptic_S-VInfinCVC3Reg-mise"
-                 :note "Infinitives with a stressed ⲓ in the first vowel position and an unstressed final ⲉ form a distinct class,although several verbs of this type exhibit irregularities."
+                 :note "L83 :: Infinitives with a stressed ⲓ in the first vowel position and an unstressed final ⲉ form a distinct class,although several verbs of this type exhibit irregularities."
                  :common {:clauseConjugation :U,
                           :lexeme :mise,
                           :vmorphClass :Infinitive,
@@ -556,7 +556,7 @@
                          [:Pronominal :Masc :Singular :Person3 :SuffixPron "ⲙⲁⲥⲧϥ̄" "⊤"]]
                  }
                 {:label "coptic_S-VInfinCVCC-sotp"
-                 :note "Verbs of the type (C)ⲱCC are the largest class of verbs in Coptic. With final consonant ⲃ,ⲗ,ⲙ,ⲛ or ⲣ,an -ⲉ- is inserted before the suffixes -ⲧ,-ⲕ,-ϥ and -ⲥ in the pronominal form. With final consonant ϩ,an -ⲁ- is sometimes inserted between the penultimate and ultimate consonants in the absolute form,and the normal -ⲟ- of the pronominal form may be replaced with -ⲁ-. As in the other verbal classes,the presence of ⲙ or ⲛ in the initial consonantal position causes ⲱ to shift to -ⲟⲩ-."
+                 :note "L83 :: Verbs of the type (C)ⲱCC are the largest class of verbs in Coptic. With final consonant ⲃ,ⲗ,ⲙ,ⲛ or ⲣ,an -ⲉ- is inserted before the suffixes -ⲧ,-ⲕ,-ϥ and -ⲥ in the pronominal form. With final consonant ϩ,an -ⲁ- is sometimes inserted between the penultimate and ultimate consonants in the absolute form,and the normal -ⲟ- of the pronominal form may be replaced with -ⲁ-. As in the other verbal classes,the presence of ⲙ or ⲛ in the initial consonantal position causes ⲱ to shift to -ⲟⲩ-."
                  :common {:clauseConjugation :U,
                           :lexeme :sotp,
                           :vmorphClass :Infinitive,
@@ -577,7 +577,7 @@
                          [:Pronominal :Masc :Singular :Person3 :SuffixPron "ⲥⲟⲧⲡϥ̄" "⊤"]]
                  }
                 {:label "coptic_S-VInfinCVReg-ji"
-                 :note ""
+                 :note "L83"
                  :common {:clauseConjugation :U,
                           :lexeme :ji,
                           :vmorphClass :Infinitive,
@@ -598,7 +598,7 @@
                          [:Pronominal :Masc :Singular :Person3 :SuffixPron "ϫⲓⲧϥ̄" "⊤"]]
                  }
                 {:label "coptic_S-VInfinCompoundCausative-tamo"
-                 :note "Verbs of this type derive from an earlier phase of the Egyptian language in which the causative could be formed by means of a periphrastic construction with the word dỉ,cause. Most of these verbs begin with ⲧ and end in ⲟ in the absolute state. However,if the original base verb began with ϣ,the resulting compound will begin with ϫ. In a few cases the initial ⲧ is lost (e.g. ⲕⲧⲟ,turn). Others retain a fossilized suffix ending -ⲟⲩ or -ⲥ (e.g. ϫⲟⲟⲩ,send)."
+                 :note "L83 :: Verbs of this type derive from an earlier phase of the Egyptian language in which the causative could be formed by means of a periphrastic construction with the word dỉ,cause. Most of these verbs begin with ⲧ and end in ⲟ in the absolute state. However,if the original base verb began with ϣ,the resulting compound will begin with ϫ. In a few cases the initial ⲧ is lost (e.g. ⲕⲧⲟ,turn). Others retain a fossilized suffix ending -ⲟⲩ or -ⲥ (e.g. ϫⲟⲟⲩ,send)."
                  :common {:clauseConjugation :U,
                           :lexeme :tamo,
                           :vmorphClass :InfinitiveCompCaus,
@@ -618,7 +618,7 @@
                          [:Pronominal :Masc :Singular :Person3 :SuffixPron "ⲧⲁⲙⲟϥ" "⊤"]]
                  }
                 {:label "coptic_S-VNegAorist-rime"
-                 :note "Alternately called the Habitual or praesens consuetudinis. Converters can be used to create a variety of clause conjugations."
+                 :note "L83 :: Alternately called the Habitual or praesens consuetudinis. Converters can be used to create a variety of clause conjugations."
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :Main,
                           :formClass :AbsoluteInfinitive,
@@ -638,7 +638,7 @@
                          [:Common :NomSubj :Common "ⲙⲉⲣⲉ-ⲡⲣⲱⲙⲉ ⲣⲓⲙⲉ"]]
                  }
                 {:label "coptic_S-VNegFut3-rime"
-                 :note ""
+                 :note "L83"
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :Variable,
                           :formClass :AbsoluteInfinitive,
@@ -658,7 +658,7 @@
                          [:Common :NomSubj :Common "ⲛ̄ⲛⲉ-ⲡⲣⲱⲙⲉ ⲣⲓⲙⲉ" "Common"]]
                  }
                 {:label "coptic_S-VNegPerf1-bok"
-                 :note ""
+                 :note "L83"
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :Main,
                           :formClass :AbsoluteInfinitive,
@@ -678,7 +678,7 @@
                          [:Common :NomSubj :Common "ⲙ̄ⲡⲉ-ⲡⲣⲱⲙⲉ ⲃⲱⲕ" "Common"]]
                  }
                 {:label "coptic_S-VNegPres1-rime"
-                 :note ""
+                 :note "L83"
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :Main,
                           :formClass :AbsoluteInfinitive,
@@ -698,7 +698,7 @@
                          [:Common :NomSubj :Common "(ⲙ̄) ⲡⲣⲱⲙⲉ ⲣⲓⲙⲉ ⲁⲛ" "indefSubj:ⲙⲛ̄-(ⲟⲩ)ⲣⲱⲙⲉ ⲣⲓⲙⲉ"]]
                  }
                 {:label "coptic_S-VNegTemporal-bok"
-                 :note "The Temporal Conjugation expresses a subordinate temporal clause."
+                 :note "L83 :: The Temporal Conjugation expresses a subordinate temporal clause."
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :Temporal,
                           :formClass :AbsoluteInfinitive,
@@ -718,7 +718,7 @@
                          [:Common :NomSubj :Common "ⲛ̄ⲧⲉⲣⲉⲧⲙ̄-ⲡⲣⲱⲙⲉ ⲃⲱⲕ"]]
                  }
                 {:label "coptic_S-VNotYet-bok"
-                 :note "The Not-Yettense corresponds to what is called the Perfect Negative in earlier phases of the Egyptian language. It is used to describe expected action that has not yet occurred."
+                 :note "L83 :: The Not-Yettense corresponds to what is called the Perfect Negative in earlier phases of the Egyptian language. It is used to describe expected action that has not yet occurred."
                  :common {:vmorphClass :Finite,
                           :clauseConjugation :Variable,
                           :formClass :AbsoluteInfinitive,
@@ -738,7 +738,7 @@
                          [:Common :NomSubj :Common "ⲙ̄ⲡⲁⲧⲉ-ⲡⲣⲱⲙⲉ ⲃⲱⲕ"]]
                  }
                 {:label "coptic_S-PDemonstrativeNear"
-                 :note "The near demonstrative pronouns are related to the demonstrative prefixes,ⲡⲉⲓ-,ⲧⲉⲓ-,ⲛⲉⲓ-."
+                 :note "L83 :: The near demonstrative pronouns are related to the demonstrative prefixes,ⲡⲉⲓ-,ⲧⲉⲓ-,ⲛⲉⲓ-."
                  :common {             :vmorphClass :DemonstrativeNear,
                           :pos :Pronoun}
                  :terms [[:number :gender :token],
@@ -747,7 +747,7 @@
                          [:Plural :Common "ⲛⲁⲓ"]]
                  }
                 {:label "coptic_S-PDemonstrativeRemote"
-                 :note "The remote demonstrative pronouns have rare prefixial counterparts in Sahidic Coptic (ⲡⲓ-,ϯ-,ⲛⲓ-). These are also alternate spellings for the near demonstrative prefixes."
+                 :note "L83 :: The remote demonstrative pronouns have rare prefixial counterparts in Sahidic Coptic (ⲡⲓ-,ϯ-,ⲛⲓ-). These are also alternate spellings for the near demonstrative prefixes."
                  :common {             :vmorphClass :DemonstrativeRemote,
                           :pos :Pronoun}
                  :terms [[:number :gender :token],
@@ -756,7 +756,7 @@
                          [:Plural :Common "ⲛⲏ"]]
                  }
                 {:label "coptic_S-PInd"
-                 :note ""
+                 :note "L83"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:number :person :gender :token :token-note],
@@ -770,7 +770,7 @@
                          [:Plural :Person3 :Common "ⲛ̄ⲧⲟⲟⲩ" "⊤"]]
                  }
                 {:label "coptic_S-PIntensive1"
-                 :note "This intensive pronoun may be alternately spelled ⲙⲁⲩⲁⲧ= or ⲟⲩⲁⲁ(ⲧ)=."
+                 :note "L83 :: This intensive pronoun may be alternately spelled ⲙⲁⲩⲁⲧ= or ⲟⲩⲁⲁ(ⲧ)=."
                  :common {             :vmorphClass :Intensive1,
                           :pos :Pronoun}
                  :terms [[:number :person :gender :token],
@@ -784,7 +784,7 @@
                          [:Plural :Person3 :Common "ⲙⲁⲩⲁⲁⲧⲟⲩ"]]
                  }
                 {:label "coptic_S-PIntensive2"
-                 :note "The intensive or emphatic pronoun ϩⲱⲱ= or ϩⲱ= is used in apposition to pronominal elements. May also be used adverbially in the 3rd m. sg. (ϩⲱⲱϥ) with the meaning however,on the other hand."
+                 :note "L83 :: The intensive or emphatic pronoun ϩⲱⲱ= or ϩⲱ= is used in apposition to pronominal elements. May also be used adverbially in the 3rd m. sg. (ϩⲱⲱϥ) with the meaning however,on the other hand."
                  :common {             :vmorphClass :Intensive2,
                           :pos :Pronoun}
                  :terms [[:number :person :gender :token :token-note],
@@ -798,7 +798,7 @@
                          [:Plural :Person3 :Common "ϩⲱⲱⲧⲟⲩ" "⊤"]]
                  }
                 {:label "coptic_S-PIntensive3"
-                 :note "The intensive pronoun ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟ= is used in apposition to reflexive and possessive pronominal elements."
+                 :note "L83 :: The intensive pronoun ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟ= is used in apposition to reflexive and possessive pronominal elements."
                  :common {             :vmorphClass :Intensive3,
                           :pos :Pronoun}
                  :terms [[:number :person :gender :token],
@@ -812,7 +812,7 @@
                          [:Plural :Person3 :Common "ⲙ̄ⲙⲓⲛ ⲙ̄ⲙⲟⲟⲩ"]]
                  }
                 {:label "coptic_S-PPossessive"
-                 :note ""
+                 :note "L83"
                  :common {             :vmorphClass :Possessive,
                           :pos :Pronoun}
                  :terms [[:genderHead :numberHead :number :person :gender :token],
